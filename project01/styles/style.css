@@ -1,0 +1,491 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #707070; }
+
+.js-btn-nav {
+  display: none; }
+
+.scroll-back {
+  display: none;
+  bottom: 10px;
+  position: fixed;
+  right: 30px;
+  color: #ffe500;
+  background-color: #1b1b1b;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 3px;
+  cursor: pointer;
+  z-index: 1; }
+
+.scroll-back i:hover {
+  font-size: 25px; }
+
+.button-styled {
+  text-transform: uppercase;
+  color: #1b1b1b;
+  font-size: 10px;
+  font-weight: 700;
+  background-color: #ffe500;
+  border: none;
+  padding: 15px 35px; }
+
+.button-styled:hover {
+  -webkit-box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27);
+  box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27); }
+
+section {
+  padding-top: 85px; }
+
+.title-2 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 20px;
+  font-weight: 400; }
+
+.title-3 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 15px;
+  font-weight: 500; }
+
+.title-4 {
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  font-weight: 700; }
+
+.title-5 {
+  font-size: 15px;
+  font-weight: 400; }
+
+.text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2em;
+  color: #707070; }
+
+.text-p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #707070;
+  line-height: 1.5em; }
+
+header {
+  background-image: url(../image/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px; }
+
+.nav-item {
+  text-transform: uppercase;
+  font-size: 20px; }
+.nav-link {
+  color: #fff; }
+.nav :hover {
+  color: #ffe500; }
+
+.header-item {
+  margin-top: 260px; }
+  .header-item-text {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #fff;
+    font-size: 23px; }
+  .header-item-p {
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 13px; }
+
+.header-scroll {
+  margin-top: 230px; }
+  .header-scroll-link:hover {
+    color: #ffe500 !important; }
+
+.search input {
+  width: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: transparent;
+  background-image: url(../image/icon/search_white.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 0 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out; }
+
+.search input:focus {
+  width: 200px;
+  border-color: #ffe500;
+  background-image: url(../image/icon/search_yellow.png); }
+
+.section-mountains {
+  padding: 160px 0; }
+
+.section-our-services {
+  background-color: #f4f4f4; }
+
+.services-card:hover {
+  -webkit-box-shadow: -1px -1px 29px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: -1px -1px 29px 6px rgba(0, 0, 0, 0.16); }
+
+.progress-card .progress {
+  height: 5px !important; }
+
+.section-work {
+  background-color: #1b1b1b;
+  color: #1b1b1b; }
+
+.portfolio-line {
+  position: relative; }
+
+.portfolio-line::before {
+  content: '';
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  width: 360px;
+  height: 1px;
+  background-color: #1b1b1b; }
+
+.portfolio-line::after {
+  content: '';
+  position: absolute;
+  left: 60px;
+  bottom: 0;
+  width: 360px;
+  height: 1px;
+  background-color: #1b1b1b; }
+
+.portfolio-skills img {
+  width: 320px; }
+
+.portfolio-skills-1, .portfolio-skills-2, .portfolio-skills-3, .portfolio-skills-4, .portfolio-skills-5, .portfolio-skills-6 {
+  padding-bottom: 15%;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+.portfolio-skills-1 {
+  background-image: url(../image/our-skills-01.jpg); }
+.portfolio-skills-2 {
+  background-image: url(../image/our-skills-05.jpg); }
+.portfolio-skills-3 {
+  background-image: url(../image/our-skills-02.jpg); }
+.portfolio-skills-4 {
+  background-image: url(../image/our-skills-04.jpg); }
+.portfolio-skills-5 {
+  background-image: url(../image/our-skills-06.jpg); }
+.portfolio-skills-6 {
+  background-image: url(../image/our-skills-03.jpg); }
+
+.portfolio-skills-text {
+  display: none;
+  border: 5px solid #ffe500;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  margin: auto;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px; }
+
+.portfolio-skills-text p {
+  font-size: 14px; }
+
+.section-city {
+  margin-top: 190px;
+  background-image: url(../image/city.jpg);
+  background-size: cover; }
+  .section-city-video {
+    margin-bottom: 170px; }
+  .section-city-video a {
+    color: #ffe500;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 3px solid #ffe500;
+    padding: 20px;
+    width: 100%; }
+    .section-city-video a:hover {
+      color: #ffe500;
+      -webkit-box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27);
+      box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27); }
+
+.section-team-card h5 {
+  opacity: 0.6;
+  background-color: #ffe500;
+  padding: 20px;
+  position: relative;
+  top: -64px;
+  font-weight: 400; }
+
+.card-text {
+  position: relative;
+  top: -30px; }
+
+.section-about-us {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fff), color-stop(35%, #fff), color-stop(35%, #ffe500), color-stop(65%, #ffe500), color-stop(45%, #fff));
+  background-image: linear-gradient(to top, #fff, #fff 35%, #ffe500 35%, #ffe500 65%, #fff 45%); }
+
+.team-title {
+  background-color: #1b1b1b;
+  height: 100%; }
+
+.our-team {
+  margin: 85px 0; }
+
+.team-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #707070; }
+
+.block-content {
+  margin-top: 85px; }
+
+.img-computer {
+  position: relative;
+  top: -110px; }
+
+.footer {
+  background-color: #1b1b1b;
+  font-family: 'Raleway', sans-serif; }
+
+.footer-left-text {
+  font-size: 12px;
+  font-weight: 400; }
+  .footer-left-text p:first-child {
+    padding-right: 30px; }
+  .footer-left-text span {
+    color: #ffe500; }
+
+.footer-center-list {
+  list-style-type: none;
+  padding: 0; }
+.footer-center-item {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2.5em; }
+.footer-center-link {
+  color: #fff; }
+  .footer-center-link:hover {
+    color: #ffe500;
+    text-decoration: none; }
+
+.footer-right-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2.5em; }
+.footer-right-btn {
+  color: #1b1b1b;
+  font-size: 10px;
+  font-weight: 700;
+  background-color: #ffe500;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px; }
+  .footer-right-btn:hover {
+    -webkit-box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27);
+    box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27); }
+
+.footer-icon-list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  padding: 0; }
+.footer-icon-item {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  margin-right: 15px; }
+.footer-icon-link {
+  color: #1b1b1b; }
+  .footer-icon-link:hover {
+    color: #ffe500;
+    text-decoration: none; }
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .header-scroll {
+    margin-top: 130px; }
+
+  ul.nav {
+    display: none; }
+
+  .js-btn-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 23px;
+    color: #ffe500;
+    cursor: pointer; }
+
+  .header-item {
+    margin-top: 140px; }
+    .header-item-text {
+      font-size: 18px; }
+    .header-item-p {
+      font-size: 9px;
+      letter-spacing: 3px; }
+
+  .nav-item {
+    font-size: 12px; }
+
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    text-align: center; }
+
+  .section-work-card:first-child {
+    padding-bottom: 0 !important; }
+
+  .section-work-card {
+    margin-bottom: 10px; }
+
+  .logo-portfolio {
+    padding-top: 20px; }
+
+  .portfolio-line::before {
+    width: 300px; }
+
+  .portfolio-line::after {
+    width: 300px; }
+
+  .title-4 {
+    font-size: 23px; }
+
+  .portfolio-skills-text {
+    top: 30px;
+    left: 30px;
+    bottom: 30px;
+    right: 30px; }
+
+  .portfolio-skills-text p {
+    font-size: 18px; }
+
+  .portfolio-skills-1, .portfolio-skills-2, .portfolio-skills-3, .portfolio-skills-4, .portfolio-skills-5, .portfolio-skills-6 {
+    padding: 200px;
+    margin: 10px; }
+
+  .section-city-video a {
+    font-size: 15px; }
+
+  .section-team-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  .team-title p {
+    font-size: 12px; }
+
+  .img-computer {
+    top: 0; }
+
+  .footer-center {
+    text-align: center; }
+
+  .footer-icon-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 10px; }
+  .footer-icon-item {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-right: 15px; }
+
+  .footer-right {
+    text-align: center; } }
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .nav-item {
+    font-size: 17px; }
+
+  .header-item-text {
+    font-size: 19px; }
+
+  .title-3 {
+    letter-spacing: 2px; }
+
+  .section-work div p {
+    font-size: 13px; }
+
+  .portfolio-line::before {
+    width: 200px; }
+
+  .portfolio-line::after {
+    width: 200px; }
+
+  div.card {
+    width: 11rem !important; }
+
+  .portfolio-line span {
+    padding-right: 5px !important; }
+
+  .portfolio-skills-1, .portfolio-skills-2, .portfolio-skills-3, .portfolio-skills-4, .portfolio-skills-5, .portfolio-skills-6 {
+    padding-top: 0; }
+
+  .portfolio-skills-text {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+
+  .title-4 {
+    padding-top: 0;
+    font-size: 10px; }
+
+  .portfolio-skills-text p {
+    font-size: 8px !important; }
+
+  .block-content {
+    margin: auto;
+    top: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+
+  .card-text {
+    font-size: 12px; }
+
+  .team-title p {
+    font-size: 12px; }
+
+  .footer-center-item {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 2.5em; } }
+@media (min-width: 1200px) and (max-width: 1445px) {
+  .portfolio-skills-text {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+
+  .portfolio-skills-text p {
+    font-size: 10px; } }
+
+/*# sourceMappingURL=style.css.map */
