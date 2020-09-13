@@ -142,7 +142,8 @@ main a:hover{
 *********************************** */
 .slide-fon{
     background-color: #f2f2f2;
-    height: 480px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
  .images{
      border: 7px solid #fff;
@@ -213,7 +214,8 @@ main a:hover{
 *********************************** */
 .services{
     background-color: #fff;
-    height: 415px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .content{
     text-align: center;
@@ -240,7 +242,8 @@ div.services hr{
 *********************************** */
 .project{
     background-color: #fff;
-    height: 350px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .project img{
     width: 200px;
@@ -273,7 +276,8 @@ div.services hr{
 ************footer-content**********
 *********************************** */
 .footer-content{
-    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     background-color: #3b3b3b;
 }
 .footer-content h4{
@@ -350,6 +354,7 @@ form.registration input{
     padding-left: 10px;
 }
 .registration button{
+    display: block;
     background-color: #1f1f1f;
     color: #b3b3fa;
     font-weight: bold;
@@ -369,7 +374,6 @@ form.registration input{
 
 footer{
     background-color: #2e2e2e;
-    height: 60px;
 }
 footer p.left{
     font-size: 12px;
