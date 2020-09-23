@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 6" width="60" height="6">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<path id="Background" class="shp0" d="M13.96 13.5L14.04 8.5L74.04 9.5L73.96 14.5L13.96 13.5Z" />
+	<path id="Форма 1" class="shp0" d="M0 9.76L0 4.76L67.83 4.68L67.84 9.68L0 9.76Z" />
+	<path id="Форма 2" class="shp0" d="M0.78 -0.87L-0.78 -5.61L28.47 -15.28L30.03 -10.53L0.78 -0.87Z" />
+	<path id="Форма 3" class="shp0" d="M0.05 -0.12L-1.55 -4.86L31.7 -16.11L33.3 -11.37L0.05 -0.12Z" />
+	<path id="Форма 4" class="shp0" d="M1.68 -1.85L-1.68 1.85L-26.93 -21.06L-23.57 -24.76L1.68 -1.85Z" />
+	<path id="Форма 5" class="shp0" d="M-0.01 1.09L0.01 -3.91L32.76 -3.82L32.74 1.18L-0.01 1.09Z" />
+	<path id="Форма 6" class="shp0" d="M-0.04 11.5L0.04 6.5L60.04 7.5L59.96 12.5L-0.04 11.5Z" />
+</svg>

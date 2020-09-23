@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #d9bf8f } 
+	</style>
+	<path id="Rectangle 12" class="shp0" d="M-31 0L360 0C360 0 400 45.22 400 48.81C400 51.19 357 100 357 100L-31 100L-31 0Z" />
+</svg>
