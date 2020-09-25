@@ -337,8 +337,40 @@ section{
 .box-icon-3:before{
     content: url(../images/icons/icon-03.svg);
 }
+.border-bg{
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
 // *************model*******
 
 .model{
     background-image: url(../images/bg-3d-model.jpg);
+}
+.model-box{
+    font-size: 18px;
+    font-weight: bold;
+    &-color{
+        color: $design;
+    }
+    &-title-top{
+        margin-bottom: 50px;
+    }
+}
+
+.line-top-left{
+    position: relative;
+    &::after{
+        content: '';
+        background-color: rgba(212, 47, 59, 0.4);
+        width: 319px;
+        height: 3px;
+        position: absolute;
+        -webkit-transform: rotate(155deg);
+        transform: rotate(159deg);
+        top: -44px;
+        left: 70px;
+
+    }
+    // 3px solid rgba(212, 47, 59, 0.4);
+
 }
