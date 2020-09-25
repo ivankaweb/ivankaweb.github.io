@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('.multiple-items').slick({
         dots: false,
         infinite: false,
-        speed: 300,
+        speed: 500,
         slidesToShow:6,
         slidesToScroll: 6,
         prevArrow: $('.prevArrow'),
@@ -31,6 +31,14 @@ $(document).ready(function () {
           }
     
         ]
+      });
+      $('.js-slider').slick({
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        prevArrow: $('.prevArrow'),
+        nextArrow: $('.nextArrow')
+        
       });
 
 

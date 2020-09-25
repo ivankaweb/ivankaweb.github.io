@@ -12,7 +12,8 @@ section {
 
 .title-h2 {
   font-size: 40px;
-  padding-bottom: 42px; }
+  padding-bottom: 42px;
+  margin: 0; }
 
 .title-h3 {
   font-size: 24px;
@@ -21,12 +22,16 @@ section {
 
 .over-title {
   font-size: 16px;
-  color: #767474; }
+  color: #767474;
+  text-transform: uppercase; }
 
 .subtitle-h1 {
   font-size: 20px;
   margin-bottom: 60px;
   color: #fff; }
+
+.subtitle-h2 {
+  font-size: 18px; }
 
 .subtitle-h3 {
   font-size: 18px; }
@@ -280,6 +285,7 @@ section {
   background-image: url(../images/bg-3d-model.jpg); }
 
 .model-box {
+  position: relative;
   font-size: 18px;
   font-weight: bold; }
   .model-box-color {
@@ -296,9 +302,7 @@ section {
     height: 3px;
     position: absolute;
     -webkit-transform: rotate(155deg);
-    transform: rotate(159deg);
-    top: -44px;
-    left: 70px; }
+    transform: rotate(159deg); }
 
 .line-top-right {
   position: relative; }
@@ -309,9 +313,10 @@ section {
     height: 3px;
     position: absolute;
     -webkit-transform: rotate(155deg);
-    transform: rotate(159deg);
-    top: -44px;
-    left: 70px; }
+    transform: rotate(159deg); }
+
+.color {
+  background-color: #212121; }
 
 .carousel-control-prev, .carousel-control-next {
   display: none !important; }
