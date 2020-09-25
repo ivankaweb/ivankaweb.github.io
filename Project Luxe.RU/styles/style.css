@@ -4,7 +4,7 @@ body {
   color: #212121; }
 
 section {
-  padding: 70px  70px; }
+  padding: 70px  0; }
 
 .title-h1 {
   font-size: 60px;
@@ -15,7 +15,9 @@ section {
   padding-bottom: 42px; }
 
 .title-h3 {
-  font-size: 24px; }
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 13px; }
 
 .over-title {
   font-size: 16px;
@@ -187,10 +189,15 @@ section {
   left: 0;
   margin-top: 290px; }
 
-.desc-01 {
+.desc-01, .desc-04, .desc-05 {
   color: #fff;
-  background-image: url(../images/bg-about01.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
+.desc-01 {
+  background-image: url(../images/bg-about01.jpg); }
+.desc-04 {
+  background-image: url(../images/bg-about02.jpg); }
+.desc-05 {
+  background-image: url(../images/bg-about03.jpg); }
 
 /*# sourceMappingURL=style.css.map */
