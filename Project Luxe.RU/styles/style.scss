@@ -1,0 +1,25 @@
+@import 'fonts.css';
+
+$grey: rgba(33, 33, 33, 0.7);
+$light:rgba(33, 33, 33, 0.4);
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+
+
+
+
+// ***************header***************
+
+.header-main{
+    position: absolute;
+    z-index: 1;
+}
+
+.slider{
+    position: relative;
+}

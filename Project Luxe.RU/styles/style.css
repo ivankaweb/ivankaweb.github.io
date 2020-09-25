@@ -1,0 +1,13 @@
+@import url(fonts.css);
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff; }
+
+.header-main {
+  position: absolute;
+  z-index: 1; }
+
+.slider {
+  position: relative; }
+
+/*# sourceMappingURL=style.css.map */
