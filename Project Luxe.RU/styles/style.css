@@ -42,33 +42,43 @@ section {
   padding: 18px 65px; }
   .btn-more:hover {
     color: #fff;
-    text-decoration: none;
-    opacity: 0.7; }
+    text-decoration: none; }
 
-.prevArrow {
-  text-decoration: none;
+.arrows {
   display: inline-block;
-  padding: 8px 16px;
-  border-radius: 50%;
-  border: 1px solid #D42F3B;
   width: 45px;
   height: 45px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  margin: 10px; }
-
-.nextArrow {
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 16px;
   border-radius: 50%;
-  border: 1px solid #D42F3B;
-  width: 45px;
-  height: 45px;
-  margin: 10px; }
+  border: 1px solid #D42F3B; }
 
-.arrowActive {
+.arrows:before {
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  line-height: 45px; }
+
+.arrows:hover {
   border: 1px solid #767474; }
+
+.prev-icon:before {
+  content: url(../images/icons/arrow.png);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.prev-icon:hover:before {
+  content: url(../images/icons/arrow-light.png);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg); }
+
+.next-icon:before {
+  content: url(../images/icons/arrow.png); }
+
+.next-icon:hover:before {
+  content: url(../images/icons/arrow-light.png);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
 
 .header-main {
   position: absolute;
@@ -105,7 +115,6 @@ section {
   color: #fff;
   font-size: 17px; }
   .number-link:hover {
-    opacity: 0.7;
     color: #fff;
     text-decoration: none; }
 .number-color {
@@ -290,5 +299,21 @@ section {
     transform: rotate(159deg);
     top: -44px;
     left: 70px; }
+
+.line-top-right {
+  position: relative; }
+  .line-top-right::after {
+    content: '';
+    background-color: rgba(212, 47, 59, 0.4);
+    width: 319px;
+    height: 3px;
+    position: absolute;
+    -webkit-transform: rotate(155deg);
+    transform: rotate(159deg);
+    top: -44px;
+    left: 70px; }
+
+.carousel-control-prev, .carousel-control-next {
+  display: none !important; }
 
 /*# sourceMappingURL=style.css.map */
