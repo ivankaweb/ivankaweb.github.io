@@ -1,8 +1,7 @@
 @import 'fonts.css';
 
-$grey: rgba(33, 33, 33, 0.7);
-$light:rgba(33, 33, 33, 0.4);
 
+$light:rgba(33, 33, 33, 0.4);
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -15,11 +14,117 @@ body{
 
 // ***************header***************
 
-.header-main{
-    position: absolute;
-    z-index: 1;
+.header-main {
+     position: absolute;
+     z-index: 1;
+     top: 0;
+     right: 0;
+     left: 0;
+     margin-top: 37px;
 }
+.logo{
+   &-img{
+       width: 59px;
+       height: 59px;
+   }
+   &-title-h1{
+    font-family: 'Busorama';
+    font-size: 25px;
+    text-align: center;
+    
+    margin: 0;
+   }
+   &-sub-title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 7px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    padding-left: 10px;
+   }
+}
+.header-main-top{
+    align-items: center;
+}
+.number{
+    &-link{
+        color: #fff;
+        font-size: 17px;
+        &:hover{
+           opacity: 0.7;
+           color: #fff;
+           text-decoration: none;
+       }
+    }
+    &-color{
+        color: grey;
+    }
+}
+.register{
+    &-list{
+        list-style-type: none;
+        align-items: center;
+        margin: 0;
+    }
+    &-item{
+        font-size: 14px;
+        margin-left: 15px;
+        position: relative;
+    }
+ 
+    &-link{
+        color: #fff;
+        &:hover{
+            opacity: 0.7;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    &-line{
+        &::after{
+            content: '';
+            background-color: #fff;
+            display: block;
+            height: 15px;
+            width: 1px;
+            left: -8px;
+            top: 3px;
+            position: absolute;
+        }
+    }
+    &-icon{
+        &::before{
+        position: absolute;
+        content: '';
+        background-image: url(../images/icons/icon-main.png);
+        width: 20px;
+        height: 20px;
+        left: -30px;
+        }
 
+    }
+}
+.basket{
+    &-item{
+        color: #fff;
+        font-size: 14px;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            background-image: url(../images/icons/icon-main02.png);
+            width: 20px;
+            height: 20px;
+            left: -30px;
+        }
+        &:hover{
+            opacity: 0.7;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
 .slider{
     position: relative;
 }
+
