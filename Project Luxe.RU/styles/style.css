@@ -98,6 +98,9 @@ footer {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg); }
 
+.resize-none {
+  resize: none; }
+
 .header-main {
   position: absolute;
   z-index: 1;
