@@ -20,6 +20,10 @@ footer{
     color: rgba(255,255,255,.75);
 }
 
+.txt-red {
+    color: $design;
+}
+
 .hr-light{
     background-color: rgba(255,255,255,.1);
 }
@@ -298,14 +302,29 @@ footer{
     
 }
 
-// *************cars-brand********
-.card{
+// *************car-brands********
+.slider-card{
     box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    
     &-inner{
         height: 65px;
     }
+    &-box{
+        padding: 5px;
+        border-radius: 5%;
+    
+        & img{
+            -webkit-box-shadow: 0px 16px 24px -10px rgba(0,0,0,0.28);
+            -moz-box-shadow: 0px 16px 24px -10px rgba(0,0,0,0.28);
+            box-shadow: 0px 16px 24px -10px rgba(0,0,0,0.28);
+        }
+    }
 }
+
 .control{
     margin-top: 55px;
 }
@@ -379,44 +398,95 @@ footer{
 .model{
     background-image: url(../images/bg-3d-model.jpg);
 }
+.mat-3d{
+    z-index: 1;
+    position: relative;
+}
+.mat-bg{
+    position: absolute;
+    z-index: 0;
+}
 .model-box{
     position: relative;
     font-size: 18px;
     font-weight: bold;
-    &-color{
-        color: $design;
-    }
-    &-title-top{
-        margin-bottom: 50px;
-    }
+    text-transform: uppercase;
 }
 
 .line-top-left{
     position: relative;
     &::after{
         content: '';
-        background-color: rgba(212, 47, 59, 0.4);
-        width: 319px;
-        height: 3px;
+        background-image: url(../images/icons/top-left.png);
+        width: 337px;
+        height: 113px;
         position: absolute;
-        -webkit-transform: rotate(155deg);
-        transform: rotate(159deg);
+        top: -108px;
+        left: 97px;
+        z-index: 2;
     }
-    // 3px solid rgba(212, 47, 59, 0.4);
 
+}
+.line-bottom-left{
+    position: relative;
+    &::after{
+        content: '';
+        background-image: url(../images/icons/bottom-left.png);
+        width: 343px;
+        height: 168px;
+        position: absolute;
+        top: -163px;
+        left: 162px;
+        z-index: 2;
+  
+    }
 }
 .line-top-right{
     position: relative;
     &::after{
         content: '';
-        background-color: rgba(212, 47, 59, 0.4);
-        width: 319px;
-        height: 3px;
+        background-image: url(../images/icons/top-right.png);
+        width: 240px;
+        height: 82px;
         position: absolute;
-        -webkit-transform: rotate(155deg);
-        transform: rotate(159deg);
+        top: 8px;
+        right: 127px;
+        z-index: 2;
+        border-radius: 37px;
     }
 }
+.line-bottom-right{
+    position: relative;
+    &::after{
+        content: '';
+        background-image: url(../images/icons/bottom-right.png);
+        width: 256px;
+        height: 111px;
+        position: absolute;
+        top: 4px;
+        right: 125px;
+        z-index: 2;
+        border-radius: 46px;
+    }
+}
+.line-bottom-center{
+    position: relative;
+    &::after{
+        content: '';
+        background-image: url(../images/icons/bottom-center.png);
+        width: 70px;
+        height: 109px;
+        position: absolute;
+        top: -109px;
+        right: 153px;
+        z-index: 2;
+        border-radius: 34px;
+    }
+
+}
+// ************our-work*********
+
+
 // *************color*******
 .color{
     background-color: $dark;

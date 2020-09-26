@@ -1,12 +1,12 @@
 $(document).ready(function () {
-    $('.multiple-items').slick({
+    $('.car-brands-slider').slick({
         dots: false,
         infinite: false,
         speed: 500,
         slidesToShow:6,
         slidesToScroll: 6,
-        prevArrow: $('.prevArrow'),
-        nextArrow: $('.nextArrow'),
+        prevArrow: $('.js-sliderPrev-cars'),
+        nextArrow: $('.js-sliderNext-cars'),
         responsive: [
           {
             breakpoint: 1024,
@@ -32,12 +32,13 @@ $(document).ready(function () {
     
         ]
       });
-      $('.js-slider').slick({
+      $('.our-works-slider').slick({
         infinite: false,
         slidesToShow: 3,
         slidesToScroll: 3,
-        prevArrow: $('.prevArrow'),
-        nextArrow: $('.nextArrow')
+
+        prevArrow: $('.js-sliderPrev-ourWorks'),
+        nextArrow: $('.js-sliderNext-ourWorks')
         
       });
 
