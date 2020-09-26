@@ -453,7 +453,13 @@ footer {
             flex-direction: column; }
 
   .mobile-none {
-    display: none !important; } }
+    display: none !important; }
+
+  .footer-colum-center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 @media (min-width: 360px) and (max-width: 756px) {
   .line-top-left::after {
     content: none !important; }
@@ -521,7 +527,8 @@ footer {
   .header-main {
     position: relative;
     background-color: #2B2B2B;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    margin-top: 0; }
 
   .header-menu {
     position: relative;
