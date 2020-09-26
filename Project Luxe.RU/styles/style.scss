@@ -491,35 +491,8 @@ footer{
 .color{
     background-color: $dark;
 }
-.design-color{
-    position: absolute;
-    z-index: 0;
-    top: 45px;
-    left: 190px;
-}
 .color-mats{
-    &-img{
-        z-index: 1;
-        position: relative;
-    }
-    &::before{
-        content: '';
-        background-image: url(../images/icons/eva-design.png);
-        width: 350px;
-        height: 58px;
-        position: absolute;
-        top: 168px;
-        left: -43px;
-    }
-    &::after{
-        content: '';
-        background-image: url(../images/icons/eva-design.png);
-        width: 350px;
-        height: 58px;
-        position: absolute;
-        bottom: 210px;
-        right: -260px;
-    }
+    // background-color: url(./images/bg-color.png);
 }
 
 .carousel-control-prev, .carousel-control-next {
