@@ -600,6 +600,8 @@ footer {
     padding-left: 20px; }
 .eva-card .form-check label {
   font-size: 14px; }
+.eva-card textarea {
+  resize: none; }
 
 /* Customize the label (the container) */
 .eve-checkbox {
@@ -665,5 +667,18 @@ footer {
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg); }
+
+.list-checkbox {
+  position: relative;
+  padding-left: 30px; }
+  .list-checkbox::before {
+    content: '';
+    background-image: url(../images/icons/checkbox.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    left: 0px;
+    top: 8px; }
 
 /*# sourceMappingURL=style.css.map */

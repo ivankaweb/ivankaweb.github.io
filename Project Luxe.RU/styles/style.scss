@@ -700,7 +700,7 @@ footer{
     & input[type="text"],input[type="email"], textarea{
         border: 0 !important;
         background-color: #f3f3f3;
-
+       
         &::placeholder{
             padding-left: 20px;
         }
@@ -708,6 +708,9 @@ footer{
 
     & .form-check label{
         font-size: 14px;
+    }
+    & textarea{
+        resize: none;
     }
  }
 
@@ -785,4 +788,19 @@ footer{
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+
+  .list-checkbox{
+    position: relative;
+    padding-left: 30px;
+    &::before{
+        content: '';
+        background-image: url(../images/icons/checkbox.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 15px;
+        height: 10px;
+        left: 0px;
+        top: 8px;
+    }
   }
