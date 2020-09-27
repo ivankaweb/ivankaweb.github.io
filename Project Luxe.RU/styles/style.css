@@ -455,7 +455,21 @@ footer {
   .mobile-none {
     display: none !important; }
 
-  .footer-colum-center {
+  .footer-mobile {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  .control {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center; }
+    .control-mobile {
+      margin-top: 20px; }
+
+  .navbar {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

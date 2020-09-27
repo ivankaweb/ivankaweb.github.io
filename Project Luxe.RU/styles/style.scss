@@ -550,9 +550,19 @@ footer{
     .mobile-none{
         display: none !important;
     }
-    .footer-colum-center{
-        flex-direction: column;
+    .footer-mobile{
+       justify-content: center;
     } 
+    .control{
+        flex-direction: column-reverse;
+        text-align: center;
+        &-mobile{
+            margin-top: 20px;
+        }
+    }
+    .navbar{
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 756px) {
