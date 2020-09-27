@@ -460,6 +460,25 @@ footer{
     font-weight: bold;
     text-transform: uppercase;
 }
+.model-left{
+    &-text{
+    padding-left: 1.5rem;
+    margin-top: -1.5rem;
+    margin-left: 1.5rem;
+}
+&-margin{
+    margin-bottom: 88px;
+}
+}
+.model-right{
+&-text {
+    padding-left: 1.5rem;
+}
+&-margin{
+    margin-bottom: 65px;
+}
+}
+
 
 .line-top-left{
     position: relative;
@@ -551,9 +570,17 @@ footer{
     .footer-right{
     flex-direction: column;
     }
-    .mobile-none{
-        display: none !important;
+    .mobile-model-size {
+        font-size: 10px;
     }
+   .mat-3d{
+    width: -webkit-fill-available;
+   }
+   .model-left-text, .model-right-text, .model-right-margin, .model-left-margin{
+    padding-left: 0 !important;
+    margin-top: 10px !important;
+    margin-bottom: 25px !important;
+   }
     .footer-mobile{
        justify-content: center;
     } 
@@ -674,9 +701,7 @@ footer{
         font-size: 12px;
         margin-bottom: 0; 
     }
-    .btn-custom {
-        padding: 4px 18px;
-    }
+  
     .carousel-navigation{
         margin-top: 2rem !important;
     }
@@ -697,7 +722,7 @@ footer{
 
  .eva-card {
 
-    & input[type="text"],input[type="email"], textarea{
+    & input[type="text"],input[type="email"], .form-control, textarea{
         border: 0 !important;
         background-color: #f3f3f3;
        
@@ -804,3 +829,85 @@ footer{
         top: 8px;
     }
   }
+  //**************** CASHBACK *************************//
+  .cashback-icon{
+    height:75px;
+    filter: invert(27%) sepia(74%) saturate(1808%) hue-rotate(329deg) brightness(87%) contrast(107%);
+  }
+
+  .cashback-media{
+      height: 80px;
+      
+      &-label{
+        font-weight: bold;
+        font-size: 13px;
+        letter-spacing: 0px;
+      }
+  }
+
+.social-icon {
+    height: 35px;
+    filter: invert(27%) sepia(74%) saturate(1808%) hue-rotate(329deg) brightness(87%) contrast(107%);
+
+    &:hover{
+        opacity: 0.7;
+    }
+}
+
+.creator-item{
+    margin: 4px;
+    width: 55px;
+    height: 55px;
+
+    &.active .img-thumbnail{
+        border: 2px solid orange;
+    }
+    &-bigger{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.eve-btn-mini {
+    position: relative;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid $light;
+}
+
+.eve-btn-mini:before {
+    position: absolute;
+    
+}
+
+.eve-btn-mini:hover {
+    border: 1px solid $design;
+}
+
+.eve-btn:hover {
+    border: 1px solid $design;
+}
+
+.eve-btn-minus:before{
+    content: '\002D';
+    left: 6px;
+    top: -4px;
+    color: $light;
+}
+.eve-btn-minus:hover:before{
+    content: '\002D';
+    color: $design;
+
+}
+.eve-btn-plus:before{
+    content: '\002B';
+    left: 3px;
+    top: -4px;
+    color: $light;
+}
+.eve-btn-plus:hover:before{
+    content: '\002B';
+    color: $design;
+}

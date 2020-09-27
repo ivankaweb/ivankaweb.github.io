@@ -373,6 +373,18 @@ footer {
   font-weight: bold;
   text-transform: uppercase; }
 
+.model-left-text {
+  padding-left: 1.5rem;
+  margin-top: -1.5rem;
+  margin-left: 1.5rem; }
+.model-left-margin {
+  margin-bottom: 88px; }
+
+.model-right-text {
+  padding-left: 1.5rem; }
+.model-right-margin {
+  margin-bottom: 65px; }
+
 .line-top-left {
   position: relative; }
   .line-top-left::after {
@@ -460,8 +472,16 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column; }
 
-  .mobile-none {
-    display: none !important; }
+  .mobile-model-size {
+    font-size: 10px; }
+
+  .mat-3d {
+    width: -webkit-fill-available; }
+
+  .model-left-text, .model-right-text, .model-right-margin, .model-left-margin {
+    padding-left: 0 !important;
+    margin-top: 10px !important;
+    margin-bottom: 25px !important; }
 
   .footer-mobile {
     -webkit-box-pack: center;
@@ -576,9 +596,6 @@ footer {
     font-size: 12px;
     margin-bottom: 0; }
 
-  .btn-custom {
-    padding: 4px 18px; }
-
   .carousel-navigation {
     margin-top: 2rem !important; } }
 .carousel-navigation {
@@ -587,16 +604,16 @@ footer {
 .site-header {
   background-color: #212121; }
 
-.eva-card input[type="text"], .eva-card input[type="email"], .eva-card textarea {
+.eva-card input[type="text"], .eva-card input[type="email"], .eva-card .form-control, .eva-card textarea {
   border: 0 !important;
   background-color: #f3f3f3; }
-  .eva-card input[type="text"]::-webkit-input-placeholder, .eva-card input[type="email"]::-webkit-input-placeholder, .eva-card textarea::-webkit-input-placeholder {
+  .eva-card input[type="text"]::-webkit-input-placeholder, .eva-card input[type="email"]::-webkit-input-placeholder, .eva-card .form-control::-webkit-input-placeholder, .eva-card textarea::-webkit-input-placeholder {
     padding-left: 20px; }
-  .eva-card input[type="text"]:-ms-input-placeholder, .eva-card input[type="email"]:-ms-input-placeholder, .eva-card textarea:-ms-input-placeholder {
+  .eva-card input[type="text"]:-ms-input-placeholder, .eva-card input[type="email"]:-ms-input-placeholder, .eva-card .form-control:-ms-input-placeholder, .eva-card textarea:-ms-input-placeholder {
     padding-left: 20px; }
-  .eva-card input[type="text"]::-ms-input-placeholder, .eva-card input[type="email"]::-ms-input-placeholder, .eva-card textarea::-ms-input-placeholder {
+  .eva-card input[type="text"]::-ms-input-placeholder, .eva-card input[type="email"]::-ms-input-placeholder, .eva-card .form-control::-ms-input-placeholder, .eva-card textarea::-ms-input-placeholder {
     padding-left: 20px; }
-  .eva-card input[type="text"]::placeholder, .eva-card input[type="email"]::placeholder, .eva-card textarea::placeholder {
+  .eva-card input[type="text"]::placeholder, .eva-card input[type="email"]::placeholder, .eva-card .form-control::placeholder, .eva-card textarea::placeholder {
     padding-left: 20px; }
 .eva-card .form-check label {
   font-size: 14px; }
@@ -680,5 +697,71 @@ footer {
     height: 10px;
     left: 0px;
     top: 8px; }
+
+.cashback-icon {
+  height: 75px;
+  -webkit-filter: invert(27%) sepia(74%) saturate(1808%) hue-rotate(329deg) brightness(87%) contrast(107%);
+          filter: invert(27%) sepia(74%) saturate(1808%) hue-rotate(329deg) brightness(87%) contrast(107%); }
+
+.cashback-media {
+  height: 80px; }
+  .cashback-media-label {
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0px; }
+
+.social-icon {
+  height: 35px;
+  -webkit-filter: invert(27%) sepia(74%) saturate(1808%) hue-rotate(329deg) brightness(87%) contrast(107%);
+          filter: invert(27%) sepia(74%) saturate(1808%) hue-rotate(329deg) brightness(87%) contrast(107%); }
+  .social-icon:hover {
+    opacity: 0.7; }
+
+.creator-item {
+  margin: 4px;
+  width: 55px;
+  height: 55px; }
+  .creator-item.active .img-thumbnail {
+    border: 2px solid orange; }
+  .creator-item-bigger {
+    width: 100px;
+    height: 100px; }
+
+.eve-btn-mini {
+  position: relative;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid #767474; }
+
+.eve-btn-mini:before {
+  position: absolute; }
+
+.eve-btn-mini:hover {
+  border: 1px solid #D42F3B; }
+
+.eve-btn:hover {
+  border: 1px solid #D42F3B; }
+
+.eve-btn-minus:before {
+  content: '\002D';
+  left: 6px;
+  top: -4px;
+  color: #767474; }
+
+.eve-btn-minus:hover:before {
+  content: '\002D';
+  color: #D42F3B; }
+
+.eve-btn-plus:before {
+  content: '\002B';
+  left: 3px;
+  top: -4px;
+  color: #767474; }
+
+.eve-btn-plus:hover:before {
+  content: '\002B';
+  color: #D42F3B; }
 
 /*# sourceMappingURL=style.css.map */
