@@ -1,7 +1,8 @@
 @import url(fonts.css);
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121; }
+  color: #212121;
+  overflow-x: hidden; }
 
 section {
   padding: 70px  0; }
@@ -319,7 +320,7 @@ footer {
 
 .bg-title-2 {
   background-image: url(../images/icons/bg-text-02.png);
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-size: cover; }
 
 .slider-card {
@@ -502,6 +503,19 @@ footer {
 .color {
   background-color: #212121; }
 
+@media (max-width: 430px) {
+  .mobile-header {
+    position: absolute;
+    top: 24px; }
+    .mobile-header-top {
+      display: block !important;
+      text-align: center; }
+
+  .title-h1 {
+    font-size: 21px; }
+
+  .btn-custom {
+    padding: 7px 23px; } }
 @media (min-width: 320px) and (max-width: 500px) {
   .mobile-center {
     -webkit-box-pack: center;
@@ -550,7 +564,7 @@ footer {
 
   .mobile-number {
     margin-bottom: 10px; } }
-@media (min-width: 360px) and (max-width: 756px) {
+@media (max-width: 756px) {
   .mobile-reverse {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -578,7 +592,11 @@ footer {
             justify-content: space-between; }
 
   .colum-border {
-    border: none; } }
+    border: none; }
+
+  .subtitle-h1 {
+    font-size: 9px;
+    margin-bottom: 10px !important; } }
 @media (min-width: 768px) and (max-width: 992px) {
   .line-top-left::after {
     -webkit-transform: rotate(144.56deg);
