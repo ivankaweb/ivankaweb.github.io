@@ -5,9 +5,11 @@ $design: #D42F3B;
 $grey: #2B2B2B;
 $light: #767474;
 
+
 body{
     font-family: 'Roboto', sans-serif;
     color: $dark;
+  
 }
 section{
     padding: 70px  0;
@@ -22,6 +24,9 @@ footer{
 
 .txt-red {
     color: $design;
+}
+.txt-10{
+    font-size: 10px;
 }
 
 .hr-light{
@@ -63,7 +68,20 @@ footer{
     font-size: 18px;
 
 }
+.btn-promo-code{
+    display: inline-block;
+    color: $design;
+    font-weight: 600;
+    border-radius: 50px;
+    border:1px solid $design;
+    background-color: #fff;
+    padding: 18px 36px;
+    &:hover{
+      border-color: red;
+      color:red;
+    }
 
+}
 .btn-custom{
     display: inline-block;
     color: #fff;
@@ -83,6 +101,43 @@ footer{
 .btn-red{
     background-color: $design;
 }
+.btn-inline-block{
+    display: inline-block;
+    width: 100%;
+}
+.btn-delete{
+    &:hover{
+        color: $dark;
+        text-decoration: none;
+    
+    }
+}
+.img-thumbnail-forms {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+
+.form-times{
+    position: relative;
+    &::after{
+        content: '';
+        background-image: url(../images/icons/close.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 21px;
+        height: 21px;
+        color: #767474;
+        right: 31px;
+        top: -55px;
+    }
+}
+
 .arrows {
     display: inline-block;
     width: 45px;
@@ -910,4 +965,48 @@ footer{
 .eve-btn-plus:hover:before{
     content: '\002B';
     color: $design;
+}
+
+.search-input {
+    margin:0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: $light;
+}
+
+.search-query:focus + button {
+    z-index: 3;   
+}
+.car-item{
+    width: 170px; 
+    display: inline-block; 
+    height: 170px; 
 }

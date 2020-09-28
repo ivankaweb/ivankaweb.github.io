@@ -15,6 +15,9 @@ footer {
 .txt-red {
   color: #D42F3B; }
 
+.txt-10 {
+  font-size: 10px; }
+
 .hr-light {
   background-color: rgba(255, 255, 255, 0.1); }
 
@@ -48,6 +51,18 @@ footer {
 .subtitle-h3 {
   font-size: 18px; }
 
+.btn-promo-code {
+  display: inline-block;
+  color: #D42F3B;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 1px solid #D42F3B;
+  background-color: #fff;
+  padding: 18px 36px; }
+  .btn-promo-code:hover {
+    border-color: red;
+    color: red; }
+
 .btn-custom {
   display: inline-block;
   color: #fff;
@@ -65,6 +80,36 @@ footer {
 
 .btn-red {
   background-color: #D42F3B; }
+
+.btn-inline-block {
+  display: inline-block;
+  width: 100%; }
+
+.btn-delete:hover {
+  color: #212121;
+  text-decoration: none; }
+
+.img-thumbnail-forms {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 25px; }
+
+.form-times {
+  position: relative; }
+  .form-times::after {
+    content: '';
+    background-image: url(../images/icons/close.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    color: #767474;
+    right: 31px;
+    top: -55px; }
 
 .arrows {
   display: inline-block;
@@ -763,5 +808,40 @@ footer {
 .eve-btn-plus:hover:before {
   content: '\002B';
   color: #D42F3B; }
+
+.search-input {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0; }
+
+.search-input .search-query {
+  padding-right: 3px;
+  padding-right: 4px \9;
+  padding-left: 3px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  border-radius: 3px; }
+
+.search-input button {
+  border: 0;
+  background: none;
+  /** belows styles are working good */
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  border-radius: 3px;
+  color: #767474; }
+
+.search-query:focus + button {
+  z-index: 3; }
+
+.car-item {
+  width: 170px;
+  display: inline-block;
+  height: 170px; }
 
 /*# sourceMappingURL=style.css.map */
