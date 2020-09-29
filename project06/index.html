@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="scripts/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="user-nav-bg">
+            <div class="wrap">
+                <div class="user-nav">
+                    <div class="user-nav-contact">
+                        <p><span class="user-nav-contact-icon"><i class="fas fa-phone-alt"></i></span>Call +001 555 801</p>
+                    </div>
+                    <div class="user-nav-info">
+                        <ul class="user-nav-info-list">
+                            <li class="user-nav-info-item"><a class="user-nav-info-link" href="#welcome">Welcome MSG!</a></li>
+                            <li class="user-nav-info-item"><a class="user-nav-info-link" href="#account">My Account</a></li>
+                            <li class="user-nav-info-item"><a class="user-nav-info-link" href="#whistlist">My Whistlist</a></li>
+                            <li class="user-nav-info-item"><a class="user-nav-info-link" href="#login">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="nav-bar">
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a class="menu-link" href="#home">Home</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#gallery">Gallery</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#categories">Categories</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#pages">Pages</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+                <div class="nav-social">
+                    <ul class="social-icon">
+                        <li class="social-icon-item"><a class="social-icon-link" title="facebook" href="#"><i class="social-icon-icon fab fa-facebook-f"></i></a></li>
+                        <li class="social-icon-item"><a class="social-icon-link" title="twitter" href="#"><i class="social-icon-icon fab fa-twitter"></i></a></li>
+                        <li class="social-icon-item"><a class="social-icon-link" title="pinterest" href="#"><i class="social-icon-icon fab fa-pinterest"></i></a></li>
+                        <li class="social-icon-item"><a class="social-icon-link" title="instagram" href="#"><i class="social-icon-icon fab fa-instagram"></i></a></li>
+                    </ul>
+                    <div class="search">
+                        <select class="categories" name="search">
+                                    <option>Pants</option>
+                                    <option>Jackets</option>
+                                    <option>Footwear</option>
+                                    <option>Accessiries</option>
+                            </select>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-indicators">
+                <a data-target="#carousel" data-slide-to="0" class="active">
+                    <div class="diamond diamond-gray"></div>
+                </a>
+                <a data-target="#carousel" data-slide-to="1">
+                    <div class="diamond diamond-gray"></div>
+                </a>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/bg-header.png" class="d-block w-100" alt="Sale">
+                    <div class="slider-capture">
+                        <div class="sale-inner">
+                            <div class="sale">
+                                <p class="sale-season">MID-Season</p>
+                                <h1 class="sale-title-h1">Sale</h1>
+                                <p class="sale-sub-title">UP TO</p>
+                                <span class="sale-off">50% OFF</span>
+                            </div>
+                            <div class="mt-5">
+                                <a class="btn-link" href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg-header04.jpg" class="d-block w-100" alt="Sale">
+                    <div class="slider-capture">
+                        <div class="sale-inner">
+                            <div class="sale">
+                                <p class="sale-season">MID-Season</p>
+                                <h1 class="sale-title-h1">Sale</h1>
+                                <p class="sale-sub-title">UP TO</p>
+                                <span class="sale-off">50% OFF</span>
+                            </div>
+                            <div class="mt-5">
+                                <a class="btn-link" href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <div class="btn-scroll"><i class="fas fa-angle-up"></i></div>
+    <section class="our-advantages wow animate__animated animate__backInUp">
+        <div class="wrap">
+            <div class="our-support">
+                <div class="shipping">
+                    <div class="icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="title">
+                        <h3 class="title-h3">Free shipping</h3>
+                        <p class="sub-title-h3">In Order Min $200</p>
+                    </div>
+                </div>
+                <div class="return">
+                    <div class="icon">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="title">
+                        <h3 class="title-h3">30-Days returns</h3>
+                        <p class="sub-title-h3">Money Back Guarantee</p>
+                    </div>
+
+                </div>
+                <div class="support">
+                    <div class="icon">
+                        <i class="fab fa-cloudscale"></i>
+                    </div>
+                    <div class="title">
+                        <h3 class="title-h3">24/7 Suppurt</h3>
+                        <p class="sub-title-h3">Lifestyme Support</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="wrap">
+            <h2 class="title-h2">HandPicked</h2>
+            <hr>
+            <div class="gallery-card">
+                <div class="gallery-card-01 js-gallery">
+                    <div class="gallery-card-content">
+                        <div class="gallery-card-content-block">
+                            <div class="js-card-gallery">
+                                <img src="images/design-08.svg" alt="Add">
+                                <div class="mt-5">
+                                    <a class="js-card-gallery-btn btn-link" href="#">Shop Now</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <img class="mobile-img" src="images/img-collection01.jpg" alt="Collection">
+                </div>
+                <div class="gallery-card-02 js-gallery">
+                    <div class="gallery-card-content">
+                        <div class="gallery-card-content-block">
+                            <div class="js-card-gallery">
+                                <img src="images/design-08.svg" alt="Add">
+                                <div class="mt-5">
+                                    <a class="js-card-gallery-btn btn-link" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card-image">
+                        <img class="mobile-img" src="images/img-collection02.jpg" alt="Collection">
+                    </div>
+                </div>
+                <div class="gallery-card-03 js-gallery">
+                    <div class="gallery-card-content ">
+                        <div class="gallery-card-content-block ">
+                            <div class="js-card-gallery">
+                                <img src="images/design-08.svg" alt="Add">
+                                <div class="mt-5">
+                                    <a class="js-card-gallery-btn btn-link" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card-image">
+                        <img class="mobile-img" src="images/img-collection03.jpg" alt="Collection">
+                    </div>
+                </div>
+                <div class="gallery-card-04 js-gallery">
+                    <div class="gallery-card-content">
+                        <div class="gallery-card-content-block">
+                            <div class="js-card-gallery">
+                                <img src="images/design-08.svg" alt="Add">
+                                <div class="mt-5">
+                                    <a class="js-card-gallery-btn btn-link" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card-image">
+                        <img class="mobile-img" src="images/img-collection04.jpg" alt="Collection">
+                    </div>
+                </div>
+                <div class="gallery-card-05 js-gallery">
+                    <div class="gallery-card-content">
+                        <div class="gallery-card-content-block">
+                            <div class="js-card-gallery">
+                                <img src="images/design-08.svg" alt="Add">
+                                <div class="mt-5">
+                                    <a class="js-card-gallery-btn btn-link" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card-image">
+                        <img class="mobile-img" src="images/img-collection05.jpg" alt="Collection">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pages">
+        <div class="wrap">
+            <h2 class="title-h2">Summer Collection</h2>
+            <hr>
+            <div class="inner-border">
+                <div class="collection">
+                    <div class="collection-card-01">
+                        <div class="collection-sale">
+                            <p class="pt-2">20%</p>
+                        </div>
+                        <img src="images/summer-collec01.jpg" alt="Collection">
+                        <div class="collection-add">
+                            <a class="collection-add-link" href="#">
+                                <p class="pt-1">+ Add to card</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collection-card-02">
+                        <img src="images/summer-collec02.jpg" alt="Collection">
+                        <div class="collection-add-black">
+                            <a class="collection-add-link" href="#">
+                                <p class="pt-1">+ Add to card</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collection-card-03">
+                        <img src="images/summer-collec03.jpg" alt="Collection">
+                        <div class="collection-add-black">
+                            <a class="collection-add-link" href="#">
+                                <p class="pt-1">+ Add to card</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collection-card-04">
+                        <div class="collection-sale">
+                            <p class="pt-2">40%</p>
+                        </div>
+                        <img src="images/summer-collec04.jpg" alt="Collection">
+                        <div class="collection-add-black">
+                            <a class="collection-add-link" href="#">
+                                <p class="pt-1">+ Add to card</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collection-card-05">
+                        <div class="collection-sale">
+                            <p class="pt-2">20%</p>
+                        </div>
+                        <img src="images/summer-collec05.jpg" alt="Collection">
+                        <div class="collection-add">
+                            <a class="collection-add-link" href="#">
+                                <p class="pt-1">+ Add to card</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collection-card-06">
+                        <img src="images/summer-collec06.jpg" alt="Collection">
+                        <div class="collection-add-black">
+                            <a class="collection-add-link" href="#">
+                                <p class="pt-1">+ Add to card</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collection-card-07">
+                        <img src="images/summer-collec07.jpg" alt="Collection">
+                        <div class="collection-add-black">
+                            <a class="collection-add-link" href="#">
+                                <p class="pt-1">+ Add to card</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collection-card-08">
+                        <div class="collection-sale">
+                            <p class="pt-2">40%</p>
+                        </div>
+                        <img src="images/summer-collec08.jpg" alt="Collection">
+                        <div class="collection-add-black">
+                            <a class="collection-add-link" href="#">
+                                <p class="pt-1">+ Add to card</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="our-brand">
+        <div class="wrap">
+            <h2 class="title-h2">Our Brand</h2>
+            <hr>
+            <div class="our-brand  wow animate__animated animate__fadeInRight" data-wow-delay="1s">
+                <div class="our-brand-01">
+                    <img src="images/brand-01.svg" alt="Brand">
+                </div>
+                <div class="our-brand-02">
+                    <img src="images/brand-02.svg" alt="Brand">
+                </div>
+                <div class="our-brand-03">
+                    <img src="images/brand-03.svg" alt="Brand">
+                </div>
+                <div class="our-brand-04">
+                    <img src="images/brand-04.svg" alt="Brand">
+                </div>
+                <div class="our-brand-05">
+                    <img src="images/brand-05.svg" alt="Brand">
+                </div>
+                <div class="our-brand-06">
+                    <img src="images/brand-06.svg" alt="Brand">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="customer">
+        <div class="wrap">
+            <h2 class="title-h2">Customers Says</h2>
+            <hr>
+        </div>
+        <div class="customer-bg">
+            <div class="wrap">
+                <div class="customer-content">
+                    <div class="customer-content-left">
+                        <div class="customer-content-left-img">
+                            <img src="images/customers01.png" alt="Women">
+                        </div>
+                        <div class="customer-content-left-title">
+                            <p class="over-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque </p>
+                            <h4 class="title-h4">Sandrs Dewi</h4>
+                            <span class="profession">Fashion Stylish</span>
+                        </div>
+                    </div>
+                    <div class="customer-content-right">
+                        <div class="customer-content-right-title">
+                            <p class="over-title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque </p>
+                            <h4 class="title-h4">Shaheer Sheikh</h4>
+                            <span class="profession">Designer</span>
+                        </div>
+                        <div class="customer-content-right-img">
+                            <img src="images/customers02.png" alt="Women">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="categories">
+        <div class="wrap">
+            <div class="box">
+                <div class="shops">
+                    <h5 class="title-h5">Shops</h5>
+                    <ul class="footer">
+                        <li class="footer-list"><a class="footer-link" href="#">New In</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Women</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Men</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Shoes</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Bags & Accessories</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Top Brands</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Sale & Special Offers</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Loocbook</a></li>
+                    </ul>
+                </div>
+                <div class="information">
+                    <h5 class="title-h5">Information</h5>
+                    <ul class="footer">
+                        <li class="footer-list"><a class="footer-link" href="#">About Us</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Customer Service</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">New Collection</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Best Sellers</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Manufacturers</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Privacy policy</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Terms & condition</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="customers-services">
+                    <h5 class="title-h5">Customer Service</h5>
+                    <ul class="footer">
+                        <li class="footer-list"><a class="footer-link" href="#">Search Terms</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Advanced Search</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Orders and Returns</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Contact Us</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">RSS</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Help & FAQs</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Consultant</a></li>
+                        <li class="footer-list"><a class="footer-link" href="#">Store Locations</a></li>
+                    </ul>
+                </div>
+                <div class="connected">
+                    <h5 class="title-h5">Stay Connected</h5>
+                    <ul class="footer-icon">
+                        <li class="footer-icon-list"><a class="footer-icon-link" title="Facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="footer-icon-list"><a class="footer-icon-link" title="Twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="footer-icon-list"><a class="footer-icon-link" title="Instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="footer-icon-list"><a class="footer-icon-link" title="Pinterest" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li class="footer-icon-list"><a class="footer-icon-link" title="Wifi" href="#"><i class="fas fa-wifi"></i></a></li>
+                    </ul>
+                    <h5 class="title-h5">Subscribe <span class="italic">in</span> Our news letter</h5>
+                    <form class="form-footer">
+                        <div class="email-form">
+                            <input type="email" class="email-form-input" placeholder="Enter Your Email Address">
+                            <button type="submit" class="email-btn">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="line mb-4">
+            <div class="footer-title">
+                <p>© 2015 Shopia Fashion Store Shopify. All Rights Reserved. Ecommerce Software by Shopify. Designed by MoccaLabs.com</p>
+            </div>
+            <div class="card-services mb-5">
+                <a href="#" title="Card"><img class="mr-3" src="images/card-visa.svg" alt="Card"></a>
+                <a href="#" title="Card"><img class="mr-3" src="images/card-mastercard.svg" alt="Card"></a>
+                <a href="#" title="Card"><img class="mr-3" src="images/card-express.svg" alt="Card"></a>
+                <a href="#" title="Card"><img class="mr-3" src="images/card-discover.svg" alt="Card"></a>
+            </div>
+        </div>
+        <div class="footer-bootom">
+        </div>
+    </footer>
+
+    <script src="scripts/all.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/jquery-3.5.1.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+
+</html>
