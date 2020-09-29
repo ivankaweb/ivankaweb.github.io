@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
-	<defs>
-		<image width="20" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAAXNSR0IB2cksfwAAAHJQTFRFu7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7BCdIMwAAACZ0Uk5TM4i71MGqyLbGy77D1tKL5GDxXLiwloTenNysj2mzmX3Qzafb53Uk0BJRAAAAiUlEQVR4nMWQSRKCMBRE40/4U8ApCSAICMj9r2hKC69AL1/X60Ubc2hOYF0BSEgsVr2FUoypzpfr7R5imWoOTWvrBxvT2V6enOHQMQUZfcxQJyeIWVeRl/bMIr/dmXQAmtXlzjmMX1hFLRY/jimkdVpr2OEy0LsATQ2087brIcRNPJMnBDzkm38+UFgH2pNJo2YAAAAASUVORK5CYII="/>
-	</defs>
-	<style>
-		tspan { white-space:pre }
-	</style>
-	<use id="American Express" href="#img1" x="0" y="0" />
-</svg>

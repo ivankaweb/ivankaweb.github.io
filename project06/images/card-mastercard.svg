@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 14" width="24" height="14">
-	<defs>
-		<image width="24" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAOCAMAAAACJixMAAAAAXNSR0IB2cksfwAAARRQTFRFu7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7rpLbeAAAAFx0Uk5TACE8T1xQDgcgLDMvJRMKRVkwGTEFVFFBLjs0JBRNC5mwtKVxYGJzokNjz4lLPTqtGsTF6MDN6sLu1knK5T7R3Mmy5r6h2zh7t928V7mpx6t9fIyFjhZCTDceUi243xrVAAAA5klEQVR4nGNgAAJGJmYWViY2BgZ2Dk4ubh5eBgjg42cBAwFBIWEuMOARAYuLskCBmDgXFEiAZPjh4pKSUjAZaQYGGZg4i6ioqCxMgkuOQVheQVFJWUVVTV2DVUNDU0tbR5dLT1ffgIHJ0MhY0cTUTMnYXEvBwlLWSt/axsjakoPB1s7ezsHI0MHE0cnZ3MXVzd3D08vV24eRQdjL0dHXwc/U30HJwSsg0DrIyzk4xDrYgCEUbnmYpKQkkuUI5wqEh9vCxHlQPChri+JBeJCwRETC1ItAQ4uH35slikkGqIYjmksQEogATOIfDSlfpGcAAAAASUVORK5CYII="/>
-	</defs>
-	<style>
-		tspan { white-space:pre }
-	</style>
-	<use id="Mastercard" href="#img1" x="0" y="0" />
-</svg>

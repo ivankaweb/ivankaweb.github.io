@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 6" width="20" height="6">
-	<defs>
-		<image width="20" height="6" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAMAAAD0SU6vAAAAAXNSR0IB2cksfwAAALFQTFRFu7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7FYgMOAAAADt0Uk5TQrTzTgBg//afD6Xw51qZA+2uw9sqcoddVBsJ6vnPJ2xRRcBm/AxjfhjVyR6TqBV1P7d70iQ22FfkxrFVure7AAAAdElEQVR4nA3IRwKCMAAEwEg2i0AQUEGxgGIssWPX/z/MzHGE6HgSitLvBmGkJeKoB4EkzdAfDJkXHI3LyXQ2d4lQV6wXXOZsKqxMYdYuN8y8YMsSsfZ3dq8oXB7II07p+XJtjaJzc4m7ecA2T8vXu/0k+P7+xZMJVXjasW4AAAAASUVORK5CYII="/>
-	</defs>
-	<style>
-		tspan { white-space:pre }
-	</style>
-	<use id="Visa" href="#img1" x="0" y="0" />
-</svg>
