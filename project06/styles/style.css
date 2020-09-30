@@ -583,10 +583,13 @@ footer {
     font-size: 26px; }
 
   .shipping {
-    width: 365px; }
+    width: 360px; }
 
   .return {
-    width: 399px; }
+    width: 360px; }
+
+  .support {
+    width: 360px; }
 
   .title-h2 {
     width: 100%; }
@@ -616,10 +619,7 @@ footer {
   .box {
     padding: 20px;
     display: grid;
-    grid-template: 1fr 1fr 1fr /1fr; }
-
-  .form-footer {
-    width: 260px; } }
+    grid-template: 1fr 1fr 1fr /1fr; } }
 @media (min-width: 629px) and (max-width: 902px) {
   .collection {
     grid-template: 1fr 1fr 1fr 1fr/1fr 1fr;
