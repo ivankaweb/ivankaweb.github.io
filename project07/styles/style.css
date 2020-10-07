@@ -3,6 +3,16 @@ body {
   color: #727176;
   overflow-x: hidden; }
 
+.js-btn-nav {
+  color: #e9d8ba;
+  font-size: 25px;
+  display: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 80px;
+  cursor: pointer; }
+
 li.activeBtn {
   border-bottom: 1px solid #e9d8ba;
   position: relative; }
@@ -246,6 +256,14 @@ header {
   padding-top: 110px; }
 
 @media screen and (max-width: 576px) {
+  .js-btn-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  nav.mobile-nav {
+    display: none; }
+
   body {
     padding: 5px; }
 

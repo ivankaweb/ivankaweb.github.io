@@ -8,6 +8,15 @@ body {
 	overflow-x: hidden;
 }
 
+.js-btn-nav{
+	color: $light;
+	font-size: 25px;
+	display: none;
+    justify-content: flex-end;
+	margin-right: 80px;
+	cursor: pointer;
+}
+
 li.activeBtn {
 	border-bottom: 1px solid $light;
 	position: relative;
@@ -293,6 +302,13 @@ header {
 }
 
 @media screen and (max-width: 576px) {
+	.js-btn-nav{
+		display: flex;
+	}
+
+	nav.mobile-nav{
+		display: none;	
+	}
 	body {
 		padding: 5px;
 	}
