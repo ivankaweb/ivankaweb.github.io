@@ -29,6 +29,10 @@ $(document).ready(function(){
         buttonActive.addClass('btn-active-small');
      });
 
+     $('.dropbtn').click(function(){
+      $('div .dropdown-content').toggle( 'slow', function(){
+        $('a .dropdown-content').css({'display' : 'inline-block'});
 
-
+      });
+     });
     });
