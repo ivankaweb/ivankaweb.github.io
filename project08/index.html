@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AUTO.ua</title>
+
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+</head>
+
+<body>
+        <header>
+            <div class="header-main">
+                <div class="container">
+                    <div class="row no-gutters">
+                        <div class="col-md-5 col-6 logo d-flex">
+                            <a class="text-decoration-none" href="index.html"><img class="logo-img" src="images/logo.png" alt="Logo"></a>
+                            <div class="align-items-center pt-2 pl-1 text-center">
+                                <h1 class="logo-title-h1"><span class="pr-1">-</span>AUTO.ua</h1>
+                                <p class="logo-sub-title">автомобильные запчасти</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 header-main-top d-flex justify-content-md-start justify-content-end px-2">
+                            <div class="number">
+                                <span class="number-link"><span class="number-color">3(80)</span> 956861202</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 header-main-top d-flex justify-content-between px-2 py-md-0 py-3">                            
+                            <div class="register">
+                                <ul class="register-list d-flex justify-content-around p-0">
+                                    <li class="register-item register-icon"><a class="register-link" href="entrance.html">Вход</a></li>
+                                    <li class="register-item register-line"><a class="register-link" href="registration.html">Регистрация</a></li>
+                                </ul>
+                            </div>
+                            <div class="basket">
+                                <a href="bucket.html" class="basket-item">Корзина</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu h-auto">
+                <div class="container h-100">
+                    <div class="row h-100 no-gutters">
+                        <div class="col-md-3 col-6">
+                            <a class="catalog-link d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                    <img class="mr-2" src="images/icons/btn-menu.png"> Каталог
+                                  </a>
+                        </div>
+                        <div class="offset-md-2 col-md-7 col-6 d-flex align-items-center">
+                            <nav class="navbar navbar-expand-lg navbar-dark p-0 w-100">
+                                <button class="navbar-toggler ml-4" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                <div class="collapse navbar-collapse" id="navbarText">
+                                    <ul class="navbar-nav w-100 justify-content-between">
+                                        <li class="nav-item"><a class="nav-link" href="shipping_payment.html">Доставка и Оплата</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="order.html">Гарантии</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="traking.html">Отслеживание</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="return.html">Возврат</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="cashback.html">Кэшбэк</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div id="carouselHeader" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/bg-header01.jpg" class="d-block w-100" alt="Images-header">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/bg-header02.jpg" class="d-block w-100" alt="Images-header">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/bg-header02.jpg" class="d-block w-100" alt="Images-header">
+                        </div>
+                        <div class="carousel-pagination">
+                            <div class="d-flex justify-content-end flex-column h-100">
+                                <div class="container mobile-header">
+                                    <div class="row">
+                                        <div class="col-md-12 mobile-header">
+                                            <h1 class="title-h1">Автоковрики AUTO.UA</h1>
+                                            <p class="subtitle-h1">Другие коврики так не могут!</p>
+                                            <a class="btn-custom btn-red" href="creator.html">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container carousel-navigation">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="carousel-arrows">
+                                                    <a class="d-inline-block text-decoration-none mr-3" href="#carouselHeader" role="button" data-slide="prev">
+                                                        <div class="arrows prev-icon"></div>
+                                                    </a>
+                                                    <a class="d-inline-block text-decoration-none" href="#carouselHeader" role="button" data-slide="next">
+                                                        <div class="arrows next-icon"></div>
+                                                    </a>
+                                                </div>
+                                                <ol class="carousel-dots carousel-indicators">
+                                                    <li data-target="#carouselHeader" data-slide-to="0" class="active"><span></span></li>
+                                                    <li data-target="#carouselHeader" data-slide-to="1"><span></span></li>
+                                                    <li data-target="#carouselHeader" data-slide-to="2"><span></span></li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <section class="our-advantages">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p class="over-title">преимущества</p>
+                    <h2 class="title-h2">Почему клиенты выбирают нас?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 order-md-1 desc-01">
+                    <div class="row h-100">
+                        <div class="col-md-6 col-sm-4"></div>
+                        <div class="col-md-6 col-sm-8 p-md-5 p-4 bg-title">
+                            <h3 class="title-h3">Уникальная ячеистая структура</h3>
+                            <p class="subtitle-h3">Коврики обладают прекрасной амортизацией, практически не изнашиваются, выдерживают низкие и высокие температуры.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-2">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8 p-md-5 p-4">
+                                <h3 class="title-h3">Экологически чистый материал</h3>
+                                <p class="subtitle-h3">AUTO - экологичный, безопасный, и не вызывающий аллергии материал, что особенно важно, если в машине находятся дети.</p>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-6 d-flex align-items-center">
+                            <img class="w-100" src="images/icons/icon-car.png" alt="Car">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-3 order-sm-4 order-4">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-6 d-flex align-items-center p-5">
+                                <img class="w-100" src="images/icons/icon-thermometr.png" alt="Thermometr">
+                            </div>
+                            <div class="offset-md-2 col-md-6 col-sm-8 p-md-5 p-4">
+                                    <h3 class="title-h3">Устойчивость к перепадам температур</h3>
+                                    <p class="subtitle-h3">Коврики обладают прекрасной амортизацией, практически не изнашиваются, выдерживают низкие и высокие температуры.</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-6 order-md-4 order-sm-3 order-3 desc-04">
+                        <div class="row h-100">
+                            <div class="col-md-6 col-sm-8 p-md-5 p-4 bg-title-2">
+                                    <h3 class="title-h3">Разнообразие цветовых решений</h3>
+                                    <p class="subtitle-h3">Широкий выбор цветов ковриков и окантовки к ним позволяет подобрать индивидуальную комбинацию.</p>
+                            </div>
+                            <div class="col-md-6 col-sm-4"></div>
+                        </div>
+                    </div>
+                <div class="col-md-6 order-md-5 desc-05">
+                        <div class="row h-100">
+                            <div class="col-md-6 col-sm-4"></div>
+                            <div class="col-md-6 col-sm-8 p-md-5 p-4 bg-title">
+                                    <h3 class="title-h3">Чистота в салоне в любое время года</h3>
+                                    <p class="subtitle-h3">Благодаря своей ячеистой структуре, коврики не позволяют воде и грязи попасть в салон, сохраняя чистоту вашей одежды, обуви и автомобиля.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-6">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-8 p-md-5 p-4">
+                                    <h3 class="title-h3">3D зона отдыха левой ноги водителя </h3>
+                                    <p class="subtitle-h3">AUTO - экологичный, безопасный, и не вызывающий аллергии материал, что особенно важно, если в машине находятся дети.</p>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-6 d-flex align-items-center">
+                                <img class="w-100" src="images/mat.png" alt="Mat">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="car-brands bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <p class="over-title">коврики</p>
+                    <h2 class="title-h2">Популярные автомобильные коврики AUTO</h2>
+                </div>
+            </div>
+            <div class="row car-brands-slider">
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-audi.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3">Audi</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-bmw.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3 text-uppercase">Bmw</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-chevrolet.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3">Chevrole</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-ford.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3">Ford</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-kia.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3 text-uppercase">Kia</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-hundai.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3">Hundai</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-audi.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3">Audi</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-kia.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3 text-uppercase">Kia</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-bmw.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3 text-uppercase">Bmw</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-chevrolet.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3">Chevrole</span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-ford.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3">Ford</span>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="slider-card p-3 border-light text-center">
+                        <div class="slider-card-inner">
+                            <img src="images/icons/icon-hundai.png" alt="Car">
+                        </div>
+                        <span class="slider-card-title font-weight-bold pt-3">Hundai</span>
+                    </div>
+                </div>
+            </div>
+            <div class="control d-flex justify-content-between">
+                <div class="col-sm-5 control-mobile">
+                    <a class="btn-custom btn-red" href="car.html">Все марки</a>
+                </div>
+                <div class="col-sm-7">
+                    <a href="#" class="d-inline-block js-sliderPrev-cars text-decoration-none mr-3">
+                        <div class="arrows prev-icon"></div>
+                    </a>
+                    <a href="#" class="d-inline-block js-sliderNext-cars text-decoration-none ">
+                        <div class="arrows next-icon"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-eva">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <p class="over-title">достоинства</p>
+                    <h2 class="title-h2">Почему коврики AUTO - ето практично и надежно?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="row h-100 why-eva-bg-img-01">
+                        <div class="col-md-2 col-sm-12"></div>
+                        <div class="col-md-10 col-sm-12">
+                            <div class="box box-01">
+                                <div class="icon box-icon-1"></div>
+                                <p class="box-title mt-3">Ячейки</p>
+                                <p class="box-text">Две структуры ячеек. Вмещают до 1 литра воды и грязи на 1м2. Легко чистить и мить.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 colum-border">
+                    <div class="row h-100 why-eva-bg-img-02">
+                        <div class="col-sm-10">
+                            <div class="box box-02">
+                                <div class="icon box-icon-2"></div>
+                                <p class="box-title mt-3">Надежная фиксация</p>
+                                <p class="box-text">Система клипс и липучек надежно удерживают коврики в салоне авто, припятствуя замятию ковров
+                                    под педали.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="row h-100 why-eva-bg-img-03">
+                        <div class="col-sm-10">
+                            <div class="box box-03">
+                                <div class="icon box-icon-3"></div>
+                                <p class="box-title mt-3">3D-лапа</p>
+                                <p class="box-text">Зона отдыха левой ноги водителя.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="model">
+        <div class="container-md container-fluid-sm">
+            <div class="text-center">
+                <p class="over-title">3D модель</p>
+                <h2 class="title-h2 text-white">Пример комплекта ковриков салона</h2>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-3 d-flex align-items-center">
+                    <div class="model-box model-left-text text-white mobile-model-size">
+                        <span class="line-top-left"><span class="txt-red">3D</span> лапи</span>
+                        <div class="model-left-margin"></div>
+                        <span class="line-bottom-left">Полимерный <br>подпятник</span>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <img class="mat-3d" src="images/icons/mat-3d.png" alt="Mat 3D">
+                </div>
+              <div class="col-3 d-flex align-items-center">
+                    <div class="model-box model-right-text text-white mobile-model-size" style="margin-top: -4.5rem;">
+                        <span class="line-top-right">Лейблы с маркой автомобиля</span>
+                        <div class="model-right-margin"></div>
+                        <span class="line-bottom-right"><span class="txt-red">3D</span> ячейкипи</span>
+                    </div>
+            </div>
+            <div class="col-12 text-center pt-4">
+                    <div class="model-box  text-white mobile-model-size">
+                            <span class="line-bottom-center">Штатные крепления + липучки</span>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="our-works">
+        <div class="container">
+            <div class="row text-center d-flex justify-content-center">
+                <div class="col-sm-6">
+                    <p class="over-title">наши работи</p>
+                    <h2 class="title-h2">Некоторые из наших работ</h2>
+                    <p class="subtitle-h2">Максимальное покрытие салона с ковриками AUTO. Менше грязи и води. Подпятник и шильдики индивидуальность в салоне вашего автомобиля.</p>
+                </div>
+            </div>
+            <div class="row our-works-slider mt-2">
+                <div class="slider-card-inner slider-card-box py-5">
+                            <img class="img-thumbnail" src="images/our-work03.jpg" alt="Mat">
+                </div>
+                <div class="slider-card-inner slider-card-box py-5">
+                            <img class="img-thumbnail" src="images/our-work01.jpg" alt="Mat">
+                </div>
+                <div class="slider-card-inner slider-card-box py-5">
+                            <img class="img-thumbnail" src="images/our-work02.jpg" alt="Mat">
+                </div>
+                <div class="slider-card-inner slider-card-box py-5">
+                            <img class="img-thumbnail" src="images/our-work02.jpg" alt="Mat">
+                </div>
+                <div class="slider-card-inner slider-card-box py-5">
+                            <img class="img-thumbnail" src="images/our-work03.jpg" alt="Mat">
+                </div>
+                <div class="slider-card-inner slider-card-box py-5">
+                            <img class="img-thumbnail" src="images/our-work01.jpg" alt="Mat">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-sm-12 text-center">
+                    <a href="#" class="d-inline-block js-sliderPrev-ourWorks text-decoration-none  mr-3">
+                        <div class="arrows prev-icon"></div>
+                    </a>
+                    <a href="#" class="d-inline-block js-sliderNext-ourWorks text-decoration-none ">
+                        <div class="arrows next-icon"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews bg-light">
+        <div class="container p-0">
+            <div class="row text-center d-flex justify-content-center">
+                <div class="col-sm-6">
+                    <p class="over-title">Отзывы</p>
+                    <h2 class="title-h2">Отзывы наших клиентов </h2>
+                    <p class="subtitle-h2">Работаем с 2018 года. Выполнено более 6 000 заказов. В базе более 900 автомобилей.</p>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-between text-center mt-4">
+                <div class="col-md-4 col-sm-12">
+                        <img class="w-100" src="images/reviews-01.jpg" alt="Reviews">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                        <img class="w-100" src="images/reviews-02.jpg" alt="Reviews">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                        <img class="w-100" src="images/reviews-03.jpg" alt="Reviews">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <a class="btn-custom btn-red" href="#">Смотреть отзывы</a>
+                </div>
+        </div>
+    </section>
+        <section class="color">
+            <div class="container-fluid">
+                <div class="row d-flex align-items-center pt-2">
+                    <div class="offset-md-1 col-md-4 col-sm-12  text-white">
+                        <p class="over-title">цвет</p>
+                        <h2 class="title-h2">Большая цветовая гамма</h2>
+                        <p class="subtitle-h2 pr-2">Популярные цвета чорный и серый. Но если есть предпочтения, укажите это при обсуждении с менеджером. Всегда в наличии 8 цветов материала и оконтовки.</p>
+                        <div class="mt-5">
+                            <a class="btn-custom btn-red" href="creator.html">Выбрать модель</a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12 color-mats pt-5">
+                       <img class="w-100" src="images/bg-color.jpg" alt="Color">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pb-0 bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <img class="w-100" src="images/operator.png" alt="Mats">
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <p class="over-title">Консультация</p>
+                            <h2 class="title-h2">Оставьте заявку и мы свяжемося с вами!</h2>
+                            <div class="row">
+                                <div class="col-sm-7">
+                                    <form>
+                                        <input class="form-control mb-1" type="text" placeholder="Имя">
+                                        <input class="form-control mb-1" type="text" placeholder="Email">
+                                        <textarea class="form-control mb-1 resize-none" rows="3" placeholder="Сообщение ..."></textarea>
+                                        <small class="form-text text-muted py-4">
+                                            Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                                        </small>
+                                        <button type="submit" class="btn-custom btn-red border-0 mb-2 w-100">Отправить</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <footer>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-sm-5 logo d-flex footer-mobile">
+                        <div class="d-flex">
+                            <a class="text-decoration-none" href="index.html"><img class="logo-img" src="images/logo.png" alt="Logo"></a>
+                                <div class="align-items-center pt-2 pl-1 text-center">
+                                    <h1 class="logo-title-h1"><span class="pr-1">-</span>AUTO.ua</h1>
+                                    <p class="logo-sub-title">автомобильные запчасти</p>
+                                </div>
+                        </div>
+                       
+                    </div>
+                    <div class="col-sm-7 footer-mobile">
+                        <div>
+                                <nav class="navbar navbar-expand-lg navbar-dark p-0 w-100">
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBottomText" aria-controls="navbarBottomText" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                        <div class="collapse navbar-collapse" id="navbarBottomText">
+                                          <ul class="navbar-nav w-100 justify-content-between">
+                                            <li class="nav-item"><a class="nav-link" href="shipping_payment.html">Доставка и Оплата</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="order.html">Гарантии</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="traking.html">Отслеживание</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="return.html">Возврат</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="cashback.html">Кэшбэк</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+                                          </ul>
+                                        </div>
+                                    </nav>
+                        </div>
+                        
+                    </div>
+                </div>
+                <hr class="hr-light">
+                <div class="row py-2">
+                    <div class="col-lg-5 col-sm-12 align-items-center">
+                        <div class="d-flex footer-mobile">
+                                <span class="icon-map text-secondary pr-2">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                          </svg>
+                                        </span>
+                                <p class="text-secondary w-75">
+                                     212312, Киевская область,
+                                    г. Бровари, ул. Герои УПА, дом 5</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-sm-12 d-flex justify-content-between align-items-center footer-right">
+                        <div>
+                            <div class="icon-insta d-inline-block"><a href="#"><img src="images/icons/icon-insta.png" alt="Icon"></a></div>
+                            <span class="text-white ml-2">AUTO.ua</span>
+                        </div>
+                        <div class="number mobile-number">
+                            <span class="number-link"><span class="number-color">3(80)</span> 956861202</span>
+                        </div>
+                        <a class="btn-custom btn-red" href="">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+          </footer>   
+
+
+          
+    <script src="scripts/jquery-3.5.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/slick.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
