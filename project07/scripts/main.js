@@ -30,10 +30,10 @@ $(document).ready(function () {
   });
 
   $('.dropbtn').click(function () {
-    $('div .dropdown-content').toggle('slow', function () {
-      $('a .dropdown-content').css({ 'display': 'inline-block' });
+    $('div .dropdown-content', closestDiv).hide('slow');
 
-    });
+    var closestDiv = $(this).closest('div');
+    $('.dropdown-content', closestDiv).toggle('slow');
   });
 
 

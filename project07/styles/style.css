@@ -7,7 +7,9 @@ body {
   color: #e9d8ba;
   font-size: 25px;
   display: none;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin-right: 80px;
   cursor: pointer; }
 
@@ -96,8 +98,12 @@ p {
   display: none; }
 
 .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .d-block {
   display: block; }
@@ -132,8 +138,12 @@ header {
 
 .menu {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0; }
   .menu-item {
     font-size: 30px;
@@ -147,8 +157,12 @@ header {
       color: black; }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .logo {
   color: #e9d8ba; }
@@ -170,9 +184,13 @@ header {
 
 .color {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0;
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .color-item {
     margin-right: 20px; }
   .color-link {
@@ -187,8 +205,12 @@ header {
   width: 35%; }
 
 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .heading {
   padding-left: 38px; }
@@ -219,6 +241,8 @@ header {
 
 .icon {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0; }
   .icon-item {
@@ -233,6 +257,8 @@ header {
 
 @media screen and (max-width: 576px) {
   .js-btn-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
 
   nav.mobile-nav {
@@ -249,7 +275,9 @@ header {
 
   .menu {
     display: grid;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center; }
 
   .menu-item {
