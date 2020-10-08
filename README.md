@@ -7,3 +7,5 @@ https://ivankaweb.github.io/project03/     - Concomitan
 https://ivankaweb.github.io/project04/     - Pizza  
 https://ivankaweb.github.io/project05/     - Food Lover  
 https://ivankaweb.github.io/project06/     - Shop  
+https://ivankaweb.github.io/project07/     - DECOhome 
+https://ivankaweb.github.io/project08/     - AUTO.ua 
