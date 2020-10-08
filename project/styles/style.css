@@ -39,24 +39,17 @@ section {
   padding: 55px 0 55px; }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .menu {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   .menu-item {
     margin-left: 15px; }
   .menu-link {
     color: #22222b;
     text-decoration: none;
-    -webkit-transition: 0.6s;
     transition: 0.6s; }
     .menu-link:hover {
       border-bottom: 1px solid #22222b; }
@@ -65,12 +58,8 @@ header {
   font-weight: 300; }
 
 .content-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding-top: 360px; }
 
 h1.title-h1::before {
@@ -88,37 +77,26 @@ h1.title-h1::after {
   position: relative;
   display: inline-block;
   background-image: url(../images/design-01.svg);
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
   top: 20px;
   width: 27px;
   height: 20px;
   background-size: cover; }
 
 .content-scroll {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding-top: 315px; }
 
 .section-about-me {
   padding-top: 235px; }
 
 .box-about {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .work-place {
   width: 45%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative; }
   .work-place-back {
@@ -129,11 +107,8 @@ h1.title-h1::after {
   .work-place-vertical {
     font-weight: 500;
     position: relative;
-    -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-            writing-mode: vertical-lr;
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
     bottom: 70px; }
     .work-place-vertical::after {
       content: '';
@@ -177,12 +152,8 @@ h1.title-h1::after {
     background-color: #22222b; }
 .about-me-progress-text {
   font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .progress-photoshop::after {
   width: 100%; }
@@ -265,12 +236,10 @@ h1.title-h1::after {
   width: 60%;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   opacity: 0.6;
   padding: 16% 8%;
-  -webkit-transition: 0.6s;
   transition: 0.6s; }
   .portfolio-desc::before {
     content: '';
@@ -286,8 +255,7 @@ h1.title-h1::after {
     position: relative;
     display: inline-block;
     background-image: url(../images/design-01.svg);
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    transform: rotate(180deg);
     top: 65px;
     left: 128px;
     width: 27px;
@@ -312,23 +280,15 @@ h1.title-h1::after {
   font-weight: 400; }
 
 .box-testimonials {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-top: 70px; }
 
 .person-testimonial {
   width: 45%; }
   .person-testimonial-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
+    justify-content: flex-start; }
   .person-testimonial-title {
     margin-left: 15px;
     padding-top: 15px; }
@@ -358,12 +318,8 @@ h1.title-h1::after {
   background-color: #faf9fe; }
 
 .stats-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .stat {
   display: block; }
@@ -392,13 +348,8 @@ h1.title-h1::after {
     background-image: url(../images/awards.png); }
 
 .basic-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 740px;
   padding-top: 50px;
   margin: 0 auto; }
@@ -410,7 +361,6 @@ textarea {
   padding-top: 30px;
   border-bottom: 1px solid #e1e1e1;
   line-height: 3em;
-  -webkit-transition: 0.6s;
   transition: 0.6s;
   overflow: auto; }
 
@@ -430,7 +380,6 @@ input:focus {
   padding: 25px 0 25px;
   border: none;
   cursor: pointer;
-  -webkit-transition: 0.6s;
   transition: 0.6s; }
 
 .btn-form:hover {
@@ -443,24 +392,13 @@ footer {
 
 .footer {
   padding-top: 55px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center; }
 
 .footer-social-items {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 .footer-social-item {
   font-size: 16px;

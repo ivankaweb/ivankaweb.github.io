@@ -617,7 +617,7 @@ footer{
     background-color: $dark;
 }
 
-@media (min-width: 320px) and (max-width: 430px) { 
+@media (min-width: 300x) and (max-width: 430px) { 
 .mobile-header{
     position: absolute;
     top: 24px;
@@ -629,11 +629,16 @@ footer{
     padding: 7px 23px;
 }
 
+
 }
 @media (min-width: 320px) and (max-width: 500px) { 
 
-
-
+     .mobile-size{
+        display: block !important;
+        margin: 28px !important;
+        text-align: center;
+    }
+    s
     .mobile-center{
         justify-content: center;
         display: flex;

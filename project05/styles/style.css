@@ -12,12 +12,8 @@ section {
   padding: 190px 0 190px; }
 
 .d-flex-between {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .text-center {
   text-align: center; }
@@ -50,27 +46,18 @@ section {
   width: 100%; }
 
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(44, 43, 43, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../images/header-bg.png);
   background-image: linear-gradient(rgba(44, 43, 43, 0.9), rgba(0, 0, 0, 0.9)), url(../images/header-bg.png);
   background-repeat: no-repeat;
   background-size: cover; }
 
 .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 20px; }
 
 .nav {
   list-style-type: none;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex; }
   .nav-item {
     font-size: 16px;
@@ -89,12 +76,8 @@ header {
   margin-left: 60px; }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 100px 0 100px; }
 
 .header-contact-us {
@@ -126,12 +109,8 @@ header {
   background-size: contain; }
 
 .content-our-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
   .content-our-top-desc {
     padding-top: 145px; }
   .content-our-top-img {
@@ -140,12 +119,8 @@ header {
     left: 470px; }
 
 .content-our-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
   .content-our-bottom-img-left {
     position: relative;
     right: 360px;
@@ -183,6 +158,7 @@ section.our-food-gallery {
 
 .gallery-card-01:hover, .gallery-card-02:hover, .gallery-card-03:hover, .gallery-card-04:hover, .gallery-card-05:hover, .gallery-card-06:hover {
   -webkit-box-shadow: 2px 4px 28px 7px rgba(46, 74, 117, 0.73);
+  -moz-box-shadow: 2px 4px 28px 7px rgba(46, 74, 117, 0.73);
   box-shadow: 2px 4px 28px 7px rgba(46, 74, 117, 0.73); }
 
 .enjoy-food {
@@ -201,12 +177,8 @@ section.our-food-gallery {
   padding: 0 90px; }
 
 .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
   .menu-card-01 {
     max-width: 30%; }
   .menu-card-02 {
@@ -220,15 +192,9 @@ section.our-food-gallery {
 
 .our-meal {
   background-color: #e58f00;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   max-height: 500px; }
 
@@ -246,8 +212,6 @@ footer {
   margin-top: 100px; }
 
 .nav-footer {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   list-style-type: none; }
   .nav-footer-item {
@@ -260,8 +224,6 @@ footer {
       color: #e58f00; }
 
 .social-list {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   list-style-type: none; }
   .social-list-item {
@@ -296,12 +258,8 @@ footer {
 
 .dots-style {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 80px; }
 
 .dots-style button {
@@ -400,9 +358,7 @@ footer {
     display: grid;
     grid-template: repeat(9, 1fr) 1fr 1fr;
     grid-gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    justify-content: center; }
     .gallery-card-01 {
       grid-column: 1/2;
       grid-row: 1/3; }
@@ -498,9 +454,7 @@ footer {
     display: grid;
     grid-template: repeat(9, 1fr) 1fr 1fr;
     grid-gap: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    justify-content: center; }
     .gallery-card-01 {
       grid-column: 1/2;
       grid-row: 1/3; }

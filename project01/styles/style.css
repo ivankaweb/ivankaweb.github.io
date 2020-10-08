@@ -34,6 +34,7 @@ body {
 
 .button-styled:hover {
   -webkit-box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27);
+  -moz-box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27);
   box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27); }
 
 section {
@@ -106,8 +107,7 @@ header {
 
 .search input {
   width: 40px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
@@ -133,6 +133,7 @@ header {
 
 .services-card:hover {
   -webkit-box-shadow: -1px -1px 29px 6px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: -1px -1px 29px 6px rgba(0, 0, 0, 0.16);
   box-shadow: -1px -1px 29px 6px rgba(0, 0, 0, 0.16); }
 
 .progress-card .progress {
@@ -216,6 +217,7 @@ header {
     .section-city-video a:hover {
       color: #ffe500;
       -webkit-box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27);
+      -moz-box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27);
       box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27); }
 
 .section-team-card h5 {
@@ -231,7 +233,6 @@ header {
   top: -30px; }
 
 .section-about-us {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#fff), color-stop(35%, #fff), color-stop(35%, #ffe500), color-stop(65%, #ffe500), color-stop(45%, #fff));
   background-image: linear-gradient(to top, #fff, #fff 35%, #ffe500 35%, #ffe500 65%, #fff 45%); }
 
 .team-title {
@@ -294,12 +295,11 @@ header {
   margin-top: 20px; }
   .footer-right-btn:hover {
     -webkit-box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27);
+    -moz-box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27);
     box-shadow: 2px 2px 38px 1px rgba(255, 229, 0, 0.27); }
 
 .footer-icon-list {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
   padding: 0; }
@@ -324,8 +324,6 @@ header {
     display: none; }
 
   .js-btn-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     font-size: 23px;
     color: #ffe500;
@@ -343,13 +341,8 @@ header {
     font-size: 12px; }
 
   .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
     text-align: center; }
 
@@ -388,12 +381,8 @@ header {
     font-size: 15px; }
 
   .section-team-card {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    justify-content: center; }
 
   .team-title p {
     font-size: 12px; }
@@ -405,12 +394,8 @@ header {
     text-align: center; }
 
   .footer-icon-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     font-size: 10px; }
   .footer-icon-item {
     width: 25px;
