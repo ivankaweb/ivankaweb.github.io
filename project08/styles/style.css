@@ -640,6 +640,9 @@ footer {
 
   .line-bottom-right::after {
     width: 136px; } }
+@media screen and (min-width: 1770px) {
+  .mobile-header {
+    display: none; } }
 @media (max-width: 768px) {
   .header-main {
     position: relative;

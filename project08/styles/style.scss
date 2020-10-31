@@ -752,10 +752,18 @@ footer{
         width: 136px;
         
     }
+
  }
  
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
+@media screen  and (min-width: 1770px) { 
+    
+        .mobile-header{
+          display: none;
+        }
+       
+     }
 
 @media (max-width: 768px) { 
     .header-main{
