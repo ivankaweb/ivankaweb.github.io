@@ -757,7 +757,7 @@ footer{
  
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
-@media screen  and (min-width: 1770px) { 
+@media screen  and (max-width: 1770px) { 
     
         .mobile-header{
           display: none;

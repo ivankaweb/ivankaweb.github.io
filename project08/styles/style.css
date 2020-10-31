@@ -640,7 +640,7 @@ footer {
 
   .line-bottom-right::after {
     width: 136px; } }
-@media screen and (min-width: 1770px) {
+@media screen and (max-width: 1770px) {
   .mobile-header {
     display: none; } }
 @media (max-width: 768px) {
