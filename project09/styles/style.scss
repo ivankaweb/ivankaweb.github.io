@@ -230,8 +230,13 @@ body {
 		padding-top: 175px;
 	}
 }
-.search-header{
-	&-input{
+
+.mx-nav-list {
+	margin: 0 10px;
+}
+
+.search-header {
+	&-input {
 		width: 100%;
 		box-sizing: border-box;
 		border: 1px solid #ccc;
@@ -250,7 +255,6 @@ body {
 		width: 100%;
 	  }
 }
-
 
 .logo {
 	color: $dark;
@@ -679,7 +683,7 @@ body {
 		padding: 60px 0;
 	}
 	.list-empy {
-		padding: 8px;
+		padding: 7px;
 		position: relative;
 		bottom: 5px;
 	}
@@ -817,6 +821,7 @@ body {
 		font-size: 12px;
 		padding: 12px;
 	}
+	
 }
 
 @media (min-width: 1024px) and (max-width: 1366.98px) {
@@ -854,5 +859,9 @@ body {
 	.btn-add {
 		padding: 15px 20px;
 	}
+	.mx-nav-list{
+		margin: 0;
+}
+	
 
 }

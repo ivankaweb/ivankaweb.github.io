@@ -179,10 +179,12 @@ body {
   .header-pages-content {
     padding-top: 175px; }
 
+.mx-nav-list {
+  margin: 0 10px; }
+
 .search-header-input {
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 1px solid #ccc;
   background-color: transparent;
   font-size: 16px;
@@ -219,8 +221,6 @@ body {
   font-size: 17px;
   padding-top: 10px; }
   .options-left {
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content; }
     .options-left p {
       font-size: 12px; }
@@ -336,12 +336,8 @@ body {
   padding-right: 25px; }
 
 .our-brand {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .desc-brand {
   font-size: 15px;
@@ -516,7 +512,7 @@ body {
     padding: 60px 0; }
 
   .list-empy {
-    padding: 8px;
+    padding: 7px;
     position: relative;
     bottom: 5px; }
 
@@ -524,8 +520,6 @@ body {
     background-clip: border-box; }
 
   .product-icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
 
   .icon-f-size {
@@ -538,9 +532,7 @@ body {
     font-size: 9px; }
 
   .responsize-nav-btn {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
     position: relative;
     bottom: 65px; }
 
@@ -568,9 +560,7 @@ body {
     padding-left: 20px; } }
 @media (min-width: 300px) and (max-width: 830px) {
   .navbar {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end; }
+    justify-content: flex-end; }
 
   .product-desc-title,
   .product-desc-subtitle {
@@ -686,6 +676,9 @@ body {
     display: block !important; }
 
   .btn-add {
-    padding: 15px 20px; } }
+    padding: 15px 20px; }
+
+  .mx-nav-list {
+    margin: 0; } }
 
 /*# sourceMappingURL=style.css.map */
