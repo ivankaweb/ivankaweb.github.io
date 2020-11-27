@@ -511,11 +511,6 @@ body {
   .social {
     padding: 60px 0; }
 
-  .list-empy {
-    padding: 7px;
-    position: relative;
-    bottom: 5px; }
-
   .look-women {
     background-clip: border-box; }
 
@@ -557,7 +552,12 @@ body {
     padding: 14px; }
 
   .product-menu-list {
-    padding-left: 20px; } }
+    padding-left: 20px; }
+
+  .list-empy {
+    padding: 7px;
+    position: relative;
+    bottom: 5px; } }
 @media (min-width: 300px) and (max-width: 830px) {
   .navbar {
     justify-content: flex-end; }
