@@ -731,11 +731,17 @@ body {
 		position: relative;
 		bottom: 5px;
 	}
+	.mobile-mt{
+		margin-top: 15px;
+	}
 }
 
 @media (min-width: 300px) and (max-width: 830px) {
 	.navbar {
 		justify-content: flex-end;
+	}
+	.header-pages-content {
+		padding-top: 70px;
 	}
 	.product-desc-title,
 	.product-desc-subtitle {
@@ -775,6 +781,10 @@ body {
 	}
 	.mobile-respon-pt {
 		padding-top: 30px;
+	}
+	.w-100-responsive{
+		width: 100% !important;
+		margin-top: 20px;
 	}
 }
 
@@ -821,6 +831,9 @@ body {
 	.btn-add {
 		font-size: 12px;
 		padding: 12px;
+	}
+	.btn-ave {
+		padding: 12px 22px;
 	}
 	
 }
