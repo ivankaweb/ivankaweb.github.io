@@ -59,28 +59,19 @@ body {
   padding-right: 20px; }
 
 .d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 .align-center {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
 
 .justify-space-around {
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+  justify-content: space-around; }
 
 .justify-space-between {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .justify-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 
 section {
   margin-top: 80px; }
@@ -135,12 +126,8 @@ section {
     box-shadow: 7px 5px 20px -1px rgba(0, 0, 0, 0.27); }
 
 .contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
   .contacts-list {
     font-weight: 700; }
   .contacts-link {
@@ -155,21 +142,14 @@ section {
   width: 21px;
   height: 21px;
   border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 9px; }
   .icon-phone-link {
     color: #7F0057; }
     .icon-phone-link:hover {
       color: #F73429;
-      -webkit-transition: 0.3s;
       transition: 0.3s; }
 
 .content-header {
@@ -192,12 +172,8 @@ form.search {
   background-color: #F6F7FC;
   border-radius: 25px;
   padding: 7px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
   form.search input {
     border: none;
     background: transparent;
@@ -221,12 +197,8 @@ form.search {
     cursor: pointer; }
 
 .news-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .card-news {
   background-color: #F6F7FC;
@@ -258,8 +230,6 @@ form.search {
   margin-right: 10px; }
 
 .product-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 .product-card {
@@ -272,12 +242,8 @@ section.follow-us {
 
 .social-icons {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 0; }
   .social-icons-link {
     color: #333333;
@@ -286,21 +252,14 @@ section.follow-us {
     height: 70px;
     border: 2px solid #333333;
     border-radius: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-size: 35px;
     margin: 0 40px; }
     .social-icons-link:hover {
       border: 2px solid #F73429;
       color: #F73429;
-      -webkit-transition: 0.3s;
       transition: 0.3s; }
 
 .social-hashtag {
@@ -344,7 +303,6 @@ section.follow-us {
     margin-top: 35px; }
     .discount-btn:hover {
       color: #F73429;
-      -webkit-transition: 0.3s;
       transition: 0.3s; }
   .discount-caption {
     font-style: italic;
@@ -388,12 +346,6 @@ section.product-desc {
     font-size: 42px;
     border: none;
     max-width: 80%; }
-    .form-email input::-webkit-input-placeholder {
-      color: #710000; }
-    .form-email input:-ms-input-placeholder {
-      color: #710000; }
-    .form-email input::-ms-input-placeholder {
-      color: #710000; }
     .form-email input::placeholder {
       color: #710000; }
   .form-email label {
@@ -413,12 +365,8 @@ section.product-desc {
   margin: auto; }
   .email-border {
     border-bottom: 2px solid #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    justify-content: center; }
   .email-btn {
     font-size: 14px;
     font-weight: bold;
@@ -432,7 +380,6 @@ section.product-desc {
     .email-btn:hover {
       color: #333333;
       border: 2px solid #333333;
-      -webkit-transition: 0.3s;
       transition: 0.3s; }
 
 .email-title {
@@ -441,12 +388,8 @@ section.product-desc {
 
 .social-icon {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 0;
   margin-top: 40px; }
   .social-icon-link {
@@ -457,7 +400,6 @@ section.product-desc {
     margin: 0 10px; }
     .social-icon-link:hover {
       color: #333333;
-      -webkit-transition: 0.3s;
       transition: 0.3s; }
 
 .deliver-info {
@@ -533,7 +475,6 @@ footer {
     text-decoration: none; }
     .nav-link:hover {
       color: #fff;
-      -webkit-transition: 0.3c;
       transition: 0.3c; }
       .nav-link:hover span {
         color: #F73429; }
@@ -582,15 +523,9 @@ footer {
   right: 50px;
   cursor: pointer;
   border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: center;
+  align-items: center; }
 
 @media (max-width: 375.98px) {
   .bg-red {
@@ -720,21 +655,28 @@ footer {
     font-size: 13px; }
 
   .info-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around; }
+    justify-content: space-around; }
 
   .pruduct-col-left,
   .pruduct-col-right {
     width: 100%; }
 
   .product-desc .d-flex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; } }
+    flex-direction: column; } }
+.payment {
+  width: 40%; }
+
+.shipment {
+  width: 30%; }
+
+.shops {
+  width: 30%; }
+
+.payment img, .shipment img, .shops img {
+  height: 84px;
+  margin-right: 10px; }
+
 @media (min-width: 375.99px) and (max-width: 768.98px) {
   .bg-red {
     max-width: 688px; }
@@ -743,8 +685,7 @@ footer {
     max-width: 688px; }
 
   .footer {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
 
   .footer-contact {
     width: 50%; }
@@ -789,8 +730,23 @@ footer {
     font-size: 16px; }
 
   .flex-wrap {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+
+  .payment {
+    width: 50%; }
+
+  .shipment {
+    width: 50%; }
+
+  .shops {
+    width: 100%; }
+
+  .payment img, .shipment img, .shops img {
+    height: 61px;
+    margin-right: 5px; }
+
+  .flex-wrap {
+    flex-wrap: wrap; } }
 @media (min-width: 769.99px) and (max-width: 1024.98px) {
   .bg-red {
     max-width: 940px; }
@@ -799,17 +755,13 @@ footer {
     max-width: 940px; }
 
   .footer {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
     .footer-contact {
       width: 100%; }
       .footer-contact > .pr-20 {
         padding-right: 0;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
+        flex-wrap: wrap; }
       .footer-contact-logo {
         width: 100%; }
       .footer-contact-item {
@@ -850,7 +802,23 @@ footer {
     font-size: 34px; }
 
   .email {
-    width: 40%; } }
+    width: 40%; }
+
+  .payment {
+    width: 50%; }
+
+  .shipment {
+    width: 50%; }
+
+  .shops {
+    width: 100%; }
+
+  .payment img, .shipment img, .shops img {
+    height: 76px;
+    margin-right: 5px; }
+
+  .flex-wrap {
+    flex-wrap: wrap; } }
 @media (min-width: 1025.99px) and (max-width: 1440.98px) {
   .bg-red {
     max-width: 1276px; }
@@ -864,8 +832,6 @@ footer {
   padding: 80px 20px; }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 /*# sourceMappingURL=style.css.map */

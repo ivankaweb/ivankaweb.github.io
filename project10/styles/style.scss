@@ -847,6 +847,25 @@ footer {
 	}
 }
 
+.payment{
+	width: 40%;
+}
+
+.shipment{
+	width: 30%;
+}
+
+.shops{
+	width: 30%;
+}
+
+.payment, .shipment, .shops {
+	& img {
+		height: 84px;
+		margin-right: 10px;
+	}
+}
+
 @media (min-width: 375.99px) and (max-width: 768.98px) {
 	.bg-red {
 		max-width: 688px;
@@ -900,6 +919,29 @@ footer {
 	.email-title {
 		font-size: 16px;
 	}
+	.flex-wrap {
+		flex-wrap: wrap;
+	}
+	
+	.payment{
+		width: 50%;
+	}
+	
+	.shipment{
+		width: 50%;
+	}
+	
+	.shops{
+		width: 100%;
+	}
+	
+	.payment, .shipment, .shops {
+		& img {
+			height: 61px;
+			margin-right: 5px;
+		}
+	}
+
 	.flex-wrap {
 		flex-wrap: wrap;
 	}
@@ -973,6 +1015,29 @@ footer {
 	}
 	.email {
 		width: 40%;
+	}
+
+	.payment{
+		width: 50%;
+	}
+	
+	.shipment{
+		width: 50%;
+	}
+	
+	.shops{
+		width: 100%;
+	}
+	
+	.payment, .shipment, .shops {
+		& img {
+			height: 76px;
+			margin-right: 5px;
+		}
+	}
+
+	.flex-wrap {
+		flex-wrap: wrap;
 	}
 }
 
