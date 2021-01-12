@@ -845,27 +845,27 @@ footer {
 	.product-desc .d-flex {
 		flex-direction: column;
 	}
-}
+	
 
-.payment{
-	width: 40%;
-}
+	.payment{
+		width: 40%;
+	}
 
-.shipment{
-	width: 30%;
-}
+	.shipment{
+		width: 30%;
+	}
 
-.shops{
-	width: 30%;
-}
+	.shops{
+		width: 30%;
+	}
 
-.payment, .shipment, .shops {
-	& img {
-		height: 84px;
-		margin-right: 10px;
+	.payment, .shipment, .shops {
+		& img {
+			height: 84px;
+			margin-right: 10px;
+		}
 	}
 }
-
 @media (min-width: 375.99px) and (max-width: 768.98px) {
 	.bg-red {
 		max-width: 688px;
