@@ -846,23 +846,13 @@ footer {
 		flex-direction: column;
 	}
 	
-
-	.payment{
-		width: 40%;
-	}
-
-	.shipment{
-		width: 30%;
-	}
-
-	.shops{
-		width: 30%;
+	.payment, .shops, .shipment{
+		width: 100%;
 	}
 
 	.payment, .shipment, .shops {
 		& img {
 			height: 50px;
-			margin-right: 10px;
 		}
 	}
 }
