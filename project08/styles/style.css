@@ -512,7 +512,9 @@ footer {
     font-size: 21px; }
 
   .btn-custom {
-    padding: 7px 23px; } }
+    padding: 7px 23px; } 
+  .header-menu{
+    display: none; }}
 @media (min-width: 320px) and (max-width: 500px) {
   .mobile-size {
     display: block !important;
