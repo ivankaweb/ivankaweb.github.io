@@ -9,4 +9,5 @@ https://ivankaweb.github.io/project05/     - Food Lover
 https://ivankaweb.github.io/project06/     - Shop  
 https://ivankaweb.github.io/project07/     - decoHOME   
 https://ivankaweb.github.io/project08/     - AUTO.ua   
-https://ivankaweb.github.io/project09/     - AVE 
+https://ivankaweb.github.io/project09/     - AVE   
+https://ivankaweb.github.io/project10/     - SOLO      
