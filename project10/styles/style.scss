@@ -541,6 +541,11 @@ section.product-desc {
 	text-align: center;
 	width: 15%;
 }
+.payment, .shipment, .shops {
+	& img {
+		height: 50px;
+	}
+}
 
 // ********************************
 // ********SECTION_TOP_CATEGORIE****
