@@ -414,6 +414,15 @@ section.product-desc {
   text-align: center;
   width: 15%; }
 
+.payment img, .shipment img, .shops img {
+  height: 50px; }
+
+.payment, .shipment {
+  width: 40%; }
+
+.shops {
+  width: 20%; }
+
 .top-categorie {
   padding: 0 20px;
   margin-bottom: 80px; }
@@ -663,21 +672,13 @@ footer {
     width: 100%; }
 
   .product-desc .d-flex {
-    flex-direction: column; } 
-    .payment {
-      width: 100%; }
-  
-    .shipment {
-      width: 100%; }
-  
-    .shops {
-      width: 100%; }
-  
-    .payment img, .shipment img, .shops img {
-      height: 50px; }
-    .card-news, .product-card {
-      width: 100% !important;} }
+    flex-direction: column; }
 
+  .payment, .shops, .shipment {
+    width: 100%; }
+
+  .payment img, .shipment img, .shops img {
+    height: 50px; } }
 @media (min-width: 375.99px) and (max-width: 768.98px) {
   .bg-red {
     max-width: 688px; }
