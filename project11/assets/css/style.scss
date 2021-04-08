@@ -1107,6 +1107,15 @@ footer{
      .menu-mobile .menu-list {
          padding: 5px 30px;
      }
+     .news-content-card-desc{
+        & p {
+            letter-spacing: 1px;
+        }
+        & h3 {
+            letter-spacing: 2px;
+            font-size: 15px;
+        }
+     } 
      .look-week-content{
         & .products-card{
             width: 60%;
@@ -1117,5 +1126,11 @@ footer{
             padding: 10px;
         }
     }
-
+    .contact-text p {
+        font-size: 17px;
+    }
+    footer form label {
+        font-size: 19px;
+    }
+    
 }
