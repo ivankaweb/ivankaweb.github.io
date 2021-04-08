@@ -27,7 +27,7 @@ section{
     margin: 30px 0;
 }
 .dotsColor{
-    background-color: $light !important;
+    color: $light;
 }
 .btn-scroll{
     display: none;
@@ -497,7 +497,6 @@ header{
 
 //*******FOOTER******
 footer{
-    background-color: $colorLOOK;
     margin-top: 40px;
     & form{
         max-width: 500px;
@@ -610,13 +609,6 @@ footer{
         position: relative;
         
         }
-    & span{
-        display: block;
-        width: 8px;
-        height: 8px;
-        border-radius: 100%;
-        background-color: $dark;
-        }
     & label     {
         display: flex;
         justify-content: space-between;
@@ -700,9 +692,41 @@ footer{
         
     }
 }
-
+// ****REVIEWS****
+.reviews{
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.10); 
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.10);
+    padding: 50px 0;
+    &-content{
+        display: flex;
+        justify-content: space-between;
+        &-text{
+            width: 48%;
+            position: relative;
+            text-align: justify;
+            font-size: 18px;
+            line-height: 30px;
+            color: $dark;
+            margin: 0;
+            &::before{
+                content: '';
+                background-image: url('../img/icons/quote.svg');
+                position: absolute;
+                width: 37px;
+                height: 37px;
+            }
+            & span{
+                float: right;
+                padding-top: 25px;
+                color: $light;
+            }
+        }
+    }
+    
+}
 
 //****ABOUT US******
+
 .about-content{
     display: flex;
     justify-content: space-between;
@@ -1007,14 +1031,11 @@ footer{
     }
     }
     .slickHeader .slick-dots {
-    li {
-        margin: 6px 0;
-    }
-    button {
-        width: 11px;
-        height: 11px;
-    }
-            
+        top: 40%;
+        button {
+            width: 11px;
+            height: 11px;
+        }
     }
     #look-week{
         margin-left: 33px;

@@ -11,7 +11,7 @@ $(document).ready(function(){
          }
      );
      $('#categories label').click(function(){
-      $('span', this).toggleClass('dotsColor');
+      $('h3', this).toggleClass('dotsColor');
      });
       
 $('.slickHeader').slick({

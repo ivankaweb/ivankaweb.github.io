@@ -22,7 +22,7 @@ section {
   margin: 30px 0; }
 
 .dotsColor {
-  background-color: #a2a0a0 !important; }
+  color: #a2a0a0; }
 
 .btn-scroll {
   display: none;
@@ -387,7 +387,6 @@ header {
     width: 40%; }
 
 footer {
-  background-color: #E3E3E5;
   margin-top: 40px; }
   footer form {
     max-width: 500px;
@@ -479,12 +478,6 @@ footer {
     margin: 0;
     letter-spacing: 2px;
     position: relative; }
-  #categories span {
-    display: block;
-    width: 8px;
-    height: 8px;
-    border-radius: 100%;
-    background-color: #434343; }
   #categories label {
     display: flex;
     justify-content: space-between;
@@ -547,6 +540,32 @@ footer {
       letter-spacing: 1px;
       text-align: justify;
       font-size: 18px; }
+
+.reviews {
+  -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  padding: 50px 0; }
+  .reviews-content {
+    display: flex;
+    justify-content: space-between; }
+    .reviews-content-text {
+      width: 48%;
+      position: relative;
+      text-align: justify;
+      font-size: 18px;
+      line-height: 30px;
+      color: #434343;
+      margin: 0; }
+      .reviews-content-text::before {
+        content: '';
+        background-image: url("../img/icons/quote.svg");
+        position: absolute;
+        width: 37px;
+        height: 37px; }
+      .reviews-content-text span {
+        float: right;
+        padding-top: 25px;
+        color: #a2a0a0; }
 
 .about-content {
   display: flex;
@@ -783,11 +802,11 @@ footer {
       margin-top: 0;
       font-size: 15px; }
 
-  .slickHeader .slick-dots li {
-    margin: 6px 0; }
-  .slickHeader .slick-dots button {
-    width: 11px;
-    height: 11px; }
+  .slickHeader .slick-dots {
+    top: 40%; }
+    .slickHeader .slick-dots button {
+      width: 11px;
+      height: 11px; }
 
   #look-week {
     margin-left: 33px; }
