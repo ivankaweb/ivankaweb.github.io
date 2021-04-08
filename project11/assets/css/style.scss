@@ -441,11 +441,10 @@ header{
     & .slick-dots {
         position: absolute;
         display: flex;
+        justify-content: center;
         bottom: 30%;
         right: 0;
         left: 0;
-        width: 30%;
-        margin: 0 auto;
         padding: 0;
         list-style-type: none;
         li {
@@ -479,6 +478,7 @@ header{
         width: 40%;
         margin: 0 auto;
         padding: 40px;
+        text-align: center;
         & span{
             font-size: 21px;
         }
@@ -1032,6 +1032,7 @@ footer{
         & .desc{
             left: 40%;
             width: 40%;
+            text-align: left;
         }
     }
     footer form input {
@@ -1131,6 +1132,9 @@ footer{
     }
     footer form label {
         font-size: 19px;
+    }
+    footer .logo{
+        display: none;
     }
     
 }
