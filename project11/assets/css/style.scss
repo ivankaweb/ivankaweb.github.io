@@ -1104,6 +1104,13 @@ footer{
             width: 100%;
         }
     }
+    .reviews-content {
+        display: block;
+        &-text{
+            width: 100%;
+            margin: 30px 0;
+        }
+    }
 
 }
 
