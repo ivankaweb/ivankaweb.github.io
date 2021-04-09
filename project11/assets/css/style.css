@@ -93,7 +93,7 @@ section {
 
 .btn-burger {
   position: absolute;
-  right: 4%;
+  left: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -343,7 +343,7 @@ header {
     position: absolute;
     display: flex;
     justify-content: center;
-    bottom: 30%;
+    bottom: 25%;
     right: 0;
     left: 0;
     padding: 0;
@@ -382,7 +382,8 @@ header {
       color: #a2a0a0;
       letter-spacing: 2px; }
   .look-week-content .products-card {
-    width: 30%; }
+    width: 30%;
+    margin-left: 0; }
   .look-week-content .model-week {
     width: 40%; }
 
@@ -657,7 +658,8 @@ footer {
     text-align: justify;
     padding: 45px; }
     .contact-text p {
-      font-size: 20px;
+      font-size: 18px;
+      line-height: 30px;
       letter-spacing: 2px; }
     .contact-text a {
       text-decoration: none;
@@ -689,6 +691,64 @@ footer {
       cursor: pointer; }
       .contact-form button:hover {
         background-color: #434343; }
+
+#products-page {
+  background-color: #fafafa;
+  padding: 20px 0; }
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .product-text {
+    width: 50%; }
+  .product-img {
+    margin: 0 auto; }
+  .product-desc {
+    width: 50%; }
+    .product-desc h4, .product-desc span {
+      font-weight: 400;
+      font-size: 25px; }
+    .product-desc h3 {
+      font-weight: 600;
+      font-size: 30px; }
+    .product-desc p {
+      font-size: 20px;
+      letter-spacing: 2px;
+      text-align: justify; }
+    .product-desc-btn {
+      display: inline-block;
+      color: #fff;
+      background-color: #000;
+      text-decoration: none;
+      padding: 15px 40px;
+      margin-top: 15px;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 3px;
+      transition: 0.3s;
+      -webkit-box-shadow: 4px 16px 24px -4px rgba(0, 0, 0, 0.42);
+      box-shadow: 4px 16px 24px -4px rgba(0, 0, 0, 0.42); }
+      .product-desc-btn:hover {
+        background-color: #434343; }
+  .product-size ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0; }
+  .product-size li {
+    font-size: 15px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer; }
+    .product-size li:hover {
+      background-color: #434343;
+      color: #fff; }
+  .product-size a {
+    color: #000;
+    text-decoration: none; }
+  .product-size li:hover a {
+    color: #fff; }
 
 #pagination {
   width: 70%;
@@ -811,7 +871,8 @@ footer {
   #look-week {
     margin-left: 33px; }
     #look-week .slick-dots {
-      left: 70%; }
+      left: 60%;
+      bottom: 17%; }
 
   .look-week-content .model-week {
     display: none; }
@@ -867,7 +928,13 @@ footer {
     display: block; }
     .reviews-content-text {
       width: 100%;
-      margin: 30px 0; } }
+      margin: 30px 0; }
+
+  .news-content-card-desc p {
+    letter-spacing: 1px; }
+  .news-content-card-desc h3 {
+    letter-spacing: 2px;
+    font-size: 15px; } }
 @media (max-width: 376px) {
   .logo a {
     font-size: 20px; }
@@ -883,21 +950,12 @@ footer {
   .menu-mobile .menu-list {
     padding: 5px 30px; }
 
-  .news-content-card-desc p {
-    letter-spacing: 1px; }
-  .news-content-card-desc h3 {
-    letter-spacing: 2px;
-    font-size: 15px; }
-
   .look-week-content .products-card {
     width: 60%; }
   .look-week-content .desc {
     left: 25%;
     width: 65%;
     padding: 10px; }
-
-  .contact-text p {
-    font-size: 17px; }
 
   footer form label {
     font-size: 19px; }
