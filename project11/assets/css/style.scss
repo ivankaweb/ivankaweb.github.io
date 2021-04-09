@@ -45,6 +45,20 @@ section{
     right: 50px;
     cursor: pointer;
 }
+
+.menu{
+    & .active{
+        &::after{
+            position: absolute;
+            content: '';
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: $dark;
+        }
+    }
+}
 //******SLICK SLIDER*****
 
 .slickHeader .slick-dots {
@@ -135,7 +149,7 @@ section{
 .btn-burger.active {
     position: absolute;
 	z-index: 20;
-	right: 5%;
+    left: 85%;
     top: 50px;
 }
 
