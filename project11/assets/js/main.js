@@ -51,6 +51,8 @@ $('.slickHeader').slick({
     infinite: true,
     speed: 800,
     slidesToShow: 4,
+    autoplay: true,
+    autoplaySpeed: 2000,
     arrows: false,
     responsive: [
         {
