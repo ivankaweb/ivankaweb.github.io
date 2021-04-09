@@ -38,7 +38,10 @@ section {
   z-index: 999;
   bottom: 110px;
   right: 50px;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: 0.3s; }
+  .btn-scroll:hover {
+    background-color: #434343; }
 
 .menu .active::after {
   position: absolute;
