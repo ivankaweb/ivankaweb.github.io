@@ -55,7 +55,7 @@ section {
 .slickHeader .slick-dots {
   position: absolute;
   top: 50%;
-  right: 4%;
+  right: 6%;
   padding: 0;
   list-style-type: none; }
   .slickHeader .slick-dots li {
