@@ -52,7 +52,7 @@ $('.slickHeader').slick({
     speed: 800,
     slidesToShow: 4,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     arrows: false,
     responsive: [
         {
@@ -86,7 +86,7 @@ $('.slickHeader').slick({
     slidesToShow: 4,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     responsive: [
         {
           breakpoint: 1024,
