@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <style>
+        body{
+            background-image: url('img/Back\ user\ 1.jpg');
+            height:100vh; margin:0;
+            display:flex; 
+            flex-direction:column; 
+        }
+    </style>
+    <div class="container header-page-user">
+        <header>
+            <div class="menu-page">
+                <div class="header-logo">
+                    <a class="header-logo-trix" href="">
+                        <img src="img/Logo TX 1.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="menu-nav">
+                    <ul class="nav">
+                        <li class="nav-list"><a class="nav-link" href="">Форум</a></li>
+                        <li class="nav-list"><a class="nav-link" href="">Магазин</a></li>
+                        <li class="nav-list"><a class="nav-link" href="">Личный кабинет</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="header-mobile">
+            <div class="header-logo">
+                <a class="header-logo-trix" href="">
+                    <img src="img/Logo TX 1.png" alt="Logo">
+                </a>
+            </div>
+            <div onclick="menuToggle()" class="menu-icon"></div>
+            <div class="nav-mobile">
+                <div class="nav-mobile-content">
+                    <ul class="nav-mobile-list">
+                        <li class="nav-mobile-list-item"><a href="" class="nav-mobile-list-link">Личный кабинет</a></li>
+                        <li class="nav-mobile-list-item"><a href="" class="nav-mobile-list-link">Магазин</a></li>
+                        <li class="nav-mobile-list-item"><a href="" class="nav-mobile-list-link">Форум</a></li>
+                    </ul>
+                    <div class="nav-mobile-bottom">
+                        <a href="">Политика конфиденциальности</a>
+                        <a href="">Пользовательское соглашение</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="form">
+        <form  class="form-log-up">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <input type="password" id="password" name="password" placeholder="Пароль">
+            <input type="password" id="password" name="password" placeholder="Повторите пароль">
+            <div class="accept">
+                <label class="checkbox" for="checkbox">
+                    <p>С <span><a href="">правилами сайта</a></span> ознакомлен и принимаю их</p>
+                    <input type="checkbox" id="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="form-btn">
+                <input class="btn-register" type="submit" value="Зарегистрироваться">
+                <input class="btn-login" type="button" value="Войти">
+            </div>
+        </form> 
+    </section>
+    <footer>
+            <div class="footer">
+                <div class="footer-left">
+                    <span>&copy; 2021</span>
+                    <span>TRIX ROLEPLAY</span>
+                </div>
+                <div class="footer-center">
+                    <a href="">Политика конфиденциальности</a>
+                    <a href="">Политика возврата денежных средств</a>
+                </div>
+                <div class="footer-right">
+                    <a href="">support@trixrp.ru</a>
+                </div>
+            </div>
+    </footer>
+    <script src="script/main.js"></script>
+</body>
+</html>
