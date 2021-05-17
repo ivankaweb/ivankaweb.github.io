@@ -2,7 +2,10 @@ $green:#3C8F6E;
 $dark-green: #2c4039;
 $transition--length: .8;
 
-@import "http://fonts.fontstorage.com/import/bloggersans.css";
+@font-face {
+    font-family: 'Blogger Sans';
+    src: url('../fonts/bloggersans/Blogger\ Sans.otf') format('truetype');
+}
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -53,6 +56,7 @@ header {
 		border: 0;
 		padding: 0;
 		cursor: pointer;
+		font-family: 'Blogger Sans';
 	}
 }
 
@@ -252,6 +256,7 @@ body.nav-active {
 		font-size: 36px;
 		margin-left: 5%;
 		margin-right: 20%;
+		text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
 	}
 	&-img {
 		position: relative;
@@ -390,6 +395,7 @@ section.mobile-game {
 		top: 53%;
 		left: 25%;
 		margin-top: 0;
+		text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
 	}
 	& .btn-trix {
 		position: absolute;
@@ -624,6 +630,9 @@ section.form {
 			}
 			& input {
 				width: 47%;
+			}
+			& .btn-login{
+				font-size: 18px;
 			}
 		}
 		& input.btn-login {

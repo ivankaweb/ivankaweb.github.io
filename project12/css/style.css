@@ -1,4 +1,6 @@
-@import "http://fonts.fontstorage.com/import/bloggersans.css";
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url("../fonts/bloggersans/Blogger Sans.otf") format("truetype"); }
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -41,7 +43,8 @@ header {
     height: 90px;
     border: 0;
     padding: 0;
-    cursor: pointer; }
+    cursor: pointer;
+    font-family: 'Blogger Sans'; }
 
 .menu {
   padding-top: 10px; }
@@ -200,7 +203,8 @@ body.nav-active .nav-mobile {
     font-weight: bold;
     font-size: 36px;
     margin-left: 5%;
-    margin-right: 20%; }
+    margin-right: 20%;
+    text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25); }
   .desc-img {
     position: relative;
     z-index: -1; }
@@ -315,7 +319,8 @@ section.mobile-game {
     position: absolute;
     top: 53%;
     left: 25%;
-    margin-top: 0; }
+    margin-top: 0;
+    text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25); }
   .game .btn-trix {
     position: absolute;
     width: auto;
@@ -501,6 +506,8 @@ section.form {
         box-shadow: inset 1px 5px 3px 0px rgba(107, 89, 84, 0.36), 4px 5px 3px 0px rgba(107, 89, 84, 0.36); }
       section.form .form-log-up .form-btn input {
         width: 47%; }
+      section.form .form-log-up .form-btn .btn-login {
+        font-size: 18px; }
     section.form .form-log-up input.btn-login {
       text-shadow: none;
       font-size: 24px;
