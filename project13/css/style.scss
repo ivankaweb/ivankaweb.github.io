@@ -635,6 +635,8 @@ header {
 	backdrop-filter: blur(15px);
 	overflow-x: hidden;
 	transition: 0.5s;
+	background-blend-mode: multiply;
+    -webkit-appearance: none;
 }
 
 .overlay-content {
@@ -682,6 +684,7 @@ header {
 		height: 100px;
 		display: block;
 		margin: 15px;
+		text-decoration: none;
 		&>div {
 			display: flex;
 			flex-direction: column;
@@ -2704,7 +2707,7 @@ form {
 		&-buttons {
 			margin-top: 15px;
 			& .btn-yellow {
-				margin-bottom: 15px;
+				margin-bottom: 0;
 			}
 			& .btn.read-more {
 				& span {
