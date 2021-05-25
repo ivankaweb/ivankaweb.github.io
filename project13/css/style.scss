@@ -2677,7 +2677,9 @@ form {
 		}
 	}
 	.header-roket {
-		top: 5%;
+		top: 7%;
+		left: -135px;
+		max-width: 239px;
 	}
 	.title {
 		margin-bottom: 50px;
@@ -2689,6 +2691,28 @@ form {
 			}
 			& .select-toggle {
 				margin-right: 20px;
+			}
+		}
+	}
+	.header-content {
+		text-align: center;
+		& .title-shadow {
+			font-size: 96px;
+			bottom: 15%;
+			left: 0;
+		}
+		&-buttons {
+			margin-top: 15px;
+			& .btn-yellow {
+				margin-bottom: 15px;
+			}
+			& .btn.read-more {
+				& span {
+					display: none;
+				}
+				&::after {
+					content: "ПОДРОБНЕЕ";
+				}
 			}
 		}
 	}
@@ -2762,6 +2786,19 @@ form {
 			left: 33%;
 		}
 	}
+	.our-plans {
+		&-details {
+			display: block;
+			&::before {
+				content: none;
+			}
+			& .item {
+				&-text {
+					max-width: 275px;
+				}
+			}
+		}
+	}
 	.statistic-card {
 		&>div {
 			width: 100%;
@@ -2791,6 +2828,27 @@ form {
 			max-width: 100%;
 			;
 		}
+	}
+	.statistics {
+		& .title {
+			margin-bottom: 85px;
+		}
+	}
+	.tariffs {
+		& .title-h2 {
+			margin-bottom: 35px;
+		}
+	}
+	.calculator {
+		& .title-h2 {
+			margin-bottom: 35px;
+		}
+		& .score-content{
+			& >div:nth-child(1){
+				text-align: center;
+			}
+		}
+		
 	}
 	.calculator {
 		& .title {
@@ -2906,6 +2964,21 @@ form {
 			}
 		}
 	}
+	footer {
+		padding: 20px 0;
+		& .container {
+			flex-direction: column;
+		}
+		& .logo {
+			margin: 0 auto;
+			display: block;
+			float: none;
+		}
+		& .copyright {
+			margin-top: 15px;
+			margin-right: 0;
+		}
+	}
 }
 
 @media (max-width: 375px) {
@@ -2968,28 +3041,6 @@ form {
 	}
 	p {
 		font-size: 14px;
-	}
-	.header-content {
-		text-align: center;
-		& .title-shadow {
-			font-size: 96px;
-			bottom: 15%;
-			left: 0;
-		}
-		&-buttons {
-			margin-top: 15px;
-			& .btn-yellow {
-				margin-bottom: 15px;
-			}
-			& .btn.read-more {
-				& span {
-					display: none;
-				}
-				&::after {
-					content: "ПОДРОБНЕЕ";
-				}
-			}
-		}
 	}
 	.card-doc-details {
 		padding: 15px;
@@ -3062,11 +3113,6 @@ form {
 	.team-tree .team-card .desc {
 		font-size: 12px;
 	}
-	.header-roket {
-		top: 7%;
-		left: -135px;
-		max-width: 239px;
-	}
 	.btn {
 		padding: 15px 25px;
 		font-size: 12px;
@@ -3086,35 +3132,6 @@ form {
 	}
 	.icon-eye {
 		right: 7% !important;
-	}
-	.our-plans {
-		&-details {
-			display: block;
-			&::before {
-				content: none;
-			}
-			& .item {
-				&-text {
-					max-width: 275px;
-				}
-			}
-		}
-	}
-	.statistics {
-		& .title {
-			margin-bottom: 85px;
-		}
-	}
-	.tariffs {
-		& .title-h2 {
-			margin-bottom: 35px;
-		}
-	}
-	.calculator {
-		& .title-h2 {
-			margin-bottom: 35px;
-		}
-		text-align: center;
 	}
 	.program-item img {
 		margin-right: 10px;
@@ -3157,19 +3174,5 @@ form {
 		left: -60px;
 		top: 0;
 	}
-	footer {
-		padding: 20px 0;
-		& .container {
-			flex-direction: column;
-		}
-		& .logo {
-			margin: 0 auto;
-			display: block;
-			float: none;
-		}
-		& .copyright {
-			margin-top: 15px;
-			margin-right: 0;
-		}
-	}
+
 }

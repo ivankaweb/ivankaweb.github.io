@@ -2094,7 +2094,9 @@ form span {
     bottom: 30%; }
 
   .header-roket {
-    top: 5%; }
+    top: 7%;
+    left: -135px;
+    max-width: 239px; }
 
   .title {
     margin-bottom: 50px; }
@@ -2103,6 +2105,21 @@ form span {
     margin: 0 40px; }
   .header-top-right .select-toggle {
     margin-right: 20px; }
+
+  .header-content {
+    text-align: center; }
+    .header-content .title-shadow {
+      font-size: 96px;
+      bottom: 15%;
+      left: 0; }
+    .header-content-buttons {
+      margin-top: 15px; }
+      .header-content-buttons .btn-yellow {
+        margin-bottom: 15px; }
+      .header-content-buttons .btn.read-more span {
+        display: none; }
+      .header-content-buttons .btn.read-more::after {
+        content: "ПОДРОБНЕЕ"; }
 
   .nav {
     max-width: 100%; }
@@ -2159,6 +2176,13 @@ form span {
       top: 25%;
       left: 33%; }
 
+  .our-plans-details {
+    display: block; }
+    .our-plans-details::before {
+      content: none; }
+    .our-plans-details .item-text {
+      max-width: 275px; }
+
   .statistic-card > div {
     width: 100%; }
   .statistic-card-02::before {
@@ -2176,6 +2200,17 @@ form span {
       width: 100%; }
     .tariffs-desc {
       max-width: 100%; }
+
+  .statistics .title {
+    margin-bottom: 85px; }
+
+  .tariffs .title-h2 {
+    margin-bottom: 35px; }
+
+  .calculator .title-h2 {
+    margin-bottom: 35px; }
+  .calculator .score-content > div:nth-child(1) {
+    text-align: center; }
 
   .calculator .title {
     width: 100%;
@@ -2250,7 +2285,19 @@ form span {
     display: none; }
   .card-team .team-btn .icon-table,
   .card-team .team-btn .user-icon-team {
-    margin: 0; } }
+    margin: 0; }
+
+  footer {
+    padding: 20px 0; }
+    footer .container {
+      flex-direction: column; }
+    footer .logo {
+      margin: 0 auto;
+      display: block;
+      float: none; }
+    footer .copyright {
+      margin-top: 15px;
+      margin-right: 0; } }
 @media (max-width: 375px) {
   .container {
     padding: 0 20px; }
@@ -2300,21 +2347,6 @@ form span {
 
   p {
     font-size: 14px; }
-
-  .header-content {
-    text-align: center; }
-    .header-content .title-shadow {
-      font-size: 96px;
-      bottom: 15%;
-      left: 0; }
-    .header-content-buttons {
-      margin-top: 15px; }
-      .header-content-buttons .btn-yellow {
-        margin-bottom: 15px; }
-      .header-content-buttons .btn.read-more span {
-        display: none; }
-      .header-content-buttons .btn.read-more::after {
-        content: "ПОДРОБНЕЕ"; }
 
   .card-doc-details {
     padding: 15px; }
@@ -2374,11 +2406,6 @@ form span {
   .team-tree .team-card .desc {
     font-size: 12px; }
 
-  .header-roket {
-    top: 7%;
-    left: -135px;
-    max-width: 239px; }
-
   .btn {
     padding: 15px 25px;
     font-size: 12px; }
@@ -2391,24 +2418,6 @@ form span {
 
   .icon-eye {
     right: 7% !important; }
-
-  .our-plans-details {
-    display: block; }
-    .our-plans-details::before {
-      content: none; }
-    .our-plans-details .item-text {
-      max-width: 275px; }
-
-  .statistics .title {
-    margin-bottom: 85px; }
-
-  .tariffs .title-h2 {
-    margin-bottom: 35px; }
-
-  .calculator {
-    text-align: center; }
-    .calculator .title-h2 {
-      margin-bottom: 35px; }
 
   .program-item img {
     margin-right: 10px; }
@@ -2444,18 +2453,6 @@ form span {
 
   .contact-content .img::before {
     left: -60px;
-    top: 0; }
-
-  footer {
-    padding: 20px 0; }
-    footer .container {
-      flex-direction: column; }
-    footer .logo {
-      margin: 0 auto;
-      display: block;
-      float: none; }
-    footer .copyright {
-      margin-top: 15px;
-      margin-right: 0; } }
+    top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
