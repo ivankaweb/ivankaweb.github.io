@@ -2839,17 +2839,25 @@ form {
 			margin-bottom: 35px;
 		}
 	}
+	.card-withdraw-form-btn button {
+		margin-right: 10px;
+	}
+	.btn {
+		padding: 15px 25px;
+		font-size: 12px;
+	}
 	.calculator {
 		& .title-h2 {
 			margin-bottom: 35px;
 		}
-		& .score-content{
-			& >div:nth-child(1){
+		& .score-content {
+			& >div:nth-child(1) {
 				text-align: center;
 			}
 		}
 		
 	}
+	
 	.calculator {
 		& .title {
 			width: 100%;
@@ -2947,6 +2955,7 @@ form {
 }
 
 @media (max-width: 510px) {
+	
 	.card-team {
 		& .team-btn {
 			&-item {
@@ -3111,10 +3120,6 @@ form {
 		font-size: 16px;
 	}
 	.team-tree .team-card .desc {
-		font-size: 12px;
-	}
-	.btn {
-		padding: 15px 25px;
 		font-size: 12px;
 	}
 	.about-company {
