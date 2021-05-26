@@ -166,7 +166,7 @@ p {
   background-image: url("../img/icons/icon-addrees.png"); }
 
 .icon-home {
-  display: inline-block;
+  display: block;
   margin: 0 auto;
   margin-bottom: 5px;
   width: 18px;
