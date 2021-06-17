@@ -903,7 +903,8 @@ footer {
     padding: 0 20px; }
 
   .contacts-left .contact-form-row label::before {
-    background-color: #574336; }
+    background-color: #574336;
+    top: 52%; }
 
   .btn-org {
     font-size: 12px;
