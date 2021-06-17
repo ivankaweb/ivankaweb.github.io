@@ -43,6 +43,7 @@ p{
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 50px;
+    margin-bottom: 20px;
 }
 
 .arrow-details{
@@ -893,13 +894,9 @@ footer{
 
 .checkbox:hover input~.checkmark::after {
 	display: block;
-	border-color: $orange;
 }
 
-.checkbox input:checked~.checkmark:after {
-	display: block;
-	border-color: $orange;
-}
+
 // ******************************
 // *********** MEDIA ************
 // ******************************
@@ -1168,7 +1165,7 @@ footer{
         padding: 0 20px;
     }
     .contacts-left .contact-form-row label::before {
-        top: 49%;
+        top: 6px;
         background-color: #574336;
     }
     .btn-org {

@@ -35,7 +35,8 @@ p {
   box-shadow: inset 10px 10px 70px rgba(51, 51, 51, 0.15), inset -10px -10px 70px rgba(51, 51, 51, 0.15);
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  padding: 50px; }
+  padding: 50px;
+  margin-bottom: 20px; }
 
 .arrow-details {
   width: 10px;
@@ -704,12 +705,7 @@ footer {
     display: none; }
 
 .checkbox:hover input ~ .checkmark::after {
-  display: block;
-  border-color: #FFBC27; }
-
-.checkbox input:checked ~ .checkmark:after {
-  display: block;
-  border-color: #FFBC27; }
+  display: block; }
 
 @media (max-width: 1240px) {
   .product-info .product-card {
@@ -896,7 +892,7 @@ footer {
     padding: 0 20px; }
 
   .contacts-left .contact-form-row label::before {
-    top: 49%;
+    top: 6px;
     background-color: #574336; }
 
   .btn-org {
