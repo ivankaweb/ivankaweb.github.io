@@ -6,6 +6,7 @@
   src: url("../fonts/gilroy/Gilroy-Light.otf") format("truetype"); }
 body {
   background: linear-gradient(112.65deg, rgba(24, 24, 24, 0.6) -2.82%, rgba(24, 24, 24, 0.4) 103%), url("../img/Rectangle 3.png");
+  background: -webkit-linear-gradient(112.65deg, rgba(24, 24, 24, 0.6) -2.82%, rgba(24, 24, 24, 0.4) 103%), url("../img/Rectangle 3.png");
   background-size: cover;
   font-family: 'Gilroy-ExtraBold';
   background-position: center;
