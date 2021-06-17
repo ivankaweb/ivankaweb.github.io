@@ -594,7 +594,9 @@ footer {
           left: 20px;
           padding: 0 10px;
           font-size: 14px;
-          line-height: 14px;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
           z-index: 1; }
           .contacts-left .contact-form-row label::before {
             position: absolute;
