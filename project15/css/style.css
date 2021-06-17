@@ -610,6 +610,7 @@ footer {
         color: #EFEFEF;
         font-size: 14px;
         box-sizing: border-box;
+        box-shadow: none;
         border-radius: 10px;
         background-color: transparent;
         padding: 15px 30px;
@@ -620,6 +621,8 @@ footer {
         margin-top: 20px; }
     .contacts-left .accept {
       display: flex; }
+      .contacts-left .accept label:focus-visible {
+        outline: none; }
       .contacts-left .accept .checkbox {
         display: block;
         position: relative;
@@ -894,7 +897,6 @@ footer {
     padding: 0 20px; }
 
   .contacts-left .contact-form-row label::before {
-    top: 46%;
     background-color: #574336; }
 
   .btn-org {
@@ -997,8 +999,7 @@ footer {
   .contacts .contacts-left .contact-form input, .contacts .contacts-left .contact-form textarea {
     font-size: 12px; }
   .contacts .contacts-left .contact-form-row label {
-    font-size: 12px;
-    top: -7px; }
+    font-size: 12px; }
   .contacts .contacts-right {
     margin-top: 20px; }
     .contacts .contacts-right .row .title {
