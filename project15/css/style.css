@@ -709,7 +709,7 @@ footer {
     position: absolute;
     display: none; }
 
-.checkbox:hover input ~ .checkmark::after {
+.checkbox input:checked ~ .checkmark:after {
   display: block; }
 
 @media (max-width: 1240px) {

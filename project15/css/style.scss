@@ -900,10 +900,10 @@ footer{
 	}
 }
 
-.checkbox:hover input~.checkmark::after {
+
+.checkbox input:checked~.checkmark:after {
 	display: block;
 }
-
 
 // ******************************
 // *********** MEDIA ************
