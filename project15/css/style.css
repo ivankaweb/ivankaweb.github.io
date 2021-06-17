@@ -611,6 +611,9 @@ footer {
         font-size: 14px;
         box-sizing: border-box;
         box-shadow: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
         border-radius: 10px;
         background-color: transparent;
         padding: 15px 30px;
