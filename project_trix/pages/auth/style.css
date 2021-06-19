@@ -1,0 +1,541 @@
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro-BoldItalic.eot');
+	src: local('Gotham Pro Bold Italic'), local('GothamPro-BoldItalic'),
+		url('../fonts/GothamPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamPro-BoldItalic.woff') format('woff'),
+		url('../fonts/GothamPro-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro-Italic.eot');
+	src: local('Gotham Pro Italic'), local('GothamPro-Italic'),
+		url('../fonts/GothamPro-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamPro-Italic.woff') format('woff'),
+		url('../fonts/GothamPro-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro-Medium.eot');
+	src: local('Gotham Pro Medium'), local('GothamPro-Medium'),
+		url('../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamPro-Medium.woff') format('woff'),
+		url('../fonts/GothamPro-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro-BlackItalic.eot');
+	src: local('Gotham Pro Black Italic'), local('GothamPro-BlackItalic'),
+		url('../fonts/GothamPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamPro-BlackItalic.woff') format('woff'),
+		url('../fonts/GothamPro-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro-Bold.eot');
+	src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
+		url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamPro-Bold.woff') format('woff'),
+		url('../fonts/GothamPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Narrow';
+	src: url('../fonts/GothamProNarrow-Bold.eot');
+	src: local('Gotham Pro Narrow Bold'), local('GothamProNarrow-Bold'),
+		url('../fonts/GothamProNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamProNarrow-Bold.woff') format('woff'),
+		url('../fonts/GothamProNarrow-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Narrow';
+	src: url('../fonts/GothamProNarrow-Medium.eot');
+	src: local('Gotham Pro Narrow Medium'), local('GothamProNarrow-Medium'),
+		url('../fonts/GothamProNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamProNarrow-Medium.woff') format('woff'),
+		url('../fonts/GothamProNarrow-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro-LightItalic.eot');
+	src: local('Gotham Pro Light Italic'), local('GothamPro-LightItalic'),
+		url('../fonts/GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamPro-LightItalic.woff') format('woff'),
+		url('../fonts/GothamPro-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro-Light.eot');
+	src: local('Gotham Pro Light'), local('GothamPro-Light'),
+		url('../fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamPro-Light.woff') format('woff'),
+		url('../fonts/GothamPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro-Black.eot');
+	src: local('Gotham Pro Black'), local('GothamPro-Black'),
+		url('../fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamPro-Black.woff') format('woff'),
+		url('../fonts/GothamPro-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro.eot');
+	src: local('Gotham Pro'), local('GothamPro'),
+		url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamPro.woff') format('woff'),
+		url('../fonts/GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro-MediumItalic.eot');
+	src: local('Gotham Pro Medium Italic'), local('GothamPro-MediumItalic'),
+		url('../fonts/GothamPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamPro-MediumItalic.woff') format('woff'),
+		url('../fonts/GothamPro-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+:root {
+    --checkbox-color: rgba(52, 190, 129, 1);
+    --disabled: #959495;
+    --button-color: rgba(52, 190, 129, 1);
+    --button-hover-color: rgba(18, 119, 100, 1);
+    --third-color: #ffc107;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+button {
+    position: relative;
+    margin: 0 auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gotham Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url("package://accounts/cef/back.png");
+    background: url("img/Back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background: url(images/bg.jpg) no-repeat center center fixed;  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* background: transparent; */
+    background-position-y: 0;
+    z-index: 1;
+}
+
+
+
+/*---------------------------------------------*/
+input {
+    outline: none;
+    border: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+textarea {
+    outline: none;
+    border: none;
+}
+
+textarea:focus,
+input:focus {
+    border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+textarea:focus:-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus::-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.login-page {
+    width: auto;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+
+.checkbox,
+.subscribeCheckBox {
+    display: grid;
+    grid-template-columns: -webkit-min-content auto;
+    grid-template-columns: min-content auto;
+    grid-gap: 0.5em;
+    font-size: 1.2vw;
+    color: var(--checkbox-color);
+    margin: 2vh 0 0 0;
+}
+
+.subscribeCheckBox {
+    margin: 0;
+}
+
+.checkbox--disabled {
+    color: var(--disabled);
+}
+
+.checkbox__control {
+    display: inline-grid;
+    width: 1em;
+    height: 1em;
+    border-radius: 0.25em;
+    border: 0.1em solid currentColor;
+}
+
+.checkbox__control svg {
+    transition: transform 0.1s ease-in 25ms;
+    transform: scale(0);
+    transform-origin: bottom left;
+}
+
+.checkbox__input {
+    display: grid;
+    grid-template-areas: "checkbox";
+    margin: auto;
+}
+
+.checkbox__input>* {
+    grid-area: checkbox;
+}
+
+.checkbox__input input {
+    opacity: 0;
+    width: 1em;
+    height: 1em;
+}
+
+.checkbox__input input:focus+.checkbox__control {
+    /* box-shadow: 0 0 0 0.05em #fff, 0 0 0.15em 0.1em currentColor; */
+}
+
+.checkbox__input input:checked+.checkbox__control svg {
+    transform: scale(1);
+}
+
+.radio__label {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 1.1vw;
+    text-align: left;
+    margin: auto 0;
+    margin-bottom: 2vw;
+}
+
+.radio__label a {
+    color: var(--button-color);
+    text-decoration: none;
+}
+
+.radio__label a:hover {
+    color: var(--third-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    width: 60%;
+    top: 0%;
+}
+
+.triangle {
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    /* right: 0; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.triangle-bottom-right {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 200px 200px;
+    border-color: transparent transparent #6980fe transparent;
+}
+
+.form {
+    display: block;
+    position: absolute;
+    right: 8vw;
+    bottom: 4vh;
+    z-index: 1;
+    /* background: #121212 ; */
+    /* background: rgb(18,16,13); */
+    width: 480px;
+    /* margin: 0 5% 10vh; */
+    padding: 45px;
+    text-align: center;
+    /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+    border-radius: 12px;
+}
+
+@media (min-width:1680px) {
+
+    .form {
+        width: 720px;
+        right: 12vw;
+        bottom: 14vh;
+    }
+}
+
+.form input {
+    outline: 0;
+    /* background: #f2f2f2; */
+    background: transparent;
+    width: 100%;
+    border: 0;
+    margin: 1.5vh 0;
+    padding: 15px;
+    font-size: 1.4vw;
+    /* border-radius: 5px; */
+    border-bottom: 2px solid #dbdbdb;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.rules {
+    display: none;
+    overflow-y: auto;
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8);
+    min-width: 80vw;
+    max-height: 80vh;
+    margin: -100px 10% 100px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 12px;
+    font-size: 1vw;
+}
+
+.rules-button-container {
+    position: relative;
+    text-align: center;
+}
+
+.form button,
+.rules button {
+    /* text-transform: uppercase; */
+    outline: 0;
+    background: var(--button-color);
+    width: 40%;
+    height: 6vh;
+    border: 0;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 1vw;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 3vh;
+}
+
+.rules button {
+
+    width: 30%;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: var(--button-hover-color);
+}
+
+.message {
+    margin: 15px 0 0;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 1.1vw;
+    margin-top: 5vh;
+}
+
+.message a {
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.message a:hover {
+    color: var(--button-hover-color);
+    text-decoration: none;
+}
+
+.message a:visited {
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.registerButtons {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 30px 0; */
+}
+
+.registerButtons button {
+    background-color: var(--third-color);
+    color: #353431;
+}
+
+.registerRegisterButton {
+    background-color: var(--third-color);
+}
+
+.registerLoginButton {
+    width: 48%;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: rgba(255, 255, 255, 0.87);
+    flex-basis: auto;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 1.1vw;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 12px;
+    vertical-align: middle;
+    margin-top: 3vh;
+    height: 6vh;
+    line-height: 5.2vh;
+
+}
+
+.registerLoginButton:hover {
+    border-color: transparent;
+}
+
+
+
+#error {
+    display: block;
+    position: relative;
+    visibility: hidden;
+    color: #EF3B3A;
+    font-size: 1.2vw;
+    min-height: 14px;
+    margin: 10px 0;
+}
+
+/* Custom scrollbar */
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  */
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(50, 204, 113, 1);
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  */
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(50, 204, 113, 1);
+}

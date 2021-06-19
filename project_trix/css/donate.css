@@ -1,0 +1,44 @@
+.donate_page {
+	background: url('../donate/img/Back prot.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	-webkit-background-size: 100% 100%;
+	background-size: cover;
+}
+
+.donate_page h1 {
+	color: #ffffff;
+}
+
+.donate_page .user-details {
+	width: 100%;
+	margin-bottom: 1rem;
+	background-color: transparent;
+}
+
+.donate_page-card {
+	position: relative;
+	border-radius: 16px;
+	background-color: var(--card-background-color);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.donate_page-not-created {
+	position: relative;
+	border-radius: 16px;
+	background-color: var(--third-color);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.donate_page-exit a:hover {
+	color: var(--menu-color);
+}
+
+.donate_page-card td {
+	padding-left: 1rem;
+}
