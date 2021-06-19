@@ -16,7 +16,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRIX</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <head>
         <?
@@ -27,12 +27,12 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="menu">
-                <button class="btn-trix">
-					<a href="/pages/donate">Пополнить Счет</a>
-				</button>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div>
+                    <a class="btn-trix btn-donate" href="/pages/donate">Пополнить Счет</a>
+                </div>
                 <div class="menu-nav">
                     <ul class="nav">
                         <li class="nav-list"><a class="nav-link" target="_blank" href="https://">Форум</a></li>
@@ -43,10 +43,11 @@
             </div>
             <div class="header-logo">
                 <div class="header-logo-trix" href="">
-                    <img src="img/Logo TX 1.png" alt="Logo">
-				</div>
+                    <img src="img/logo.png" alt="Logo">
+                </div>
             </div>
-        </header>
+        </div>
+    </header>
         <div class="header-mobile">
             <div class="header-logo">
                 <a class="header-logo-trix" href="">
@@ -68,91 +69,103 @@
                 </div>
             </div>
         </div>
-    </div>
-    <section class="play">
-        <div class="play-btn">
-            <a class="btn-trix" href="#game">ИГРАТЬ</a>
-        </div>
-        <div class="play-img">
-            <img src="img/Triang Top.png" alt="Play">
-        </div>
-    </section>
-    <section class="desc-text-mobile">
-        <div class="desc-text">
-            <span>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
-                Ipsum является стандартной "рыбой"<span id="dots">...</span>
-                <span id="more">
-                    для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую
-                    коллекцию размеров и
-                    форм шрифтов, используя Lorem Ipsum для распечатки образцов. </span>
-                </span>
-            <a onclick="readMore()" id="btnMore" href="javascript:void(0)">подробнее...</a>
-        </div>
-    </section>
-    <section class="social">
-        <div class="social-container">
-            <div class="desc">
-                <div class="desc-text"><span>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-                        Lorem Ipsum является стандартной "рыбой"<span id="dots">...</span><span id="more"></span>
-                        для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую
-                        коллекцию размеров и
-                        форм шрифтов, используя Lorem Ipsum для распечатки образцов. </span></span>
+    
+        <section class="play">
+        <div class="container">
+            <div class="play-content">
+                <div class="play-content-btn">
+                    <a class="btn-trix btn-play" href="">ИГРАТЬ</a>
                 </div>
-                <img class="desc-img" src="img/Triang Mid.png" alt="City">
+                <div class="play-content-img">
+                    <img src="img/Cars 1.png" alt="Cars">
+                </div>
             </div>
-            <img class="mobile-img-car" src="img/Cars 3 back_1 1.png" alt="City">
-
-            <div>
-                <img src="img/Triang Girl_1.png" alt="Girl">
+            <div class="play-text">
+                <p>
+                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" <span> для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span> 
+                </p>
+                <a class="mobile-btn-details" href="">подробнее...</a>
             </div>
+            <div class="city-img">
+                <img src="img/City 1.png" alt="City">
+                <img src="img/Cars 3 back_1 1.png" alt="Cars">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="social-img">
+            <img src="img/girl_bg.png" alt="Girl">
+        </div>
+        <div class="socials">
             <ul class="social-icon">
-                <li class="social-icon-list"><a class="social-icon-link" href="https://discord.gg/zrpNd7fxXS"><img src="img/DC v3 1.png" alt=""></a>
+                <li class="social-icon-list">
+                    <a class="social-icon-link" href="https://discord.gg/zrpNd7fxXS"><img src="img/socials/DC v3.png" alt=""></a>
                 </li>
-                <li class="social-icon-list"><a class="social-icon-link" href="https://vk.com/trixrp_gta5"><img src="img/VK v3 1.png" alt=""></a>
+                <li class="social-icon-list">
+                    <a class="social-icon-link" href="https://vk.com/trixrp_gta5"><img src="img/socials/VK v3.png" alt=""></a>
                 </li>
-                <li class="social-icon-list"><a class="social-icon-link" href="https://www.youtube.com/channel/UCIkuiM57KQL5d93o1uf_Kwg"><img src="img/YT v3 1.png" alt=""></a>
+                <li class="social-icon-list">
+                    <a class="social-icon-link" href="https://www.youtube.com/channel/UCIkuiM57KQL5d93o1uf_Kwg"><img src="img/socials/YT v3.png" alt=""></a>
                 </li>
-                <li class="social-icon-list"><a class="social-icon-link" href=""><img src="img/TT v3 1.png" alt=""></a>
+                <li class="social-icon-list">
+                    <a class="social-icon-link" href=""><img src="img/socials/TT v3.png" alt=""></a>
                 </li>
-                <li class="social-icon-list"><a class="social-icon-link" href="https://t.me/trixrp_gta5"><img src="img/TG v3 1.png" alt=""></a>
+                <li class="social-icon-list">
+                    <a class="social-icon-link" href="https://t.me/trixrp_gta5"><img src="img/socials/TG v3.png" alt=""></a>
                 </li>
             </ul>
         </div>
-
-        <div class="game" id="game">
-            <div class="game-card-01">
-                <img src="img/gta plate v2 1.png" alt="GTA">
-                <span class="number">1</span>
-                <span class="name">Установка GTA 5</span>
-                <p class="desc">Купи и установи лицензинонную GTA 5</p>
-                <a class="btn-trix" href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/">Купить в Steam</a>
+    </section>
+    <section class="gameflow">
+        <div class="gameflow-content">
+            <div class="gameflow-img">
+                <img src="img/Mike 1.png" alt="Mike">
             </div>
-            <div class="game-card-02">
-                <img src="img/RP plate v2 1.png" alt="RP">
-                <span class="number">2</span>
-                <span class="name">Установка RAGE MP</span>
-                <p class="desc">Скачай и установи лаунчер Rage.MP. Это бесплатно.</p>
-                <a class="btn-trix" href="https://cdn.rage.mp/public/files/RAGEMultiplayer_Setup.exe">Скачать</a>
+            <div class="gameflow-list-content">
+                <div class="gameflow-list">
+                    <div class="gameflow-card-01">
+                        <div>
+                            <img src="img/Plate1 v5 1.png" alt="GTA">
+                        </div>
+                        <span class="number">1</span>
+                        <div class="card-content">
+                            <span class="name">УСТАНОВИ GTA 5</span>
+                            <p class="desc">ПОНАДОБИТСЯ УСТАНОВИТЬ ЛИЦЕНЗИОННУЮ ВЕРСИЮ ИГРЫ.</p>
+                            <a class="btn-trix btn-gameflow" href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/">Купить Игру</a>
+                        </div>
+                    </div>
+                    <div class="gameflow-card-02">
+                        <div>
+                            <img src="img/Plate2 v5 1.png" alt="RP">
+                        </div>
+                        <span class="number">2</span>
+                        <div class="card-content">
+                            <span class="name">УСТАНОВИ RAGE MP</span>
+                            <p class="desc">СКАЧАЙ И УСТАНОВИ RAGE:MP. ОН БЕСПЛАТНЫЙ.</p>
+                            <a class="btn-trix btn-gameflow" href="https://cdn.rage.mp/public/files/RAGEMultiplayer_Setup.exe">Загрузить</a>
+                        </div>
+                    </div>
+                    <div class="gameflow-card-03">
+                        <div>
+                            <img src="img/Plate 3 v 5 1.png" alt="TRIX">
+                        </div>
+                        <span class="number">3</span>
+                        <div class="card-content">
+                            <span class="name">НАЧНИ ИГРУ НА TRIX</span>
+                            <p class="desc">В RAGE MP В ПОИСКЕ ВВЕДИ “TRIX RP” ИЛИ ПОДКЛЮЧИСЬ ПО АДРЕСУ</p>
+                            <span class="server-address">s1.trixrp.ru:22005</span>
+                            <a class="btn-trix btn-gameflow" href="rage://v/connect?ip=s1.trixrp.ru:22005">Начать Играть</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="game-card-03">
-                <img src="img/Trix plate v2 1.png" alt="TRIX">
-                <span class="number">3</span>
-                <span class="name">НАЧНИ ИГРУ НА TRIX RP</span>
-                <p class="desc">В Rage MP в поиске введи Trix RP или подключиcь по адресу <span class="server-address">s1.trixrp.ru:22005</span></p>
-                <a class="btn-trix" href="rage://v/connect?ip=s1.trixrp.ru:22005">Играть на сервере</a>
-            </div>
-        </div>
-        <div class="game-mobile">
-            <div class="game-mobile-card-01">
-                <a href="" class="name">УСТАНОВИТЕ GTA 5</a>
-                <img src="img/Triang Top 2.png" alt="GTA">
-            </div>
-
-        </div>
-
         </div>
     </section>
     <section class="mobile-game">
+        <div class="mobile-game-card-01">
+            <a href="" class="name">УСТАНОВИТЕ GTA 5</a>
+            <img src="img/Triang Top 2.png" alt="GTA">
+        </div>
         <div class="mobile-game-card-02">
             <img src="img/Triang Mid 1 .png" alt="MID">
             <a href="" class="name">УСТАНОВИТЕ МУЛЬТИПЛЕЕР RAGE</a>
@@ -164,7 +177,7 @@
     </section>
     <?
 	include $_SERVER['DOCUMENT_ROOT'].'/footer.php'; 
-?>
+    ?>
 </body>
 
 </html>
