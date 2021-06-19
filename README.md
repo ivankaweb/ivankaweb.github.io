@@ -16,3 +16,4 @@ https://ivankaweb.github.io/project12/   - TRIX
 https://ivankaweb.github.io/project13/   -  BriAp   
 https://ivankaweb.github.io/project14/   -  AGENCY  
 https://ivankaweb.github.io/project15/   -  AGRO MAGNUS  
+https://ivankaweb.github.io/project_trix/   -  NEW TRIX  
