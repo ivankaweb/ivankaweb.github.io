@@ -1,4 +1,4 @@
-<footer>
+    <footer>
         <div class="footer">
             <div class="footer-left">
                 <span>&copy; 2021</span>

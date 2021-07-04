@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=product%></title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header">
+            <div class="header-logo">
+                <a href="/"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            <div class="header-nav">
+                <ul class="nav">
+<!--                    <li class="nav-list"><a class="nav-link" href="/"><%=home%></a></li>-->
+                    <li class="nav-list"><a class="nav-link" href="/about" style="display: block"><%=about%></a></li>
+                    <li class="nav-list"><a class="nav-link" data-toggle="dropdown" href="/product"><%=product%></a>
+                        <ul class="nav_lis">
+                            <li><a class="nav-link" href="/product/elevator"><%=footer3%></a>
+                                <ul class="nav_lis-link" >
+                                    <li><a class="nav-link" href="/product/intake">ПРИЙОМ</a></li>
+                                    <li><a class="nav-link" href="/product/drying">СУШКА</a></li>
+                                    <li><a class="nav-link" href="/product/cleaning">ОЧИЩЕННЯ</a></li>
+                                    <li><a class="nav-link" href="/product/save">ЗБЕРІГАННЯ</a></li>
+                                    <li><a class="nav-link" href="/product/unlodingcar">АВТО-ВІДВАНТАЖЕННЯ</a></li>
+                                    <li><a class="nav-link" href="/product/unloadingrail">ВІДВАНТАЖЕННЯ ЗАЛІЗНИЦЕЮ</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-link-list"><a class="nav-link" href="/product/ethanol"><%=footer1%></a>
+                                <ul class="nav_lis-link">
+                                    <li><a class="nav-link" href="/product/rectified">СПИРТ РЕКТИФІКОВАНИЙ</a></li>
+                                    <li><a class="nav-link" href="/product/technical">СПИРТ ТЕХНІЧНИЙ</a></li>
+                                    <li><a class="nav-link" href="/product/purple">СИВУШНЕ МАСЛО</a></li>
+                                    <li><a class="nav-link" href="/product/bard">БАРДА</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-link-list"><a class="nav-link" href="/product/engineering"><%=footer2%></a>
+                                <ul class="nav_lis-link">
+                                    <li><a class="nav-link" href="#">ПРОЕКТУВАННЯ</a></li>
+                                    <li><a class="nav-link" href="#">ПРОМИСЛОВЕ УСТАТКУВАННЯ</a></li>
+                                    <li><a class="nav-link" href="#" style="display: none">Постачальники-партнери</a>
+                                        <ul class="nav_lis-link-2">
+                                            <li><a class="nav-link" href="#">Eurobinox - пищевая запорка</a></li>
+                                            <li><a class="nav-link" href="#">Gecitech - шланги пищевые/Фарма</a></li>
+                                            <li><a class="nav-link" href="#">SMC - пневматика</a></li>
+                                            <li><a class="nav-link" href="#">Festo - пневматика</a></li>
+                                            <li><a class="nav-link" href="#">ABO запорка</a></li>
+                                            <li><a class="nav-link" href="#">AESSEAL торцевые уплотнения</a></li>
+                                            <li><a class="nav-link" href="#">Frictec - ножи промышленные</a></li>
+                                            <li><a class="nav-link" href="#">Металлодетекторы, чеквайеры и конвейерные системы Cassel Shark </a></li>
+                                            <li><a class="nav-link" href="#">Nord Drive systems - моторредуктора</a></li>
+                                            <li><a class="nav-link" href="#">Rittal- шкафы промышленнные</a></li>
+                                            <li><a class="nav-link" href="#">JMS - датчики температуры</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-list"><a class="nav-link" href="/contact"><%=contact%></a></li>
+                </ul>
+            </div>
+            <div class="number">
+                <a class="phone" href="" tel="<%=phone%>"><span class="icon-phone"></span><%=phone%></a>
+            </div>
+            <div class="language">
+               <div class="language-btns">
+                    <a class="" href="/ru/product">RU</a>
+                    <a href="/en/product">EN</a>
+                    <a class="active" href="/product">UA</a>
+               </div>
+            </div>
+            <div class="header-mobile">
+                <div onclick="menuToggle()" class="menu-icon"></div>
+                <div class="nav-mobile">
+                    <div class="nav-mobile-content">
+                        <ul class="nav-mobile-list">
+                            <li class="nav-mobile-list-item"><a href="/" class="nav-mobile-list-link"><%=home%></a></li>
+                            <li class="nav-mobile-list-item"><a href="/product" class="nav-mobile-list-link"><%=product%></a></li>
+                            <li class="nav-mobile-list-item"><a href="/about"  style="display: block" class="nav-mobile-list-link"><%=about%></a></li>
+                            <li class="nav-mobile-list-item"><a href="/contact" class="nav-mobile-list-link"><%=contact%></a></li>
+                        </ul>
+                        <div class="nav-mobile-bottom">
+                            <div class="language">
+                                <div class="language-btns">
+                                     <a class="" href="/ru/product">RU</a>
+                                     <a href="/en/product">EN</a>
+                                     <a class="active" href="/product">UA</a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container">
+        <div class="inner">
+            <div class="title">
+                <h2 class="title-h2"><%=product_title%></h2>
+<!--                <span class="subtitle-h2"><%=product_title2%></span>-->
+            </div>
+<!--            <div class="product">-->
+<!--                <div class="product-img"></div>-->
+<!--                <div class="product-desc">-->
+<!--                    <div class="product-desc-container">-->
+<!--                        <span class="name"><%=product1%></span>-->
+<!--                        <div class="description">-->
+<!--                            <span><%=product_text1%></span>-->
+<!--                            <p><%=product_text2%></p>-->
+<!--                        </div>-->
+<!--                        <div class="type">-->
+<!--                            <span><%=product_text3%></span>-->
+<!--                            <p><%=product_text4%></p>-->
+<!--                        </div>-->
+<!--                        <div class="property">-->
+<!--                            <div>-->
+<!--                                <span><%=product_text5%></span>-->
+<!--                                <p><%=product_text6%></p>-->
+<!--                            </div>-->
+<!--                            <div>-->
+<!--                                <span><%=product_text7%></span>-->
+<!--                                <p><%=product_text8%></p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+            <div class="product-info">
+                <div class="product-card">
+                    <a href="/product/elevator" style="text-decoration: none;color: #efefef;">
+                        <div class="product-card-img"><img src="img/elevator.jpg" alt="Product"></div>
+                        <div class="product-card-desc">
+                            <span><%=product2%></span>
+    <!--                        <p><%=product2_text1%></p>-->
+    <!--                        <a href="/product/elevator"><%=product2_text2%> <span class="arrow-details"></span></a>-->
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="/product/engineering" style="text-decoration: none;color: #efefef;">
+                        <div class="product-card-img"><img src="img/fon_inzhinir.jpg" alt="Product"></div>
+                        <div class="product-card-desc">
+                            <span><%=product2_text3%></span>
+    <!--                        <p><%=product2_text4%></p>-->
+    <!--                        <a href="/product/engineering"><%=product2_text2%> <span class="arrow-details"></span></a>-->
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="product-info">
+                <div class="product-card">
+                    <a href="/product/ethanol" style="text-decoration: none;color: #efefef;">
+                        <div class="product-card-img"><img src="img/mernik2.jpg" alt="Product"></div>
+                        <div class="product-card-desc">
+                            <span><%=product3%></span>
+    <!--                        <p><%=product3_text1%></p>-->
+    <!--                        <a href="/product/ethanol"><%=product2_text2%> <span class="arrow-details"></span></a>-->
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<script src="scripts/main.js"></script>
+</body>
+</html>

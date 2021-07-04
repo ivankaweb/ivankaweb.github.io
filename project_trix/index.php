@@ -92,6 +92,7 @@
             </div>
         </div>
     </section>
+
     <section>
         <div class="social-img">
             <img src="img/girl_bg.png" alt="Girl">
@@ -116,6 +117,7 @@
             </ul>
         </div>
     </section>
+
     <section class="gameflow">
         <div class="gameflow-content">
             <div class="gameflow-img">
@@ -161,6 +163,7 @@
             </div>
         </div>
     </section>
+
     <section class="mobile-game">
         <div class="mobile-game-card-01">
             <a href="" class="name">УСТАНОВИТЕ GTA 5</a>
@@ -175,6 +178,7 @@
             <img src="img/Triang RP 2.png" alt="TRIX">
         </div>
     </section>
+    
     <?
 	include $_SERVER['DOCUMENT_ROOT'].'/footer.php'; 
     ?>
