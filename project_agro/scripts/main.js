@@ -57,4 +57,15 @@ $(document).ready(function(){
 		  filtered = false;
 		}
 	  });
+
+	  $('.nav-mobile-list-item').on('click', function(){
+		$(this).toggleClass('active');
+	  });
+	  $('.nav-mobile-list-link .toggle-submenu').on('click', function(){
+		var submenuId = $(this).data('submenu-id');
+
+		$(this).parent()
+		
+		$(submenuId).toggleClass('active');
+	  });
 });

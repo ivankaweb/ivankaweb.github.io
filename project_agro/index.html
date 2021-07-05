@@ -94,20 +94,77 @@
                 <div onclick="menuToggle()" class="menu-icon"></div>
                 <div class="nav-mobile">
                     <div class="nav-mobile-content">
-                        <ul class="nav-mobile-list">
-                            <li class="nav-mobile-list-item"><a href="/" class="nav-mobile-list-link"><%=home%></a></li>
-                            <li class="nav-mobile-list-item"><a href="/product"  class="nav-mobile-list-link"><%=product%></a></li>
-                            <li class="nav-mobile-list-item"><a href="/about" style="display: block" class="nav-mobile-list-link"><%=about%></a></li>
-                            <li class="nav-mobile-list-item"><a href="/contact" class="nav-mobile-list-link"><%=contact%></a></li>
-                        </ul>
-                        <div class="nav-mobile-bottom">
-                            <div class="language">
-                                <div class="language-btns">
-                                     <a class="" href="/ru">RU</a>
-                                     <a href="/en">EN</a>
-                                     <a class="active" href="/ua">UA</a>
-                                </div>
-                             </div>
+                        <div class="nav-mobile-main to-left">
+                            <ul class="nav-mobile-list">
+                                <li class="nav-mobile-list-item"><a href="/" class="nav-mobile-list-link"><%=home%></a></li>
+                                <li class="nav-mobile-list-item">
+                                    <a class="nav-mobile-list-link toggle-submenu" data-submenu-id="#products-menu-mobile">Продукти</a>
+                                    <!-- <a class="nav-mobile-list-link" href="/product"><%=product%></a> -->
+                                </li>
+                                <li class="nav-mobile-list-item"><a href="/about" style="display: block" class="nav-mobile-list-link"><%=about%></a></li>
+                                <li class="nav-mobile-list-item"><a href="/contact" class="nav-mobile-list-link"><%=contact%></a></li>
+                            </ul>
+                            <div class="nav-mobile-bottom">
+                                <div class="language">
+                                    <div class="language-btns">
+                                         <a class="" href="/ru">RU</a>
+                                         <a href="/en">EN</a>
+                                         <a class="active" href="/ua">UA</a>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                        <div id="products-menu-mobile" class="active">
+                            <ul class="nav-mobile-list">
+                                <li class="nav-mobile-list-item">
+                                    <a class="nav-mobile-list-link toggle" href="javascript:void(0);">Елеватор</a>
+                                    <!-- <a class="nav-link" href="/product/elevator"><%=footer3%></a> -->
+                                    <ul class="nav-toggle" >
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/intake">ПРИЙОМ</a></li>
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/drying">СУШКА</a></li>
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/cleaning">ОЧИЩЕННЯ</a></li>
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/save">ЗБЕРІГАННЯ</a></li>
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/unlodingcar">АВТО-ВІДВАНТАЖЕННЯ</a></li>
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/unloadingrail">ВІДВАНТАЖЕННЯ ЗАЛІЗНИЦЕЮ</a></li>
+                                    </ul>
+                                </li>
+    
+                                <li class="nav-mobile-list-item">
+                                    <a class="nav-mobile-list-link toggle">Спирт етиловий</a>
+                                    <!-- <a class="nav-link" href="/product/ethanol"><%=footer1%></a> -->
+                                    <ul class="nav-toggle">
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/rectified">СПИРТ РЕКТИФІКОВАНИЙ</a></li>
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/technical">СПИРТ ТЕХНІЧНИЙ</a></li>
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/purple">СИВУШНЕ МАСЛО</a></li>
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/bard">БАРДА</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-mobile-list-item">
+                                    <a class="nav-mobile-list-link toggle">Інжинірінг</a>
+                                    <!-- <a class="nav-mobile-list-link" href="/product/engineering"><%=footer2%></a> -->
+                                    <ul class="nav-toggle">
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">ПРОЕКТУВАННЯ</a></li>
+                                        <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">ПРОМИСЛОВЕ УСТАТКУВАННЯ</a></li>
+                                        <li class="nav-mobile-list-item">
+                                            <a class="nav-mobile-list-link toggle" href="#">Постачальники-партнери</a>
+                                            <ul class="nav-toggle">
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">Eurobinox - пищевая запорка</a></li>
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">Gecitech - шланги пищевые/Фарма</a></li>
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">SMC - пневматика</a></li>
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">Festo - пневматика</a></li>
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">ABO запорка</a></li>
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">AESSEAL торцевые уплотнения</a></li>
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">Frictec - ножи промышленные</a></li>
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">Металлодетекторы, чеквайеры и конвейерные системы Cassel Shark </a></li>
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">Nord Drive systems - моторредуктора</a></li>
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">Rittal- шкафы промышленнные</a></li>
+                                                <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">JMS - датчики температуры</a></li>
+                                            </ul>
+                                        </li>
+    
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
