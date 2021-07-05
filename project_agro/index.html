@@ -96,10 +96,11 @@
                     <div class="nav-mobile-content">
                         <div class="nav-mobile-main to-left">
                             <ul class="nav-mobile-list">
-                                <li class="nav-mobile-list-item"><a href="/" class="nav-mobile-list-link"><%=home%></a></li>
+                                <li class="nav-mobile-list-item"><a href="" class="nav-mobile-list-link"><%=home%></a></li>
                                 <li class="nav-mobile-list-item">
-                                    <a class="nav-mobile-list-link toggle-submenu" data-submenu-id="#products-menu-mobile">Продукти</a>
-                                    <!-- <a class="nav-mobile-list-link" href="/product"><%=product%></a> -->
+                                    <div class="link-toggle">
+                                        <a class="nav-mobile-list-link" href="/product"><%=product%></a><span class="btn-arrow toggle-submenu" data-submenu-id="#products-menu-mobile"></span>
+                                    </div>
                                 </li>
                                 <li class="nav-mobile-list-item"><a href="/about" style="display: block" class="nav-mobile-list-link"><%=about%></a></li>
                                 <li class="nav-mobile-list-item"><a href="/contact" class="nav-mobile-list-link"><%=contact%></a></li>
@@ -114,11 +115,12 @@
                                  </div>
                             </div>
                         </div>
-                        <div id="products-menu-mobile" class="active">
+                        <div id="products-menu-mobile">
                             <ul class="nav-mobile-list">
                                 <li class="nav-mobile-list-item">
-                                    <a class="nav-mobile-list-link toggle" href="javascript:void(0);">Елеватор</a>
-                                    <!-- <a class="nav-link" href="/product/elevator"><%=footer3%></a> -->
+                                    <div class="link-toggle">
+                                        <a class="nav-mobile-list-link" href="/product/elevator"><%=footer3%></a><span class="btn-arrow toggle"></span>
+                                    </div>
                                     <ul class="nav-toggle" >
                                         <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/intake">ПРИЙОМ</a></li>
                                         <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/drying">СУШКА</a></li>
@@ -130,8 +132,9 @@
                                 </li>
     
                                 <li class="nav-mobile-list-item">
-                                    <a class="nav-mobile-list-link toggle">Спирт етиловий</a>
-                                    <!-- <a class="nav-link" href="/product/ethanol"><%=footer1%></a> -->
+                                    <div class="link-toggle">
+                                        <a class="nav-mobile-list-link toggle" href="/product/ethanol"><%=footer1%></a><span class="btn-arrow toggle"></span>
+                                    </div>
                                     <ul class="nav-toggle">
                                         <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/rectified">СПИРТ РЕКТИФІКОВАНИЙ</a></li>
                                         <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="/product/technical">СПИРТ ТЕХНІЧНИЙ</a></li>
@@ -140,13 +143,16 @@
                                     </ul>
                                 </li>
                                 <li class="nav-mobile-list-item">
-                                    <a class="nav-mobile-list-link toggle">Інжинірінг</a>
-                                    <!-- <a class="nav-mobile-list-link" href="/product/engineering"><%=footer2%></a> -->
+                                    <div class="link-toggle">
+                                        <a class="nav-mobile-list-link toggle" href="/product/engineering"><%=footer2%></a><span class="btn-arrow toggle"></span>
+                                    </div>
                                     <ul class="nav-toggle">
                                         <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">ПРОЕКТУВАННЯ</a></li>
                                         <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">ПРОМИСЛОВЕ УСТАТКУВАННЯ</a></li>
                                         <li class="nav-mobile-list-item">
-                                            <a class="nav-mobile-list-link toggle" href="#">Постачальники-партнери</a>
+                                            <div class="link-toggle">
+                                                <a class="nav-mobile-list-link toggle" href="#">Постачальники-партнери</a><span class="btn-arrow toggle"></span>
+                                            </div>
                                             <ul class="nav-toggle">
                                                 <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">Eurobinox - пищевая запорка</a></li>
                                                 <li class="nav-mobile-list-item"><a class="nav-mobile-list-link" href="#">Gecitech - шланги пищевые/Фарма</a></li>

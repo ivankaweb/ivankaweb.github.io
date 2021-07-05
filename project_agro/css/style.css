@@ -33,7 +33,6 @@ p {
 
 .inner {
   max-width: 1000px;
-  margin-left: 10%;
   background: linear-gradient(98.56deg, rgba(51, 51, 51, 0.4) 0%, rgba(51, 51, 51, 0.65) 100%, rgba(51, 51, 51, 0.55) 100%);
   border: 0.3px solid #333333;
   box-sizing: border-box;
@@ -42,7 +41,8 @@ p {
   backdrop-filter: blur(10px);
   border-radius: 10px;
   padding: 50px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin: 0 auto; }
 
 .arrow-details {
   width: 10px;
@@ -143,14 +143,27 @@ p {
     list-style-type: none;
     display: flex;
     padding: 0; }
-  .nav_lis{
+  .nav_lis, .nav_lis-link{
     position: absolute;
     list-style-type: none;
     display: flex;
     padding: 0;
     flex-direction: column;
+    background: linear-gradient(
+98.56deg
+, rgba(51, 51, 51, 0.4) 0%, rgba(51, 51, 51, 0.65) 100%, rgba(51, 51, 51, 0.55) 100%);
+    border: 0.3px solid #333333;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 70px rgb(51 51 51 / 15%), inset -10px -10px 70px rgb(51 51 51 / 15%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 
   }
+  .nav_lis li, .nav_lis-link li, .nav-mobile-list-item{
+    font-family: 'Gilroy-Light'; }
+  .nav_lis li a, .nav_lis-link li a{
+    font-size: 15px; }
     .header-nav .nav-list {
       font-size: 16px;
       margin: 0 25px;
@@ -224,6 +237,7 @@ p {
   .nav-mobile:before {
     transition-delay: .1s; }
   .nav-mobile-content {
+    display: flex;
     position: fixed;
     top: 40%;
     transform: translate(0%, -50%);
@@ -343,16 +357,11 @@ body.nav-active .nav-mobile {
 }
 @keyframes slidein {
   from {
-    margin-left: 100%;
-    width: 300%;
+    margin-left: 50%;
   }
-
   to {
     margin-left: 0%;
-    width: 100%;
-  }
-
-
+  } 
 }
   .main-content .main-title {
     margin: 80px 0;
@@ -1281,7 +1290,6 @@ ul.nav li {
   position: absolute;
   top: 100%;
   z-index: 1;
-  background-color: #0000007a;
 }
 
 /* отображаем выпадающий список при наведении */
@@ -1423,11 +1431,12 @@ ul.nav li {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   opacity: 0.8;
+  border-radius: 10px;
 }
 
 #products-menu-mobile.active{
   display: inline-block;
-  width: 59%;
+  width: 55%;
 }
 /* #products-menu-mobile.active:after{
   background: linear-gradient(98.56deg, rgba(51, 51, 51, 0.5) 0%, rgba(51, 51, 51, 0.65) 100%, rgba(51, 51, 51, 0.75) 100%);
@@ -1462,6 +1471,19 @@ ul.nav li {
 .nav-mobile-list li.active > .nav-toggle{
   display: block;
 }
+/* .nav-mobile-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.link-toggle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-mobile-list-link{
+  line-height: 30px;
+}
 
 .nav-mobile-main{
   display: inline-block;
@@ -1470,3 +1492,36 @@ ul.nav li {
 .nav-mobile-main.to-left{
   width: 40%;
 }
+.btn-arrow{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/right-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+}
+
+.nav-mobile-list-item.active .btn-arrow{
+  transform: rotate(180deg);
+}
+
+#products-menu-mobile .nav-mobile-list-item .btn-arrow{
+  transform: rotate(90deg);
+}
+
+#products-menu-mobile .nav-mobile-list-item.active > .link-toggle > .btn-arrow{
+  transform: rotate(270deg);
+}
+
+.nav-toggle{
+  padding: 0;;
+}
+
+.nav-toggle .nav-mobile-list-item{
+  margin: 10px;
+}
+.nav-toggle .nav-mobile-list-link{
+  font-size: 12px;
+}
+
