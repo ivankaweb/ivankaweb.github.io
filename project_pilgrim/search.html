@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@400;600&;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+        <div class="logo"><a href="">Паломник</a></div>
+        <div class="header-nav">
+          <ul>
+            <li><span class="btn-language">Язык: <a href="">русский</a></span></li>
+            <li><a href=""><span class="icon-message"><span class="counter">9</span></span></a></li>
+            <li><a href=""><span class="icon-profile"><span class="counter"></span></span></a></li>
+          </ul>
+        </div>
+        <div class="header-nav-mobile-content">
+          <div onclick="menuToggle()" class="menu-icon"></div>
+          <div class="nav-mobile">
+              <ul class="nav-mobile-list">
+                <li class="nav-mobile-list-item"><a href="javascript:void(0);" data-popup="#register" class="nav-mobile-list-link toggle-popup">Зарегистрироваться</a></li>
+                <li class="nav-mobile-list-item"><a href="javascript:void(0);" data-popup="#login" class="nav-mobile-list-link toggle-popup">Войти в личный кабинет</a></li>
+                <li class="nav-mobile-list-item"><span class="btn-language">Язык: <a class="nav-mobile-list-link" href="">русский</a></li>
+              </ul>
+          </div>
+        </div>
+        <div id="login" class="pop-up">
+          <form action="">
+            <span class="title">Войти в личный кабинет</span>
+            <label>Email</label> 
+            <input type="email">
+            <label>Пароль</label> 
+            <div class="input-password">
+              <input id="password-input" type="password" name="pass">
+              <span toggle="#password-field" class="toggle-password icon-eye"></span>
+            </div>
+            <button class="btn-pilgrim" type="submit">Войти</button>
+            <a class="link" href="">Забыли свой пароль?</a>
+          </form> 
+        </div>
+        <div id="register" class="pop-up">
+          <form action="">
+            <span class="title">Зарегистрироваться</span>
+            <label>Email</label> 
+            <input type="email">
+            <label>Пароль</label> 
+            <div class="input-password">
+              <input id="password-input" type="password" name="pass">
+              <span toggle="#password-field" class="toggle-password icon-eye"></span>
+            </div>
+            <button class="btn-pilgrim" type="submit">Зарегистрироваться</button>
+          </form> 
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="alert alert-success"><span>Хорошая новость!  Мы подобрали для Вас такое место. Успейте подать заявку уже сегодня.</span></div>
+  <div class="alert alert-error"><span>К сожалению мы не смогли подобрать для Вас отель, выберите другой день!</span></div>
+    <section class="search">
+      <aside class="asidebar">
+        <div class="asidebar-title">
+          <span>Свободное жильё рядом <a href="">с Кирилло-Белозерский монастырь</a> на <a href="">8–10 июня 2021 г.</a> для <a href="">2 гостей</a></span>
+        </div>
+        <div class="asidebar-search">
+          <div class="housing-cards active">
+            <a href=""><img src="img/image-04.jpg" alt="Room"></a>
+            <div class="housing-cards-desc">
+              <div class="name-content">
+                <a class="name" href="">Белый лофт в центре</a>
+                <a class="arrow-link" href=""><span class="icon-arrow"></span></a>
+              </div>
+              <div class="reviews">
+                <ul class="rate">
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                </ul>
+                <a class="reviews-link" href=""><span class="number">4</span> отзыва</a>
+              </div>
+            </div>
+          </div>
+          <div class="housing-cards">
+            <a href=""><img src="img/image-05.jpg" alt="Room"></a>
+            <div class="housing-cards-desc">
+              <div class="name-content">
+                <a class="name" href="">Уютные апартаменты в центре</a>
+                <a class="arrow-link" href=""><span class="icon-arrow"></span></a>
+              </div>
+              <div class="reviews">
+                <ul class="rate">
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                </ul>
+                <a class="reviews-link" href=""><span class="number">5</span> отзыва</a>
+              </div>
+            </div>
+          </div>
+          <div class="housing-cards">
+            <a href=""><img src="img/image-06.jpg" alt="Room"></a>
+            <div class="housing-cards-desc">
+              <div class="name-content">
+                <a class="name" href="">Кровать в хостеле</a>
+                <a class="arrow-link" href=""><span class="icon-arrow"></span></a>
+              </div>
+              <div class="reviews">
+                <ul class="rate">
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                  <li class=""><span class="icon-star"></span></li>
+                </ul>
+                <a class="reviews-link" href=""><span class="number">27</span> отзыва</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="pagination">
+          <li><a href="">1</a></li>
+          <li class="active"><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+          <li><a href="">...</a></li>
+          <li><a href="">17</a></li>
+        </ul>
+        <div class="banner-mob"><a href=""><img src="img/banner-mob.jpg" alt="Banner"></a></div>
+      </aside>   
+      <div class="search-content">
+        <div class="map-container">
+          <div id="map"></div>
+          <div id="content" class="map-popup popup-bubble">
+            <div class="slider">
+              <img src="img/Rectangle 14.png" alt="Banner">
+              <img src="img/Rectangle 14(2).png" alt="Banner">
+            </div>
+            <a class="btn-close" href="javascript:void(0);"><span class="icon-close-mini"></span></a>
+            <div class="btn-arrows"> 
+              <a href="#" class="btn-arrow btn-arrow-prev js-sliderPrev">
+                  <span class=""></span>
+              </a>
+              <a href="#" class="btn-arrow btn-arrow-next js-sliderNext">
+                  <span class=""></span>
+              </a>
+            </div>
+            
+            <div class="desc">
+              <div>
+                <h3>Кирилло-Белозерский монастырь</h3>
+              <p>Мужской монастырь Вологодской епархии Русской православной церкви,
+                 расположенный на берегу Сиверского озера в черте города Кириллова Вологодской области, 
+                 который вырос из слободы при монастыре. В XV—XVII веках — один из</p>
+              <p>Мужской монастырь Вологодской епархии Русской православной церкви,
+                 расположенный на берегу Сиверского озера в черте города Кириллова Вологодской области, 
+                 который вырос из слободы при монастыре. В XV—XVII веках — один из</p>
+              <p>Мужской монастырь Вологодской епархии Русской православной церкви,
+                 расположенный на берегу Сиверского озера в черте города Кириллова Вологодской области, 
+                 который вырос из слободы при монастыре. В XV—XVII веках — один из</p>
+              <p>Мужской монастырь Вологодской епархии Русской православной церкви,
+                 расположенный на берегу Сиверского озера в черте города Кириллова Вологодской области, 
+                 который вырос из слободы при монастыре. В XV—XVII веках — один из</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner"><a href=""><img src="img/banner.jpg" alt="Banner"></a></div>
+      </div>   
+    </section>
+   
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="logo"><a href="">Паломник</a></div>
+        <div class="socials">
+           <a href=""><span class="icon-vk"></span></a>
+           <a href=""><span class="icon-face"></span></a>
+           <a href=""><span class="icon-insta"></span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+
+  <script src="script/jquery-3.5.1.min.js"></script>
+  <script src="script/slick.min.js"></script>
+  <script src="script/main.js"></script>
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2"
+  async
+></script>
+</body>
+</html>

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pilgrim</title>
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:wght@400;600&;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container relative">
+      <div class="header">
+        <div class="logo"><a href="">Паломник</a></div>
+        <div class="header-nav">
+          <ul>
+            <li><span class="btn-language">Язык: <a href="">русский</a></span></li>
+            <li><a class="toggle-popup" data-popup="#register" href="javascript:void(0);">Зарегистрироваться</a></li>
+            <li><a class="toggle-popup" data-popup="#login" href="javascript:void(0);" >Войти в личный кабинет</a></li>
+          </ul>
+        </div>
+        <div class="header-nav-mobile-content">
+          <div onclick="menuToggle()" class="menu-icon"></div>
+          <div class="nav-mobile">
+              <ul class="nav-mobile-list">
+                <li class="nav-mobile-list-item"><a href="javascript:void(0);" data-popup="#register" class="nav-mobile-list-link toggle-popup">Зарегистрироваться</a></li>
+                <li class="nav-mobile-list-item"><a href="javascript:void(0);" data-popup="#login" class="nav-mobile-list-link toggle-popup">Войти в личный кабинет</a></li>
+                <li class="nav-mobile-list-item"><span class="btn-language">Язык: <a class="nav-mobile-list-link" href="">русский</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div id="login" class="pop-up">
+        <form action="">
+          <span class="title">Войти в личный кабинет</span>
+          <label>Email</label> 
+          <input type="email">
+          <label>Пароль</label> 
+          <div class="input-password">
+            <input id="password-input" type="password" name="pass">
+            <span toggle="#password-field" class="toggle-password icon-eye"></span>
+          </div>
+          <button class="btn-pilgrim" type="submit">Войти</button>
+          <a class="link" href="">Забыли свой пароль?</a>
+        </form> 
+      </div>
+      <div id="register" class="pop-up">
+        <form action="">
+          <span class="title">Зарегистрироваться</span>
+          <label>Email</label> 
+          <input type="email">
+          <label>Пароль</label> 
+          <div class="input-password">
+            <input id="password-input" type="password" name="pass">
+            <span toggle="#password-field" class="toggle-password icon-eye"></span>
+          </div>
+          <button class="btn-pilgrim" type="submit">Зарегистрироваться</button>
+        </form> 
+      </div>
+    </div>
+  </header>
+  <section class="main">
+    <div class="container">
+      <div class="main-title">
+        <h1 class="title-h1">Удобный поиск жилья для паломника</h1>
+        <span class="subtitle-h1">Сделайте ваше путешествие комфортнее</span>
+      </div>
+      <div class="main-form pop-up">
+        <form action="">
+          <label>Место для посещения</label> 
+          <input type="text" placeholder="Кирилло-Белозерский монастырь">
+          <div class="row">
+            
+            <div>
+              <label for="lname">Прибытие</label>
+              <input data-popup="#calendar" class="toggle-calendar" type="text" placeholder="1 мая">
+            </div>
+            <div>
+              <label for="lname">Выезд</label>
+              <input data-popup="#calendar" class="toggle-calendar" type="text" placeholder="15 сентября">
+            </div>
+
+            <div>
+              <label for="lname">Гостей</label>
+              <input data-popup="#guest-counter" class="toggle-popup" type="text" placeholder="5"> 
+            </div>
+         
+          </div>
+          <button class="btn-pilgrim" type="submit">Поиск жилья</button>
+
+          <div id="guest-counter" class="guest-counter pop-up">
+              <div class="guest-counter-content">
+                <button class="btn-minus" type="button"><span class="icon-minus"></span></button>
+                <input class="number" type="text" value="1">
+                <button class="btn-plus" type="button"><span class="icon-plus"></span></button>
+              </div>
+          </div>
+        </form> 
+      </div>
+    </div>
+  </section>
+  <div class="container container-mob-none">
+    <section>
+      <h2 class="title-h2">Популярные направления</h2>
+      <div class="popular js-popular">
+      <div>
+        <div class="popular-card">
+          <a href=""><img src="img/image-01.jpg" alt="Image"></a>
+          <div>
+              <a class="name" href="">Свято-Троицкая Сергиева Лавра</a>
+              <span>34 варианта размещения</span>
+          </div>
+        </div>
+      </div>
+    <div>
+      <div class="popular-card">
+        <a href=""><img src="img/image-02.jpg" alt="Image"></a>
+        <div>
+            <a class="name" href="">Свято-Успенская Киево- Печерская лавра</a>
+            <span>35 варианта размещения</span>
+        </div>
+      </div>
+    </div>
+     <div>
+      <div class="popular-card">
+        <a href=""><img src="img/image-03.jpg" alt="Image"></a>
+        <div>
+            <a class="name" href="">Свято-Троицкая Александро- Невская Лавра</a>
+            <span>18 варианта размещения</span>
+        </div>
+      </div>
+     </div>
+      <div>
+        <div class="popular-card">
+          <a href=""><img src="img/image-01.jpg" alt="Image"></a>
+          <div>
+              <a class="name" href="">Свято-Троицкая Александро- Невская Лавра</a>
+              <span>18 варианта размещения</span>
+          </div>
+        </div>
+      </div>
+       <div>
+        <div class="popular-card">
+          <a href=""><img src="img/image-03.jpg" alt="Image"></a>
+          <div>
+              <a class="name" href="">Свято-Троицкая Александро- Невская Лавра</a>
+              <span>18 варианта размещения</span>
+          </div>
+        </div>
+       </div>
+    <div>
+      <div class="popular-card">
+        <a href=""><img src="img/image-02.jpg" alt="Image"></a>
+        <div>
+            <a class="name" href="">Свято-Троицкая Александро- Невская Лавра</a>
+            <span>18 варианта размещения</span>
+        </div>
+      </div>
+    </div>
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <section>
+      <h2 class="title-h2">Наши преимущества</h2>
+      <div class="advantages">
+        <div class="advantages-card">
+          <div class="icon"><img src="img/icons/loupe 1.png" alt="Loupe"></div>
+          <div>
+            <h3 class="title-h3">Удобный поиск</h3>
+            <p>Вам достаточно выбрать место, которое собираетесь посетить, даты и вашему вниманию будут предоставлены все доступные варианты размещения.</p>
+          </div>
+        </div>
+        <div class="advantages-card">
+          <div class="icon"><img src="img/icons/rating 2.png" alt="Rating"></div>
+          <div>
+            <h3 class="title-h3">Рейтинговая система</h3>
+            <p>Прежде чем выбрать себе жильё, вы можете ознакомиться с рекомендациями предыдущих посетителей. У паломников также есть свой рейтинг.</p>
+          </div>
+        </div>
+        <div class="advantages-card">
+          <div class="icon"><img src="img/icons/village 1.png" alt="Village"></div>
+          <div>
+            <h3 class="title-h3">Приятная атмосфера</h3>
+            <p>Помимо хостелов мы также предлагаем варианты квартир или комнат, познакомиться с хозяевами и проникнуться местной атмосферой.</p>
+          </div>
+        </div>
+        <div class="advantages-card">
+          <div class="icon"><img src="img/icons/fast-time 1.png" alt="Time"></div>
+          <div>
+            <h3 class="title-h3">Экономия времени</h3>
+            <p>Связывайтесь с хозяевами жилья в два клика. Вам будут сразу предоставлены контактные данные, по которым сможете коммуницировать.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="step-work">
+      <h2 class="title-h2">Как это работает</h2>
+      <div class="step-work-container">
+        <div class="card">
+          <span class="number">1</span>
+          <h3 class="title-h3">Ищете по заданным параметрам</h3>
+          <p>В форме поиска введите куда едете, даты прибытия и выезда</p>
+        </div>
+        <div class="card">
+          <span class="number">2</span>
+          <h3 class="title-h3">Выберите понравившийся вариант</h3>
+          <p>Подберите себе жильё из списка доступных вариантов</p>
+        </div>
+        <div class="card">
+          <span class="number">3</span>
+          <h3 class="title-h3">Договоритесь о заезде</h3>
+          <p>Свяжитесь с хозяином жилья и обсудите детали заселения</p>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <h2 class="title-h2">Остались вопросы?</h2>
+      <span class="subtitle-h2">Свяжитесь с нами любым удобным способом</span>
+      <div class="contacts-content">
+        <div class="contact">
+          <div>
+            <a href="tel:+7 (454) 054-54-85"><span class="icon-phone"></span>+7 (454) 054-54-85</a>
+            <a href=""><span class="icon-email"></span>mymail@sitename.com</a>
+          </div>
+        </div>
+        <div class="form">
+          <form class="contacts" action="">
+              <div>
+                <div class="form-group"> 
+                  <input class="form-field" type="text" id="fname" name="fname" placeholder="Имя">
+                  <label class="form-label" for="fname">Имя</label>
+                </div>
+                <div class="form-group">
+                  <input class="form-field required" type="text" id="cont" name="cont" placeholder="Телефон или email" data-err-msg="Это поле обязательно для заполнения">
+                  <label class="form-label" for="cont">Телефон или email</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <input class="form-field" type="text" id="ques" name="ques" placeholder="Вопрос">
+                <label class="form-label" for="ques">Вопрос</label>
+              </div>
+            <button class="btn-pilgrim" type="button">Отправить</button>
+          </form> 
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="logo"><a href="">Паломник</a></div>
+        <div class="socials">
+           <a href=""><span class="icon-vk"></span></a>
+           <a href=""><span class="icon-face"></span></a>
+           <a href=""><span class="icon-insta"></span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="calendar">
+    <div class="calendar-container mobile">
+      <div class="calendar">
+        <div class="month">
+          <a href="#" class="nav nav-left"><span class="icon-arrow-left"></span></a>
+            <div>Июнь<span class="year">2021</span></div>
+          <a href="#" class="nav nav-right"><span class="icon-arrow-right"></span></a>
+        </div>
+        <div class="days">
+          <span>Пн</span>
+          <span>Вт</span>
+          <span>Ср</span>
+          <span>Чт</span>
+          <span>Пт</span>
+          <span>Сб</span>
+          <span>Вс</span>
+        </div>
+        <div class="dates">
+            <button>
+              <time>1</time>
+            </button>
+            <button>
+              <time>2</time>
+            </button>
+            <button>
+              <time>3</time>
+            </button>
+            <button>
+              <time>4</time>
+            </button>
+            <button>
+              <time>5</time>
+            </button>
+            <button>
+              <time>6</time>
+            </button>
+            <button>
+              <time>7</time>
+            </button>
+            <button>
+              <time>8</time>
+            </button>
+            <button>
+              <time>9</time>
+            </button>
+            <button>
+              <time>10</time>
+            </button>
+            <button>
+              <time>11</time>
+            </button>
+            <button>
+              <time>12</time>
+            </button>
+            <button>
+              <time>13</time>
+            </button>
+            <button>
+              <time>14</time>
+            </button>
+            <button>
+              <time>15</time>
+            </button>
+            <button>
+              <time>16</time>
+            </button>
+            <button>
+              <time>17</time>
+            </button>
+            <button class="today">
+              <time>18</time>
+            </button>
+            <button>
+              <time>19</time>
+            </button>
+            <button>
+              <time>20</time>
+            </button>
+            <button>
+              <time>21</time>
+            </button>
+            <button>
+              <time>22</time>
+            </button>
+            <button>
+              <time>23</time>
+            </button>
+            <button>
+              <time>24</time>
+            </button>
+            <button>
+              <time>25</time>
+            </button>
+            <button>
+              <time>26</time>
+            </button>
+            <button>
+              <time>27</time>
+            </button>
+            <button>
+              <time>28</time>
+            </button>
+            <button>
+              <time>29</time>
+            </button>
+            <button>
+              <time>30</time>
+            </button>
+            <button>
+              <time>31</time>
+            </button>
+        </div>
+      </div>
+    </div>
+    <div class="calendar-container">
+    <div class="calendar" style="margin-right: 40px">
+      <div class="month">
+        <a href="#" class="nav nav-left"><span class="icon-arrow-left"></span></a>
+          <div>Июнь<span class="year">2021</span></div>
+      </div>
+      <div class="days">
+        <span>Пн</span>
+        <span>Вт</span>
+        <span>Ср</span>
+        <span>Чт</span>
+        <span>Пт</span>
+        <span>Сб</span>
+        <span>Вс</span>
+      </div>
+      <div class="dates">
+          <button>
+            <time>1</time>
+          </button>
+          <button>
+            <time>2</time>
+          </button>
+          <button>
+            <time>3</time>
+          </button>
+          <button>
+            <time>4</time>
+          </button>
+          <button>
+            <time>5</time>
+          </button>
+          <button>
+            <time>6</time>
+          </button>
+          <button>
+            <time>7</time>
+          </button>
+          <button>
+            <time>8</time>
+          </button>
+          <button>
+            <time>9</time>
+          </button>
+          <button>
+            <time>10</time>
+          </button>
+          <button>
+            <time>11</time>
+          </button>
+          <button>
+            <time>12</time>
+          </button>
+          <button>
+            <time>13</time>
+          </button>
+          <button>
+            <time>14</time>
+          </button>
+          <button>
+            <time>15</time>
+          </button>
+          <button>
+            <time>16</time>
+          </button>
+          <button>
+            <time>17</time>
+          </button>
+          <button class="today">
+            <time>18</time>
+          </button>
+          <button>
+            <time>19</time>
+          </button>
+          <button>
+            <time>20</time>
+          </button>
+          <button>
+            <time>21</time>
+          </button>
+          <button>
+            <time>22</time>
+          </button>
+          <button>
+            <time>23</time>
+          </button>
+          <button>
+            <time>24</time>
+          </button>
+          <button>
+            <time>25</time>
+          </button>
+          <button>
+            <time>26</time>
+          </button>
+          <button>
+            <time>27</time>
+          </button>
+          <button>
+            <time>28</time>
+          </button>
+          <button>
+            <time>29</time>
+          </button>
+          <button>
+            <time>30</time>
+          </button>
+          <button>
+            <time>31</time>
+          </button>
+      </div>
+    </div>
+    <div class="calendar">
+      <div class="month">
+          <div>Июль<span class="year">2021</span></div>
+          <a href="#" class="nav nav-right"><span class="icon-arrow-right"></span></a>
+      </div>
+      <div class="days">
+        <span>Пн</span>
+        <span>Вт</span>
+        <span>Ср</span>
+        <span>Чт</span>
+        <span>Пт</span>
+        <span>Сб</span>
+        <span>Вс</span>
+      </div>
+      <div class="dates">
+          <button>
+            <time>1</time>
+          </button>
+          <button>
+            <time>2</time>
+          </button>
+          <button>
+            <time>3</time>
+          </button>
+          <button>
+            <time>4</time>
+          </button>
+          <button>
+            <time>5</time>
+          </button>
+          <button>
+            <time>6</time>
+          </button>
+          <button>
+            <time>7</time>
+          </button>
+          <button>
+            <time>8</time>
+          </button>
+          <button>
+            <time>9</time>
+          </button>
+          <button>
+            <time>10</time>
+          </button>
+          <button>
+            <time>11</time>
+          </button>
+          <button>
+            <time>12</time>
+          </button>
+          <button>
+            <time>13</time>
+          </button>
+          <button>
+            <time>14</time>
+          </button>
+          <button>
+            <time>15</time>
+          </button>
+          <button>
+            <time>16</time>
+          </button>
+          <button>
+            <time>17</time>
+          </button>
+          <button class="today">
+            <time>18</time>
+          </button>
+          <button>
+            <time>19</time>
+          </button>
+          <button>
+            <time>20</time>
+          </button>
+          <button>
+            <time>21</time>
+          </button>
+          <button>
+            <time>22</time>
+          </button>
+          <button>
+            <time>23</time>
+          </button>
+          <button>
+            <time>24</time>
+          </button>
+          <button>
+            <time>25</time>
+          </button>
+          <button>
+            <time>26</time>
+          </button>
+          <button>
+            <time>27</time>
+          </button>
+          <button>
+            <time>28</time>
+          </button>
+          <button>
+            <time>29</time>
+          </button>
+          <button>
+            <time>30</time>
+          </button>
+          <button>
+            <time>31</time>
+          </button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="script/jquery-3.5.1.min.js"></script>
+  <script src="script/slick.min.js"></script>
+  <script src="script/main.js"></script>
+
+</body>
+</html>
