@@ -1,0 +1,620 @@
+  @media (max-width: 1800px) {
+    .external .img:nth-child(6) {
+      bottom: 858px;
+      left: auto;
+      right: 20px; }
+
+    .inside {
+      background-size: 80%; 
+    } 
+  }
+  @media (max-width: 1480px) {
+    .inside {
+      background-size: 95%; }
+
+    .external .img:nth-child(2) {
+      bottom: 300px;
+      left: auto;
+      right: calc(50vw + 170px); }
+    .external .img:nth-child(3) {
+      bottom: 300px;
+      left: auto;
+      right: calc(50vw - 170px); }
+    .external .img:nth-child(5) {
+      bottom: 35px;
+      left: auto;
+      right: calc(50vw - 170px); }
+    .external .img:nth-child(6) {
+      bottom: 160px;
+      left: auto;
+      right: calc(50vw - 450px); 
+    } 
+  }
+
+  @media (max-width: 1199.98px) {
+    .inside {
+      height: 1000px;
+      background-size: 85%; }
+
+    .title-h2 {
+      font-size: 70px;
+      margin-bottom: 20px; }
+
+    .title-h3 {
+      font-size: 24px;
+      margin-bottom: 20px; }
+
+    .investor {
+      grid-gap: 20px;
+      grid-template-columns: 100%;
+      align-items: center; }
+      .investor .desc {
+        display: none; }
+      .investor-btn {
+        margin: 0 auto;
+        width: 45%; }
+      .investor > div:nth-child(1) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        text-align: center; }
+      .investor > div:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4; }
+      .investor > div:nth-child(3) {
+        grid-column: 1/ 2;
+        grid-row: 2 / 3; }
+
+    .offer:before {
+      width: 98%; }
+    .offer:after {
+      width: 97%; }
+    .offer-content {
+      width: 80%; }
+      .offer-content -items .item span {
+        font-size: 27px; }
+
+    .our-company .desc {
+      display: none; }
+    .our-company-content {
+      grid-gap: 20px;
+      grid-template-columns: 100%;
+      align-items: center; }
+      .our-company-content > div:nth-child(1) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3; }
+      .our-company-content > div:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        text-align: center; }
+      .our-company-content > div:nth-child(3) {
+        grid-column: 1/ 2;
+        grid-row: 3 / 3; }
+      .our-company-content-btn {
+        margin: 0 auto;
+        width: 45%; }
+
+    .step .steps-card {
+      padding: 5px;
+      width: 270px;
+      height: 250px; }
+      .step .steps-card-inner > div {
+        padding: 20px 0; }
+        .step .steps-card-inner > div .number {
+          font-size: 100px;
+          bottom: 75%; }
+        .step .steps-card-inner > div .text {
+          font-size: 22px;
+          padding: 0 10px; }
+    .step .steps .column-more {
+      height: 250px; }
+      .step .steps .column-more > div .btn {
+        max-width: 330px; 
+      } 
+  }
+
+  @media (max-width: 991.98px) {
+    .inside{
+      display: none;
+    }
+
+    .title-h3 {
+      font-size: 21px;
+      margin-bottom: 10px; }
+
+    .contact-phone a {
+      font-size: 14px; }
+
+    .suptitle-h1 {
+      font-size: 25px; }
+
+    .title-h1 {
+      font-size: 55px; }
+
+    header .heading-info span {
+      font-size: 20px; }
+
+    .offer:before {
+      width: 115%; }
+    .offer:after {
+      width: 115%; }
+    .offer-content {
+      width: 95%; }
+      .offer-content .title-h2 {
+        margin-left: 0;
+        text-align: center; }
+      .offer-content .offer-items .item span {
+        font-size: 22px; }
+
+    .external {
+      height: 1000px; }
+      .external .img {
+        width: 160px; }
+        .external .img:nth-child(2) {
+          bottom: 260px;
+          right: auto;
+          left: calc(50vw - 270px); }
+        .external .img:nth-child(3) {
+          bottom: 260px;
+          left: auto;
+          right: calc(50vw - 90px); }
+        .external .img:nth-child(4) {
+          bottom: 35px;
+          right: auto;
+          left: calc(50vw - 270px); }
+        .external .img:nth-child(5) {
+          bottom: 35px;
+          left: auto;
+          right: calc(50vw - 90px); }
+        .external .img:nth-child(6) {
+          bottom: 140px;
+          left: auto;
+          right: calc(50vw - 270px); }
+
+    .step .wrap {
+      padding: 0; }
+    .step .subtitle {
+      padding: 0 50px;
+      flex-direction: column; }
+    .step .steps .column-more > div .btn {
+      max-width: 285px; }
+    .step .col:nth-child(1):before, .step .col:nth-child(2):before, .step .col:nth-child(4):before, .step .col:nth-child(5):before, .step .col:nth-child(7):before {
+      left: 0;
+      top: 125px; }
+    .step .col:nth-child(3):before, .step .col:nth-child(6):before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 125px;
+      width: 100%;
+      height: 100%;
+      background-image: url("../img/line.png");
+      background-repeat: no-repeat;
+      z-index: -2; 
+    } 
+       .investor{
+          grid-gap: 25px;
+      }
+      .btn-livingston, .btn-transparent{
+          padding: 0;
+          line-height: 60px;
+          font-size: 20px;
+      }
+      .residence .wrap {
+          padding: 0 50px;
+      }
+      .step .subtitle {
+          /* padding: 0 50px; */
+          /* flex-direction: column; */
+          padding: 0;
+          display: block;
+          width: 65%;
+          margin: 0 auto;
+      }
+      .step .subtitle-item{
+          margin: 10px 0;
+      }
+      .steps .col:nth-child(7){
+          flex: 0 0 100%;
+          max-width: 100%;
+      }
+      .step .column-more{
+          flex: 2 1 100%;
+          max-width: 100%;
+      }
+  }
+
+  @media (max-width: 767.98px) {
+    #map {
+      height: 530px; }
+
+    .inside {
+      height: 800px;
+      background-size: 100%;
+      background-position: left; }
+
+    .wrap {
+      padding: 0 20px; }
+
+    section {
+      padding: 40px 0; }
+
+    .btn-transparent {
+      font-size: 14px; }
+
+    .header {
+      padding-top: 15px !important;
+      align-items: normal;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: 50px;
+      grid-template-areas: "column-2 column-1 " "column-2 column-3 "; }
+      .header > div:first-child {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end; }
+        .header > div:first-child div {
+          justify-content: flex-end; }
+
+    header .heading-btn {
+      max-width: 190px;
+      padding: 25px 0; }
+
+    footer::before {
+      width: 115%;
+      height: 40%; }
+
+    .footer {
+      padding: 50px 0;
+      grid-auto-rows: 110px;
+      grid-template-columns: 1fr;
+      grid-template-areas: "column-1" "column-3" "column-2"; }
+      .footer .logo {
+        margin: 0 auto;
+        max-width: 141px;
+        height: 80px; }
+      .footer .contact-phone {
+        text-align: center;
+        max-width: 100%;
+        float: inherit;
+        margin: 0 auto; }
+        .footer .contact-phone a .icon-phone {
+          height: 15px;
+          padding: 0 15px; 
+        }
+        .footer .contact-phone a:first-child {
+          float: none;
+          font-size: 25px; 
+        }
+        .footer .contact-phone a:last-child {
+          margin: 20px 0; 
+          max-width: 247px;
+        }
+      .footer-contact {
+        padding: 50px 0 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center; }
+
+        .footer-contact a {
+          margin: 15px auto;
+          justify-content: center; }
+
+    .mobile-menu .nav-menu {
+      top: 52%; }
+
+    .icon-phone {
+      width: 11px;
+      height: 11px;
+      padding: 0 8px; }
+
+    .title-h2 {
+      font-size: 30px;
+      margin-bottom: 0; }
+
+    .subtitle-h2 {
+      font-size: 14px; }
+
+    .investor > div:nth-child(1) {
+      max-width: 190px;
+      margin: 0 auto; }
+    .investor-card {
+      padding: 4px;
+      margin-bottom: 5px; }
+      .investor-card-inner {
+        padding: 5px 7px; }
+        .investor-card-inner > div {
+          padding: 20px 0; }
+          .investor-card-inner > div .icon span {
+            width: 65px;
+            height: 65px;
+            margin: 0 20px; }
+          .investor-card-inner > div .title {
+            font-size: 16px; }
+    .investor-btn {
+      width: 80%; }
+
+    .offer-items {
+      margin-top: 30px; }
+
+    .our-company-content-card {
+      padding: 4px;
+      margin-bottom: 5px; }
+      .our-company-content-card-inner {
+        padding: 5px 7px; }
+        .our-company-content-card-inner > div {
+          padding: 20px 0; }
+          .our-company-content-card-inner > div .icon span {
+            width: 65px;
+            height: 65px;
+            margin: 0 20px; }
+          .our-company-content-card-inner > div .title {
+            font-size: 16px; }
+    .our-company-content-btn {
+      width: 80%; 
+    }
+
+    .external {
+      height: 610px; }
+      .external .img {
+        width: 120px; }
+        .external .img:nth-child(2) {
+          bottom: 160px;
+          right: auto;
+          left: calc(50vw - 180px); }
+        .external .img:nth-child(3) {
+          bottom: 160px;
+          left: auto;
+          right: calc(50vw - 65px); }
+        .external .img:nth-child(4) {
+          bottom: 35px;
+          right: auto;
+          left: calc(50vw - 180px); }
+        .external .img:nth-child(5) {
+          bottom: 35px;
+          left: auto;
+          right: calc(50vw - 65px); }
+        .external .img:nth-child(6) {
+          bottom: 95px;
+          left: auto;
+          right: calc(50vw - 180px); }
+      .external-desc ol li {
+        font-size: 16px; }
+        .external-desc ol li::before {
+          font-size: 8px;
+          --size: 27px; }
+
+    .residence-btn {
+      max-width: 230px; }
+    .residence #slider {
+      margin: 20px 0; }
+
+    .inside-btn {
+      max-width: 230px; 
+    } 
+     .plan-img{
+          overflow: scroll;
+      }
+      .plan-img img{
+          width: 900px;
+      }
+      header .heading-info .line-vertical:before{
+          width: 2px;
+      }
+      .residence .slider-item-container{
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          gap: 15px 15px;
+          grid-template-areas:
+          "a b"
+          "c d";
+      }
+      .residence .carousel-item, .residence .slider-item-container {
+          height: 330px;
+      }
+      .residence .wrap {
+          padding: 0 20px;
+      }
+      .btn-livingston, .btn-transparent{
+          line-height: 42px;
+          font-size: 14px;
+      }
+      .step .subtitle-item .text {
+          font-size: 16px;
+      }
+      .step .subtitle-item .number {
+          font-size: 9px;
+          width: 14px;
+          height: 30px;
+          margin-right: 15px;
+      }
+      .step .subtitle {
+          width: 50%;
+      }
+      .inside {
+          height: 620px;
+      }
+      header .heading-info span:first-child{
+          padding-right: 20px;
+      }
+      header .heading-info span:last-child{
+          padding-left: 20px;
+      }
+      .our-company-content-card-inner > div {
+          padding: 10px 0;
+      }
+      .our-company-content-card-inner > div .icon span{
+          width: 40px;
+          height: 40px;
+      }
+      .our-company-content-card {
+          padding: 2px;
+      }
+      .our-company-content-card-inner {
+          padding: 4px 6px;
+      }
+      .step .title-h2{
+          margin-bottom: 20px;
+      }
+      .step .steps {
+          margin: 50px 0;
+      }
+      .step .steps-card-inner > div .btn{
+          padding: 0;
+          margin-top: 10px;
+      }
+      .step .steps-card-inner > div .btn a{
+          line-height: 25px;
+      }
+      .step .steps .column-more{
+          height: 125px;
+      }
+      .title-h3{
+          font-size: 16px;
+      }
+      .footer{
+          grid-gap: 25px;
+      }
+      .footer .contact-phone a:last-child{
+          margin: 0;
+          margin-top: 25px;
+      }
+      .btn-burger {
+          width: 20px;
+          height: 18px;
+          background-size: cover;
+      }
+      body.nav-active .btn-burger {
+          width: 18px;
+          height: 18px;
+          background-size: cover;
+      }
+      .external .img:nth-child(2) {
+        bottom: 160px;
+        left: 15px;
+      }
+      .external .img:nth-child(3) {
+        bottom: 165px;
+      }
+      .external .img {
+        width: 100px;
+    } 
+    .external .img:nth-child(4) {
+        left: 15px;
+    }
+    .external .img:nth-child(6) {
+      right: 15px;
+      width: 105px;
+}
+}
+
+  @media (max-width: 575.98px) {
+    .modal-content form{
+      width: 100%;
+    }
+    .modal-header h5 {
+      font-size: 30px;
+    }
+    .modal-content{
+      padding: 0 15px;
+    }
+    .modal-content .btn {
+      font-size: 20px;
+      line-height: 50px;
+      height: 50px;
+    }
+    .modal-header h5 span{
+      line-height: 1.2;
+    }
+    .close {
+      right: 22px;
+    }
+    .header {
+      margin-bottom: 0; }
+
+    .btn-livingston {
+      font-size: 14px; }
+
+    .nav-menu {
+      padding: 15px;
+      max-width: 260px;
+      top: 85%;
+      right: -2%; }
+      .nav-menu .nav-item {
+        font-size: 16px; }
+      .nav-menu .nav-link {
+        padding: 10px; }
+
+    header .heading-info span {
+      font-size: 16px; }
+
+    .title-h1 {
+      font-size: 32px; }
+
+    .suptitle-h1 {
+      font-size: 16px;
+      margin: 0; }
+
+    .offer-content {
+      padding-right: 10px; }
+      .offer-content .offer-items .item > div {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px; }
+        .offer-content .offer-items .item > div::after {
+          width: 40px;
+          height: 40px; }
+        .offer-content .offer-items .item > div::before {
+          width: 60px;
+          height: 60px; }
+        .offer-content .offer-items .item > div span {
+          font-size: 16px; }
+      .offer-content .offer-items .item span {
+        font-size: 16px; }
+
+    .external-desc {
+      margin-left: 7%; }
+      .external-desc .title-h2 {
+        max-width: 200px;
+        text-align: center;
+        margin: 0 auto; }
+
+    .step .steps-card {
+      padding: 1px;
+      width: 140px;
+      height: 120px;
+      line-height: 17px; }
+      .step .steps-card-inner {
+        padding: 2px 3px; }
+        .step .steps-card-inner > div .number {
+          bottom: unset;
+          top: -20px;
+          font-size: 50px; }
+        .step .steps-card-inner > div .text {
+          font-size: 13px;
+          padding: 0 10px; }
+        .step .steps-card-inner > div .btn {
+          max-width: 100px;
+       }
+          .step .steps-card-inner > div .btn a {
+            font-size: 12px;
+            padding: 3px 0; }
+    .step .steps .col::before {
+      top: 60px; }
+
+    .step .subtitle-item .text {
+      font-size: 18px; 
+      line-height: 1.2;
+    } 
+    .inside .title-h2{
+          width: 210px;
+          margin: 0 auto;
+      }
+      header .heading-info{
+          width: 235px;
+      }
+      header .heading-info span{
+          font-size: 15px;
+      }
+      .step .subtitle {
+          width: 70%;
+      }
+  }
