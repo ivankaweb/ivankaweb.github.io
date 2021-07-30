@@ -1118,3 +1118,12 @@ header .heading-info span:last-child{
     margin-top: 20px;
     line-height: 65px;
 }
+
+
+.external .img img { width: 267px; }
+
+@media (max-width: 991.98px){
+    .external .img img {
+      width: 160px;
+  }
+}
