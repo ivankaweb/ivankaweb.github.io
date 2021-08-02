@@ -1132,3 +1132,33 @@ header .heading-info span:last-child{
 .residence .slider-item-container .item-content > div{
   border: 2px solid #f8ae58;
 }
+
+@media (max-width: 767.98px){
+  .residence .slider-item-container .item-content > div a{
+    width: 21px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 575.98px){
+  header {
+    background: linear-gradient(0deg, rgba(36, 39, 41, 0.6), rgba(36, 39, 41, 0.6)), url("../img/Render_07-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  .investor-offer {
+    background: linear-gradient(0deg, rgba(38, 38, 38, 0.9), rgba(38, 38, 38, 0.9)), url("../img/Render_05-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: top left;
+  }
+}
+
+.investor-offer {
+  background: linear-gradient(0deg, rgba(38, 38, 38, 0.9), rgba(38, 38, 38, 0.9)), url("../img/Render_05.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
