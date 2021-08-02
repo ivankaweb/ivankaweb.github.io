@@ -1153,12 +1153,31 @@ header .heading-info span:last-child{
     background-size: cover; 
     background-position: top left;
   }
-}
-
-.investor-offer {
-  background: linear-gradient(0deg, rgba(38, 38, 38, 0.9), rgba(38, 38, 38, 0.9)), url("../img/Render_05.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; 
+  .offer {
+    background-image: url("../img/Панрама\ задний\ двор-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .our-company {
+    background: linear-gradient(0deg, rgba(38, 38, 38, 0.9), rgba(38, 38, 38, 0.9)), url("../img/Патио\ 2-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .external {
+    position: relative;
+    height: 1400px;
+    background-color: #1f261c;
+    background: linear-gradient(0deg, rgba(38, 38, 38, 0.3), rgba(38, 38, 38, 0.3)), url("../img/Render_16-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right; 
+  }
+  .residence {
+    background: linear-gradient(0deg, rgba(38, 38, 38, 0.8), rgba(38, 38, 38, 0.8)), url("../img/Render_14-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right; 
+  }
 }
 
 
