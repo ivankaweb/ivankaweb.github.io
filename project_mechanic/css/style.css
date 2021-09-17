@@ -1110,13 +1110,13 @@ footer .footer .info {
     margin-top: 15px;
   }
   .header-contacts .contacts-list {
-    margin-left: 10px;
+    margin-left: 9px;
   }
   .header-contacts .contacts-list:first-child {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    min-width: 104px;
+    min-width: 105px;
   }
   .header-contacts .contacts-list:nth-child(2) {
     margin-left: 0;
