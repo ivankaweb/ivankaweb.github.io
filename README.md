@@ -19,3 +19,4 @@ https://ivankaweb.github.io/project15/   -  AGRO MAGNUS
 https://ivankaweb.github.io/project_trix/   -  NEW TRIX  
 https://ivankaweb.github.io/project_agro/   -  NEW AGRO  
 https://ivankaweb.github.io/project_pilgrim/   -  Pilgrim  
+https://ivankaweb.github.io/project_mechanic/   -  Mechanic  
