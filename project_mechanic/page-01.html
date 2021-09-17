@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting Engineering</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-content">
+                    <div class="time">
+                        <span><span class="icon icon-clock"></span>с 8:00 до 18:00</span>
+                    </div>
+                    <div class="social-nav">
+                        <a href=""><span class="icon-twitter"></span></a>
+                        <a href=""><span class="icon-face"></span></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="header-contacts">
+                <div class="logo">
+                    <a href=""><img src="img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="header-mobile">
+                    <div onclick="menuToggle()" class="menu-icon"></div>
+                    <div class="nav-mobile dropdown-more">
+                        <div class="nav-mobile-content">
+                            <div class="navbar nav-mobile-list">
+                                <div class="navbar-list nav-mobile-list-item">
+                                    <a class="active" href="">ГЛАВНАЯ</a>
+                                </div>
+                                <div class="navbar-list nav-mobile-list-item">
+                                    <div class="dropdown">
+                                        <button class="dropbtn" onclick="toggleDropdown(this)">ПОСТАВКИ 
+                                            <span class="icon-arrow"></span>
+                                        </button>
+                                        <div class="dropdown-content">
+                                            <a href="#">Пневматика</a>
+                                            <a href="#">Приборы КИПиА</a>
+                                            <a href="#">АРМАТУРА</a>
+                                            <a href="#">Мех уплотнения</a>
+                                            <div class="dropdown-submenu">
+                                                <button class="dropbtn" onclick="toggleDropdown(this)">Насосы 
+                                                    <span class="icon-arrow"></span>
+                                                </button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Пищевые насосы</a>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="navbar-list nav-mobile-list-item">
+                                    <a href="">КОНТАКТЫ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts">
+                    <div class="contacts-list">
+                        <span><span class="icon icon-phone"></span>наш телефон</span>
+                        <a href="tel:+38 050 659 06 51">+38 050 659 06 51</a>
+                    </div>
+                    <div class="contacts-list">
+                        <span><span class="icon icon-email"></span>наша почта</span>
+                        <a href="">example@gmail.com</a>
+                    </div>
+                    <div class="contacts-list">
+                        <span><span class="icon icon-map"></span>наш адрес</span>
+                        <a href="">вул. Феодори Пушиної буд. 8-А</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="header-menu">
+                <div class="container">
+                    <div class="header-menu-content">
+                        <div class="navbar">
+                            <div class="navbar-list">
+                                <a class="active" href="">ГЛАВНАЯ</a>
+                            </div>
+                            <div class="navbar-list">
+                                <div class="dropdown">
+                                    <button class="dropbtn" onclick="toggleDropdown(this)">ПОСТАВКИ 
+                                        <span class="icon-arrow"></span>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Пневматика</a>
+                                        <a href="#">Приборы КИПиА</a>
+                                        <a href="#">АРМАТУРА</a>
+                                        <a href="#">Мех уплотнения</a>
+                                        <a href="#">Насосы</a>
+                                        <a href="#">Пищевые насосы</a>
+                                        <div class="dropdown-submenu">
+                                            <button class="dropbtn" onclick="toggleDropdown(this)">Насосы 
+                                                <span class="icon-arrow"></span>
+                                            </button>
+                                            <div class="dropdown-content">
+                                                <a href="#">Пищевые насосы</a>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="navbar-list">
+                                <a href="">КОНТАКТЫ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h3 class="section-title">ПНЕВМАТИЧЕСКОЕ ОБОРУДОВАНИЕ</h3>
+            <div class="product section-content">
+                <div class="product-card">
+                    <div class="product-card-img">
+                       <img src="img/img_01.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Пневмоцилиндры</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-img">
+                       <img src="img/img_02.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Пневмораспределители</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-img">
+                       <img src="img/img_03.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Автоматические клапаны</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-card-img">
+                       <img src="img/img_04.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Вакуум</a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_05.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Пневмоцилиндры</a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_06.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Устройства подготовки воздуха</a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_07.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Запорная арматура</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="section">
+            <h3 class="section-title">ПНЕВМАТИЧЕСКОЕ ОБОРУДОВАНИЕ</h3>
+            <div class="product section-content">
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_08.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Гидравлические станции
+                    </a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_09.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Гидроцилиндры</a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_10.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Рукава высокого давления</a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_11.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Гидрораспределители</a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_12.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Клапаны</a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_13.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Рукава высокого давления</a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_14.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Фильтры</a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_15.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Фитинги</a>
+                </div>
+                <div class="product-card big-card">
+                    <div class="product-card-img">
+                       <img src="img/img_16.png" alt="product"> 
+                    </div>
+                    <a class="product-card-title" href="#">Насосы пластинчатые</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="section">
+            <h3 class="section-title">ПНЕВМАТИКА</h3>
+            <div class="our-company section-content">
+                <div class="our-company-card">
+                    <span class="number">01</span>
+                    <h3 class="title-h3">Наша компания</h3>
+                    <span class="desc">занимается продажей широкого спектра пневматического оборудования для производства</span>
+                </div>
+                <div class="our-company-card">
+                    <span class="number">02</span>
+                    <h3 class="title-h3">Наши пневмораспределители</h3>
+                    <span class="desc">и пневмоцилиндры это продукция высокого качества, отвечающая стандартам</span>
+                </div>
+                <div class="our-company-card">
+                    <span class="number">03</span>
+                    <h3 class="title-h3">Индивидуальный подход</h3>
+                    <span class="desc">к вопросу выбора пневматики для каждого клиента обеспечивает залог отличного функционирования производства</span>
+                </div>
+                <div class="our-company-card">
+                    <span class="number">04</span>
+                    <h3 class="title-h3">Наша пневматика</h3>
+                    <span class="desc">это профессиональный подход к линии клиента</span>
+                </div>
+                <div class="our-company-card">
+                    <span class="number">05</span>
+                    <h3 class="title-h3">Наши пневмораспределители</h3>
+                    <span class="desc">с механическим управлением, с пневматическим, а также распределители с элетропневматическим и электромагнитным управлением удовлетворят нужды каждого производства. Каждый распределитель отвечает требованиям ГОСТ, ISO.</span>
+                </div>
+                <div class="our-company-card">
+                    <span class="number">06</span>
+                    <h3 class="title-h3">Наша пневматика</h3>
+                    <span class="desc">это показатель индивидуального профессионального подхода к каждому клиенту</span>
+                </div>
+               <div class="our-company-info">
+                <h3 class="title-h3">Кроме того,</h3>
+                <span class="desc">Вы можете найти в перечне нашей продукции широкий выбор пневмоцилидров. Мы предлагаем пневмоцилиндры на заказ, отвечающие требованиями любой линии. Своим клиентам мы поставляем толькокачественные пневмоцилиндры производства компаний SMC, FESTO. Выбирая пневмоцилиндр у нас Вы получаете индивидуальное, ориентированное на себя оборудование для производства. Выбирайте нашу пневматику!</span>
+               </div>
+            </div>
+        </section>
+
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="logo">
+                    <a href=""><img src="img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="info">
+                    <h4 class="title-h4">ИНФОРМАЦИЯ</h4>
+                    <span class="desc">Инженеры ТОВ «Consulting Engineering» обеспечивают оптимальный подбор типа, исполнения и типоразмера оборудования по исходным данным Заказчика.</span>
+                </div>
+                <div>
+                    <h4 class="title-h4">МЫ В ИНТЕРНЕТЕ</h4>
+                    <div class="social-nav">
+                        <a href=""><span class="icon-twitter"></span></a>
+                        <a href=""><span class="icon-face"></span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    
+</body>
+</html>
