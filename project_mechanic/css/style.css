@@ -1359,6 +1359,9 @@ footer .footer .info {
   .dropdown-content {
     border-radius: 5px;
   }
+  .header-contacts {
+    margin-bottom: 0;
+}
 }
 @media (max-width: 350px) {
   .header-contacts .contacts-list a {
