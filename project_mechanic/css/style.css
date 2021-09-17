@@ -1116,7 +1116,7 @@ footer .footer .info {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    min-width: 102px;
+    min-width: 108px;
   }
   .header-contacts .contacts-list:nth-child(2) {
     margin-left: 0;
@@ -1348,14 +1348,6 @@ footer .footer .info {
 
   .nav-mobile-list-item {
     padding: 25px 0;
-  }
-
-  .dropdown-active > .dropdown-content a {
-    font-size: 10px;
-  }
-
-  .dropdown .dropdown-submenu button {
-    font-size: 10px;
   }
 
   .dropdown > button {
