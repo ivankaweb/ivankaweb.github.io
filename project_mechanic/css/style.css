@@ -479,7 +479,7 @@ body.nav-active .nav-mobile {
   z-index: 1;
   top: 120px;
   width: 100%;
-  display: block;
+  display: inline-block;
 }
 body.nav-active .nav-mobile-content:before, body.nav-active .nav-mobile-content:after {
   -webkit-transform: translateX(0%) translateY(0%);
