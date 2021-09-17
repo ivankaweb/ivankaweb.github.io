@@ -406,6 +406,7 @@ section {
   z-index: -99;
   left: 0;
   top: 0;
+  visibility: hidden;
 }
 .nav-mobile-content {
   position: relative;
@@ -472,6 +473,8 @@ body.nav-active .menu-icon {
   position: fixed;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  right: 17px; 
+  top: 68px;
 }
 body.nav-active .nav-mobile {
   visibility: visible;
