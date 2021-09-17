@@ -406,7 +406,6 @@ section {
   z-index: -99;
   left: 0;
   top: 0;
-  display: none;
 }
 .nav-mobile-content {
   position: relative;
@@ -479,7 +478,6 @@ body.nav-active .nav-mobile {
   z-index: 1;
   top: 120px;
   width: 100%;
-  display: block;
 }
 body.nav-active .nav-mobile-content:before, body.nav-active .nav-mobile-content:after {
   -webkit-transform: translateX(0%) translateY(0%);
@@ -1217,6 +1215,9 @@ footer .footer .info {
   }
 }
 @media (max-width: 650px) {
+  body section:last-child{
+      padding-top: 15px;
+  }
   .advantage .title {
     max-width: 100%;
   }
@@ -1361,9 +1362,6 @@ footer .footer .info {
   .dropdown-content {
     border-radius: 5px;
   }
-  .header-contacts {
-    margin-bottom: 0;
-}
 }
 @media (max-width: 350px) {
   .header-contacts .contacts-list a {
