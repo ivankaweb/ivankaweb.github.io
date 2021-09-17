@@ -1116,7 +1116,7 @@ footer .footer .info {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    min-width: 108px;
+    min-width: 104px;
   }
   .header-contacts .contacts-list:nth-child(2) {
     margin-left: 0;
