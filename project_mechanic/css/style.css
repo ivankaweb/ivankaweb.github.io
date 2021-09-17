@@ -1215,7 +1215,7 @@ footer .footer .info {
   }
 }
 @media (max-width: 650px) {
-  body section:last-child{
+  section:last-child{
       padding-top: 15px;
   }
   .advantage .title {
