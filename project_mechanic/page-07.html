@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting Engineering</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="wrapper">
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-content">
+                    <div class="time">
+                        <span><span class="icon icon-clock"></span>с 8:00 до 18:00</span>
+                    </div>
+                    <div class="social-nav">
+                        <a href=""><span class="icon-twitter"></span></a>
+                        <a href=""><span class="icon-face"></span></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="header-contacts">
+                <div class="logo">
+                    <a href=""><img src="img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="header-mobile">
+                    <div onclick="menuToggle()" class="menu-icon"></div>
+                    <div class="nav-mobile">
+                        <div class="nav-mobile-content">
+                            <div class="navbar nav-mobile-list">
+                                <div class="navbar-list nav-mobile-list-item">
+                                    <a class="active" href="">ГЛАВНАЯ</a>
+                                </div>
+                                <div class="navbar-list nav-mobile-list-item">
+                                    <div class="dropdown">
+                                        <button class="dropbtn" onclick="toggleDropdown(this)">ПОСТАВКИ 
+                                            <span class="icon-arrow"></span>
+                                        </button>
+                                        <div class="dropdown-content">
+                                            <a href="#">Пневматика</a>
+                                            <a href="#">Приборы КИПиА</a>
+                                            <a href="#">АРМАТУРА</a>
+                                            <a href="#">Мех уплотнения</a>
+                                            <div class="dropdown-submenu">
+                                                <button class="dropbtn" onclick="toggleDropdown(this)">Насосы 
+                                                    <span class="icon-arrow"></span>
+                                                </button>
+                                                <div class="dropdown-content">
+                                                    <a href="#">Пищевые насосы</a>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="navbar-list nav-mobile-list-item">
+                                    <a href="">КОНТАКТЫ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts">
+                    <div class="contacts-list">
+                        <span><span class="icon icon-phone"></span>наш телефон</span>
+                        <a href="tel:+38 050 659 06 51">+38 050 659 06 51</a>
+                    </div>
+                    <div class="contacts-list">
+                        <span><span class="icon icon-email"></span>наша почта</span>
+                        <a href="">example@gmail.com</a>
+                    </div>
+                    <div class="contacts-list">
+                        <span><span class="icon icon-map"></span>наш адрес</span>
+                        <a href="">вул. Феодори Пушиної буд. 8-А</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="header-menu">
+                <div class="container">
+                    <div class="header-menu-content">
+                        <div class="navbar">
+                            <div class="navbar-list">
+                                <a class="active" href="">ГЛАВНАЯ</a>
+                            </div>
+                            <div class="navbar-list">
+                                <div class="dropdown">
+                                    <button class="dropbtn" onclick="toggleDropdown(this)">ПОСТАВКИ 
+                                        <span class="icon-arrow"></span>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Пневматика</a>
+                                        <a href="#">Приборы КИПиА</a>
+                                        <a href="#">АРМАТУРА</a>
+                                        <a href="#">Мех уплотнения</a>
+                                        <div class="dropdown-submenu">
+                                            <button class="dropbtn" onclick="toggleDropdown(this)">Насосы 
+                                                <span class="icon-arrow"></span>
+                                            </button>
+                                            <div class="dropdown-content">
+                                                <a href="#">Пищевые насосы</a>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="navbar-list">
+                                <a href="">КОНТАКТЫ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <div class="container">
+        <section class="section contacts-section pb-0">
+            <div class="contacts-col">
+                <h3 class="section-title">ГЛАВНЫЙ ОФИС:</h3>
+                <div>
+                    <h4 class="title-h4">ТОВ “Consulting Engineering”</h4>
+                    <div class="contacts contacts-content">
+                        <div class="contacts-list">
+                            <span><span class="icon icon-map"></span>наш адрес</span>
+                            <a href="">м. Київ, вул. Феодори Пушиної буд. 8-А, 03164 </a>
+                        </div>
+                        <div class="contacts-list">
+                            <span><span class="icon icon-phone"></span>наш телефон</span>
+                            <a href="tel:+38 050 659 06 51">+38 050 659 06 51</a>
+                        </div>
+                        <div class="contacts-list">
+                            <span><span class="icon icon-email"></span>наша почта</span>
+                            <a href="">example@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts-col">
+                <h3 class="section-title">ФИЛИАЛ ДНЕПР:</h3>
+                <div>
+                    <h4 class="title-h4">ТОВ “Consulting Engineering”</h4>
+                    <div class="contacts contacts-content">
+                        <div class="contacts-list">
+                            <span><span class="icon icon-map"></span>наш адрес</span>
+                            <a href="">Дніпро, вулиця Шевченка, 53, Дніпропетровська область, 49000 Энигма бизнес центр</a>
+                        </div>
+                        <div class="contacts-list">
+                            <span><span class="icon icon-phone"></span>наш телефон</span>
+                            <a href="tel:+38 050 659 06 51">+38 050 659 06 51</a>
+                        </div>
+                        <div class="contacts-list">
+                            <span><span class="icon icon-email"></span>наша почта</span>
+                            <a href="">example@gmail.com</a>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="contacts-col">
+                <h3 class="section-title">ФИЛИАЛ ХАРЬКОВ:</h3>
+                <div>
+                    <h4 class="title-h4">ТОВ “Consulting Engineering”</h4>
+                    <div class="contacts contacts-content">
+                        <div class="contacts-list">
+                            <span><span class="icon icon-map"></span>наш адрес</span>
+                            <a href="">Харьков, улица Клочковская, 111А, Харьковская область, 61000 БЦ Тетрис</a>
+                        </div>
+                        <div class="contacts-list">
+                            <span><span class="icon icon-phone"></span>наш телефон</span>
+                            <a href="tel:+38 050 659 06 51">+38 050 659 06 51</a>
+                        </div>
+                        <div class="contacts-list">
+                            <span><span class="icon icon-email"></span>наша почта</span>
+                            <a href="">example@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="logo">
+                    <a href=""><img src="img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="info">
+                    <h4 class="title-h4">ИНФОРМАЦИЯ</h4>
+                    <span class="desc">Инженеры ТОВ «Consulting Engineering» обеспечивают оптимальный подбор типа, исполнения и типоразмера оборудования по исходным данным Заказчика.</span>
+                </div>
+                <div>
+                    <h4 class="title-h4">МЫ В ИНТЕРНЕТЕ</h4>
+                    <div class="social-nav">
+                        <a href=""><span class="icon-twitter"></span></a>
+                        <a href=""><span class="icon-face"></span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+   </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
