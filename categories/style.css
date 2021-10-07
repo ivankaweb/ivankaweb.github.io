@@ -2,14 +2,16 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
-
+.container{
+    width: 1630px;
+}
 img {
     width: 100%;
 }
 
 .card{
     position: relative;
-    height: 220px;
+    height: 300px;
     margin-bottom: 20px;
     transition: 0.3s ease-out;
     box-shadow: 0 3px 15px rgba(255,255,255,4.48);
