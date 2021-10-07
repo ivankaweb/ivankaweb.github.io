@@ -3,7 +3,7 @@ body{
     
 }
 .container{
-    width: 1630px;
+    width: 1630px !important;
 }
 img {
     width: 100%;
