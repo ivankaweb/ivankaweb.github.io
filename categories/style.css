@@ -120,6 +120,9 @@ img {
 .subcategories li:hover::before{
     opacity: 1;
 }
+.subcategories li:hover{
+    background-color: #ef391c0d;
+}
 .card .subcategories a{
     text-decoration: none;
     color: #333;
