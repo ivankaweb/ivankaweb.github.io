@@ -15,7 +15,7 @@ img {
     cursor: pointer;
 }
 
-.categiries-col .card .content {
+.categories-small .card .content {
     width: 65%;
 }
 .card .img{
@@ -116,11 +116,16 @@ img {
 /* *********************************
 ************** MEDIA ************
 ********************************* */
-@media (max-width: 1199px) { 
+@media (max-width: 1350px) { 
     .card {
-        height: 185px;
+        height: 195px;
     }
-
+    .categories-small .card .content {
+        width: 85%;
+    }
+    .card .content {
+        width: 40%;
+    }
 }
 
 
