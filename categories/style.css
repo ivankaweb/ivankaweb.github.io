@@ -5,7 +5,7 @@ img {
     width: 100%;
 }
 
-.card{
+.categories-card{
     position: relative;
     height: 260px;
     margin-bottom: 20px;
@@ -15,10 +15,10 @@ img {
     cursor: pointer;
 }
 
-.categories-small .card .content {
+.categories-small .categories-card .content {
     width: 65%;
 }
-.card .img{
+.categories-card .img{
     position: relative;
     left: 0;
     top: 0;
@@ -28,16 +28,16 @@ img {
     z-index: 0;
 }
  /* The Transformation */
-.card .img img {
+.categories-card .img img {
     transition: transform .5s, filter 1.5s ease-in-out;
     filter: grayscale(100%);
   }
  
-  .card:hover img {
+  .categories-card:hover img {
     filter: grayscale(0);
     transform: scale(1.1);
   }
-.card .img img{
+.categories-card .img img{
     position: absolute;
     left: 0;
     top: 0;
@@ -47,7 +47,7 @@ img {
     transition: 0.55s;
     z-index: -1;
 }
-.card .content{
+.categories-card .content{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -58,14 +58,14 @@ img {
     
     
 }
-.card:hover .content{
+.categories-card:hover .content{
     height: 88%;
 }
-.card .name{
+.categories-card .name{
     text-align: center;
     background-color: #ef391a;
 }
-.card .name a{
+.categories-card .name a{
     text-decoration: none;
     color: #fff;
     font-size: 16px;
@@ -76,14 +76,14 @@ img {
     align-items: center;
     text-shadow: 2px 8px 6px rgb(0 0 0 / 20%), 0px -5px 35px rgb(255 255 255 / 30%)
 }
-.card .subcategories{
+.categories-card .subcategories{
     padding: 0;
     margin: 0;
     list-style-type: none;
     background-color: #fff;
     height: 75%;
 }
-.card .subcategories li{
+.categories-card .subcategories li{
     position: relative;
     font-weight: 600;
     padding: 2px 15px;
@@ -106,7 +106,7 @@ img {
 .subcategories li:hover{
     background-color: #ef391c0d;
 }
-.card .subcategories a{
+.categories-card .subcategories a{
     text-decoration: none;
     color: #333;
     font-size: 12px;
@@ -117,13 +117,13 @@ img {
 ************** MEDIA ************
 ********************************* */
 @media (max-width: 1350px) { 
-    .card {
+    .categories-card {
         height: 195px;
     }
-    .categories-small .card .content {
+    .categories-small .categories-card .content {
         width: 85%;
     }
-    .card .content {
+    .categories-card .content {
         width: 40%;
     }
 }
