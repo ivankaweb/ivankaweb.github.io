@@ -8,18 +8,9 @@
     <title>Food Lover</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/slick.css">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="apple-touch-icon" sizes="57x57" href="/image/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/image/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/image/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/image/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/image/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/image/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/image/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/image/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/image/apple-touch-icon-180x180.png">
+    <link rel="stylesheet" href="iconsax/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+<!--     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> -->
 
 </head>
 
@@ -32,7 +23,7 @@
                         <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#menu">Menus</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#offers">Offers</a></li>
+                      <!--   <li class="nav-item"><a class="nav-link" href="#offers">Offers</a></li> -->
                     </ul>
                 </nav>
                 <div class="logo">
@@ -47,7 +38,7 @@
                 </nav>
             </div>
             <div class="header" id="contact">
-                <div>
+                <div class="header-img">
                     <img class="w-100" src="images/header-img.png" alt="Dissert">
                 </div>
                 <div class="header-contact-us">
@@ -60,15 +51,195 @@
         </div>
     </header>
     <div class="js-scroll-btn">
-            <i class="zmdi zmdi-chevron-up"></i>
+        <span class="icon-arrow-up-2"></span>
     </div>
+
+    <section id="find-recipe">
+        <div class="wrapper find-recipe">
+            <div class="find-recipe-search">
+                <h2 class="title-2">Find Recipe</h2>
+                <form class="findRecipeForm">
+                   <input type="text" class="form-control" placeholder="What's in your kitchen?">
+
+                   <div id="foundProductsTags" class="mb-4">
+                        <a href="" class="found-product-tag">
+                            <span>Milk</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Rice</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Onions</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Milk</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Rice</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Onions</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Milk</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Rice</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Onions</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Milk</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Rice</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Onions</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Milk</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Rice</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                        <a href="" class="found-product-tag">
+                            <span>Onions</span>
+                            <span class="icon-tick-circle tag-notif-icon"></span>
+                        </a>
+                   </div>
+                
+                   <label for="categoryRecipes" class="form-label title-2">Category Recipes</label>
+                   <select id="categoryRecipes" name="Category Recipes" class="form-select">
+                       <option value="" hidden disabled selected class="holder">Choose which category you want the recipe</option>
+                       <option value="pasta">Pasta</option>
+                       <option value="vegetables">Vegetables</option>
+                       <option value="soups">Soups & Stocks</option>
+                   </select>
+
+                </form>
+            </div>
+            <div class="find-recipe-result">
+                <h2 class="title-2">Result</h2>
+                <div class="find-recipe-result-content scrollbar-dark">
+                    <button type="button" class="find-recipe-result-item">
+                        <div class="find-recipe-result-item-img js-image-src" data-image-src="images/recipe-img/img-01.jpg"></div>
+                        <div class="find-recipe-result-item-desc">
+                            <h3 class="find-recipe-result-item-name">Our Best French-Style Buttercream</h3>
+                            <div class="find-recipe-result-item-rating">
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star"></span>
+                            </div>
+                        </div>
+                    </button>
+                    <button type="button" class="find-recipe-result-item">
+                        <div class="find-recipe-result-item-img js-image-src" data-image-src="images/recipe-img/img-01.jpg"></div>
+                        <div class="find-recipe-result-item-desc">
+                            <h3 class="find-recipe-result-item-name">Our Best French-Style Buttercream</h3>
+                            <div class="find-recipe-result-item-rating">
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star"></span>
+                            </div>
+                        </div>
+                    </button>
+                    <button type="button" class="find-recipe-result-item">
+                        <div class="find-recipe-result-item-img js-image-src" data-image-src="images/recipe-img/img-01.jpg"></div>
+                        <div class="find-recipe-result-item-desc">
+                            <h3 class="find-recipe-result-item-name">Our Best French-Style Buttercream</h3>
+                            <div class="find-recipe-result-item-rating">
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star"></span>
+                            </div>
+                        </div>
+                    </button>
+                    <button type="button" class="find-recipe-result-item">
+                        <div class="find-recipe-result-item-img js-image-src" data-image-src="images/recipe-img/img-01.jpg"></div>
+                        <div class="find-recipe-result-item-desc">
+                            <h3 class="find-recipe-result-item-name">Our Best French-Style Buttercream</h3>
+                            <div class="find-recipe-result-item-rating">
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star"></span>
+                            </div>
+                        </div>
+                    </button>
+                    <button type="button" class="find-recipe-result-item">
+                        <div class="find-recipe-result-item-img js-image-src" data-image-src="images/recipe-img/img-01.jpg"></div>
+                        <div class="find-recipe-result-item-desc">
+                            <h3 class="find-recipe-result-item-name">Our Best French-Style Buttercream</h3>
+                            <div class="find-recipe-result-item-rating">
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star"></span>
+                            </div>
+                        </div>
+                    </button>
+                    <button type="button" class="find-recipe-result-item">
+                        <div class="find-recipe-result-item-img js-image-src" data-image-src="images/recipe-img/img-01.jpg"></div>
+                        <div class="find-recipe-result-item-desc">
+                            <h3 class="find-recipe-result-item-name">Our Best French-Style Buttercream</h3>
+                            <div class="find-recipe-result-item-rating">
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star"></span>
+                            </div>
+                        </div>
+                    </button>
+                    <button type="button" class="find-recipe-result-item">
+                        <div class="find-recipe-result-item-img js-image-src" data-image-src="images/recipe-img/img-01.jpg"></div>
+                        <div class="find-recipe-result-item-desc">
+                            <h3 class="find-recipe-result-item-name">Our Best French-Style Buttercream</h3>
+                            <div class="find-recipe-result-item-rating">
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star-1"></span>
+                                <span class="icon-star"></span>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <section class="about-us" id="about">
         <div class="wrapper">
-            <div class="d-flex-between">
+            <div class="about-us-content">
                 <div class="about-us-img">
                     <img src="images/img-content.png" alt="Food">
                 </div>
-                <div class="desc-about">
+                <div class="about-us-desc">
                     <h2 class="title-2">About Us</h2>
                     <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
@@ -78,24 +249,27 @@
         </div>
     </section>
     <section class="our-food" id="offers">
+        <!-- BG LINE DESIGN ORANG -->
+        <img class="bg-line-orang" src="images/line.png" alt="Design Line">
+
         <div class="wrapper">
-            <div class="content-our-top">
-                <div class="content-our-top-desc">
+            <div class="our-food-content-top">
+                <div class="our-food-content-top-desc">
                     <h2 class="title-2">Our Food Quality</h2>
                     <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
                         lacus vel facilisis. </p>
                 </div>
-                <div class="content-our-top-img">
+                <div class="our-food-content-top-img">
                     <img src="images/img-content1.png" alt="Food">
                 </div>
             </div>
-            <div class="content-our-bottom">
-                <div class="content-our-bottom-img-left">
+            <div class="our-food-content-bottom">
+                <div class="our-food-content-bottom-img-left">
                     <img src="images/img-content3.png" alt="Food">
                 </div>
 
-                <div class="content-our-bottom-img-right">
+                <div class="our-food-content-bottom-img-right">
                     <img src="images/img-content2.png" alt="Food">
                 </div>
             </div>
@@ -215,10 +389,8 @@
                         <ul class="nav-footer">
                             <li class="nav-footer-item"><a class="nav-footer-link" href="#">Home</a></li>
                             <li class="nav-footer-item"><a class="nav-footer-link" href="#">About Us</a></li>
-                            <li class="nav-footer-item"><a class="nav-footer-link" href="#">Services</a></li>
                             <li class="nav-footer-item"><a class="nav-footer-link" href="#">Foods</a></li>
                             <li class="nav-footer-item"><a class="nav-footer-link" href="#">Contact</a></li>
-                            <li class="nav-footer-item"><a class="nav-footer-link" href="#">Location</a></li>
                         </ul>
                     </div>
                     <div class="socials">
@@ -234,6 +406,59 @@
            
         </div>
     </footer>
+
+ 
+    <!-- MODAL -->
+
+    <div id="detailsRecipeModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span id="btnCloseModal" class="close icon-close-circle"></span>
+            <div class="body-modal">
+                <div class="product-img-modal js-image-src" data-image-src="images/recipe-img/img-01.jpg"> </div>
+                <div class="product-details-modal">
+                   <div class="product-details-modal-content">
+                        <h2>Our Best French-Style Buttercream</h2>
+                       <div class="product-details-modal-content-flex">
+                            <ul class="recipe-lists">
+                                <li>170 g Eggs</li>
+                                <li>180 g Eggs</li>
+                                <li>0.5 cups Water</li>
+                                <li>18 oz Butter</li>
+                                <li>1.5 tsp Vanilla extract</li>
+                                <li>2 cups Granulated sugar</li>
+                            </ul>
+                            <div>
+                                <div class="find-recipe-result-item-rating">
+                                    <span class="icon-star-1"></span>
+                                    <span class="icon-star-1"></span>
+                                    <span class="icon-star-1"></span>
+                                    <span class="icon-star-1"></span>
+                                    <span class="icon-star"></span>
+                                </div>
+                                <span class="cooking-time">
+                                    <span class="icon-timer-1"></span>
+                                    <span>50 mins</span>
+                                </span>
+                            </div>
+                            
+
+                       </div>
+                   </div>
+                </div>
+                <div class="product-desc-modal">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                
+            </div>
+        </div>
+    
+    </div>
+
 
 
     <script src="script/jquery-3.5.1.min.js"></script>
