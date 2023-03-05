@@ -26,3 +26,4 @@ https://ivankaweb.github.io/categories/   - Office Categories
 https://ivankaweb.github.io/project_vulkan/  - Vulkan  
 https://ivankaweb.github.io/project_webArray/index.html  - WebArray  
 https://ivankaweb.github.io/project_consultingSolution  -  Consulting Solution
+https://ivankaweb.github.io/project-food-lover  -  Food Lover
