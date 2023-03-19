@@ -16,6 +16,12 @@ img {
 section {
   padding: 120px 0 120px; }
 
+.mb-0 {
+  margin-bottom: 0; }
+
+.me-2 {
+  margin-right: 2px; }
+
 .d-flex-between {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,7 +82,14 @@ section {
   margin: 15% auto;
   padding: 1.5rem;
   width: 85%;
-  border-radius: .625rem;
+  border-radius: .625rem; }
+
+.modal .close {
+  position: absolute;
+  right: .2rem;
+  top: .2rem; }
+
+.modal.show {
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
@@ -84,12 +97,19 @@ section {
   -webkit-animation-name: fadeInDown;
           animation-name: fadeInDown;
   -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s; }
+          animation-duration: 0.5s;
+  display: block; }
 
-.modal .close {
-  position: absolute;
-  right: 1rem;
-  top: 1rem; }
+.modal.hide {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-animation-name: fadeOutDown;
+          animation-name: fadeOutDown;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  display: none; }
 
 @-webkit-keyframes fadeInDown {
   0% {
@@ -110,6 +130,24 @@ section {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
+@-webkit-keyframes fadeOutDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(-1.25em);
+            transform: translateY(-1.25em); } }
+@keyframes fadeOutDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(-1.25em);
+            transform: translateY(-1.25em); } }
 .close {
   color: #aaa;
   float: right;
@@ -411,7 +449,7 @@ footer {
   border: none; }
 
 /* FORM */
-.form-control, .form-select {
+.form-select, .ts-control {
   max-width: 100%;
   width: -webkit-fill-available;
   padding: 1rem;
@@ -423,15 +461,17 @@ footer {
   border: 3px solid #e58f00;
   margin-bottom: 1.5rem;
   cursor: pointer; }
-  .form-control::-webkit-input-placeholder, .form-select::-webkit-input-placeholder {
+  .form-select input, .ts-control input {
+    font-size: 20px !important; }
+  .form-select::-webkit-input-placeholder, .ts-control::-webkit-input-placeholder {
     color: #8a8e96; }
-  .form-control:-ms-input-placeholder, .form-select:-ms-input-placeholder {
+  .form-select:-ms-input-placeholder, .ts-control:-ms-input-placeholder {
     color: #8a8e96; }
-  .form-control::-ms-input-placeholder, .form-select::-ms-input-placeholder {
+  .form-select::-ms-input-placeholder, .ts-control::-ms-input-placeholder {
     color: #8a8e96; }
-  .form-control::placeholder, .form-select::placeholder {
+  .form-select::placeholder, .ts-control::placeholder {
     color: #8a8e96; }
-  .form-control:focus, .form-select:focus {
+  .form-select:focus, .ts-control:focus {
     color: #292D32;
     background-color: #FFF;
     border-color: #e58f00;
@@ -474,6 +514,7 @@ footer {
   -webkit-transition: ease .3s;
   transition: ease .3s;
   margin-bottom: 1rem;
+  background: transparent;
   text-decoration: none; }
   .found-product-tag:hover {
     background-color: #e58f0057; }
@@ -533,7 +574,8 @@ footer {
       color: #f7ab2c;
       opacity: .7;
       -webkit-transition: ease .3s;
-      transition: ease .3s; }
+      transition: ease .3s;
+      margin-left: 2px; }
 
 .product-details-modal-content-flex {
   display: -webkit-box;
@@ -907,7 +949,11 @@ footer {
     width: 50%; }
 
   .product-details-modal {
-    width: 50%; } }
+    width: 50%; }
+
+  .modal .close {
+    right: 1rem;
+    top: 1rem; } }
 @media (min-width: 800px) {
   .our-food-content-top-desc {
     max-width: 50%;
@@ -1009,5 +1055,4 @@ footer {
 
   .modal-content {
     width: 50%; } }
-
 /*# sourceMappingURL=style.css.map */

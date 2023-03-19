@@ -20,6 +20,14 @@ section {
 	padding: 120px 0 120px;
 }
 
+.mb-0 {
+	margin-bottom: 0;
+}
+
+.me-2 {
+	margin-right: 2px;
+}
+
 .d-flex-between {
 	display: flex;
 	justify-content: space-between;
@@ -87,16 +95,27 @@ section {
 	padding: 1.5rem;
 	width: 85%;
 	border-radius: .625rem;
-	transition: transform 0.3s ease-in-out;
-	animation-name: fadeInDown;
-	animation-duration: 0.5s;
+
 
   }
   .modal .close{
 	position: absolute;
-    right: 1rem;
-    top: 1rem;
+    right: .2rem;
+    top: .2rem;
 	}
+
+.modal.show {
+	transition: transform 0.3s ease-in-out;
+	animation-name: fadeInDown;
+	animation-duration: 0.5s;
+	display: block;
+}
+.modal.hide {
+	transition: transform 0.3s ease-in-out;
+	animation-name: fadeOutDown;
+	animation-duration: 0.5s;
+	display: none;
+}
 
  @keyframes fadeInDown {
     0% {
@@ -106,6 +125,17 @@ section {
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+ @keyframes fadeOutDown {
+	0% {
+        opacity: 0;
+		transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-1.25em);
+
     }
 }
 
@@ -497,7 +527,7 @@ footer {
 
 /* FORM */
 
-.form-control, .form-select{
+.form-select, .ts-control{
 	max-width: 100%;
 	width: -webkit-fill-available;
 	padding: 1rem;
@@ -509,8 +539,12 @@ footer {
 	margin-bottom: 1.5rem;
 	cursor: pointer;
 
+	& input{
+		font-size: 20px !important;
+	}
 	&::placeholder{
 		color: #8a8e96;
+
 	}
 
 	&:focus {
@@ -560,6 +594,7 @@ footer {
 	color: white;
 	transition: ease .3s;
 	margin-bottom: 1rem;
+	background: transparent;
 	text-decoration: none;
 
 	&:hover{
@@ -644,6 +679,7 @@ footer {
 					color: #f7ab2c;
 					opacity: .7;
 					transition: ease .3s;
+					margin-left: 2px;
 				}
 			}
 		}
@@ -1114,6 +1150,12 @@ ul.nav-right{
 	}
 
 
+
+	.modal .close{
+		right: 1rem;
+		top: 1rem;
+	}
+		
 }
 @media (min-width: 800px) {
 	.our-food{

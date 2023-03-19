@@ -1,25 +1,19 @@
 /* MODAL */
 let detailsRecipeModal = document.getElementById('detailsRecipeModal');
 
-let recipeItemLinks = document.querySelectorAll('.find-recipe-result-item');
-
-
-recipeItemLinks.forEach(link => {
-  link.addEventListener('click', e => {
-    detailsRecipeModal.style.display = 'block';
-  })
-})
-
-var btnCloseModal = document.getElementById('btnCloseModal');
+let btnCloseModal = document.getElementById('btnCloseModal');
 
 btnCloseModal.onclick = function() {
-  detailsRecipeModal.style.display = 'none';
+  detailsRecipeModal.classList.remove('show');
+  detailsRecipeModal.classList.add('hide');
 
 }
 
 window.onclick = function(event) {
   if (event.target == detailsRecipeModal) {
-    detailsRecipeModal.style.display = 'none';
+    detailsRecipeModal.classList.remove('show');
+    detailsRecipeModal.classList.add('hide');
+
   }
 }
 
@@ -32,6 +26,14 @@ if(listImages){
 		let src = listImages[i].getAttribute('data-image-src');
 		listImages[i].style.backgroundImage="url('" + src + "')";
 	}
+}
+
+/* CREAT NEW ELEMENT */
+function createNewElement(tag, className='', text=''){
+  let el = document.createElement(tag);
+  el.className = className;
+  el.innerHTML = text;
+  return el;
 }
 
 
