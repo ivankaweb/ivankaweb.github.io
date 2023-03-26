@@ -1,5 +1,4 @@
 let apiResult = apiMenu.result;
-
 let resultRecipeSearch = document.getElementById('resultRecipeSearch');
 let detailsRecipeBodyModal = document.getElementById('detailsRecipeBodyModal');
 

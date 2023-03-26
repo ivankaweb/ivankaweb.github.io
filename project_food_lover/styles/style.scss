@@ -537,6 +537,7 @@ footer {
 	transition: ease .3s;
 	border: 3px solid $yellow;
 	margin-bottom: 1.5rem;
+	line-height: inherit;
 	cursor: pointer;
 
 	& input{
@@ -586,7 +587,8 @@ footer {
 	margin-bottom: 1rem;
 }
 .found-product-tag{
-	display: inline-block;
+	display: inline-flex;
+    align-items: center;
 	padding: .5rem .675rem;
 	border-radius: .625rem;
 	font-size: 18px;
@@ -594,6 +596,7 @@ footer {
 	color: white;
 	transition: ease .3s;
 	margin-bottom: 1rem;
+	margin-right: 1rem;
 	background: transparent;
 	text-decoration: none;
 
@@ -605,6 +608,7 @@ footer {
 			&:before {
 				content: "\e9c7";
 			}
+			cursor: pointer;
 		}
 	}
 
@@ -614,7 +618,25 @@ footer {
 	}
 }
 
+.form-control.multi.has-items .ts-control div[data-ts-item]{
+	display: none;
+}
+.ts-wrapper.multi.has-items .ts-control {
+    padding: 1rem !important;
+}
+.has-items .ts-control>input {
+    margin: 0 !important;
+}
 
+.ts-dropdown [data-selectable] .highlight {
+    background: transparent !important;
+    color: $yellow !important;
+}
+.ts-dropdown .active {
+    background-color: #e4bd8f33;
+    color: #000000;
+	transition: .3s;
+}
 /* FIND RECIPE */
 .find-recipe{
 	&-search{
@@ -704,7 +726,31 @@ footer {
 		font-weight: 700;
 	}
 }
-
+.ts-dropdown-content{
+	overflow-x: hidden;
+	overflow-y: auto;
+	scrollbar-color: #fff;
+	scrollbar-width: thin;
+}
+.ts-dropdown-content::-webkit-scrollbar {
+	width: 3px;
+	height: 32px;
+  }
+  
+.ts-dropdown-content::-webkit-scrollbar-track {
+	border-radius: 1.5rem;
+	background: #fff;
+}
+  
+.ts-dropdown-content::-webkit-scrollbar-thumb {
+	border-radius: 1.5rem;
+	background: #292d32;
+}
+  
+.ts-dropdown-content::-webkit-scrollbar-thumb:hover,
+.ts-dropdown-content::-webkit-scrollbar-thumb:active {
+	background: #292d32;
+}
 
 .scrollbar-dark {
 	overflow-x: hidden;

@@ -460,6 +460,7 @@ footer {
   transition: ease .3s;
   border: 3px solid #e58f00;
   margin-bottom: 1.5rem;
+  line-height: inherit;
   cursor: pointer; }
   .form-select input, .ts-control input {
     font-size: 20px !important; }
@@ -505,7 +506,12 @@ footer {
   margin-bottom: 1rem; }
 
 .found-product-tag {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: .5rem .675rem;
   border-radius: .625rem;
   font-size: 18px;
@@ -514,17 +520,38 @@ footer {
   -webkit-transition: ease .3s;
   transition: ease .3s;
   margin-bottom: 1rem;
+  margin-right: 1rem;
   background: transparent;
   text-decoration: none; }
   .found-product-tag:hover {
     background-color: #e58f0057; }
     .found-product-tag:hover .tag-notif-icon {
-      opacity: 1; }
+      opacity: 1;
+      cursor: pointer; }
       .found-product-tag:hover .tag-notif-icon:before {
         content: "\e9c7"; }
   .found-product-tag .tag-notif-icon {
     margin-left: 5px;
     opacity: .3; }
+
+.form-control.multi.has-items .ts-control div[data-ts-item] {
+  display: none; }
+
+.ts-wrapper.multi.has-items .ts-control {
+  padding: 1rem !important; }
+
+.has-items .ts-control > input {
+  margin: 0 !important; }
+
+.ts-dropdown [data-selectable] .highlight {
+  background: transparent !important;
+  color: #e58f00 !important; }
+
+.ts-dropdown .active {
+  background-color: #e4bd8f33;
+  color: #000000;
+  -webkit-transition: .3s;
+  transition: .3s; }
 
 /* FIND RECIPE */
 .find-recipe-search {
@@ -599,6 +626,28 @@ footer {
   color: #8a8e96; }
   .cooking-time span:first-child {
     font-weight: 700; }
+
+.ts-dropdown-content {
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-color: #fff;
+  scrollbar-width: thin; }
+
+.ts-dropdown-content::-webkit-scrollbar {
+  width: 3px;
+  height: 32px; }
+
+.ts-dropdown-content::-webkit-scrollbar-track {
+  border-radius: 1.5rem;
+  background: #fff; }
+
+.ts-dropdown-content::-webkit-scrollbar-thumb {
+  border-radius: 1.5rem;
+  background: #292d32; }
+
+.ts-dropdown-content::-webkit-scrollbar-thumb:hover,
+.ts-dropdown-content::-webkit-scrollbar-thumb:active {
+  background: #292d32; }
 
 .scrollbar-dark {
   overflow-x: hidden;

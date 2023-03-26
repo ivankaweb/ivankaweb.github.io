@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="styles/style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap" rel="stylesheet">
-<!--     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> -->
 
 </head>
 
@@ -55,55 +54,20 @@
     <div class="js-scroll-btn">
         <span class="icon-arrow-up-2"></span>
     </div>
-
     <section id="find-recipe">
         <div class="wrapper find-recipe">
             <div class="find-recipe-search">
                 <h2 class="title-2">Find Recipe</h2>
                 <form class="findRecipeForm">
                    <input id="searchRecipeInput" type="text" class="form-control" placeholder="What's in your kitchen?">
-
-                   <div id="foundProductsTags" class="mb-4">
-                        <a href="" class="found-product-tag">
-                            <span>Milk</span>
-                            <span class="icon-tick-circle tag-notif-icon"></span>
-                        </a>
-                        <a href="" class="found-product-tag">
-                            <span>Rice</span>
-                            <span class="icon-tick-circle tag-notif-icon"></span>
-                        </a>
-                        <a href="" class="found-product-tag">
-                            <span>Onions</span>
-                            <span class="icon-tick-circle tag-notif-icon"></span>
-                        </a>
-                   </div>
-                
+                   <div id="foundProductsTags" class="mb-4"></div>
                    <label for="categoryRecipes" class="form-label title-2">Category Recipes</label>
-                   <select id="categoryRecipes" name="Category Recipes" class="form-select">
-                       <option value="" hidden disabled selected class="holder">Choose which category you want the recipe</option>
-                       <option value="pasta">Pasta</option>
-                       <option value="vegetables">Vegetables</option>
-                       <option value="soups">Soups & Stocks</option>
-                   </select>
-
+                   <select id="categoryRecipes" name="Category Recipes" class="form-control" placeholder="Choose which category you want the recipe"></select>
                 </form>
             </div>
             <div class="find-recipe-result">
                 <h2 class="title-2">Result</h2>
                 <div id="resultRecipeSearch" class="find-recipe-result-content scrollbar-dark">
-                  <!--   <button type="button" class="find-recipe-result-item">
-                        <div class="find-recipe-result-item-img js-image-src" data-image-src="images/recipe-img/img-01.jpg"></div>
-                        <div class="find-recipe-result-item-desc">
-                            <h3 class="find-recipe-result-item-name">Our Best French-Style Buttercream</h3>
-                            <div class="find-recipe-result-item-rating">
-                                <span class="icon-star-1"></span>
-                                <span class="icon-star-1"></span>
-                                <span class="icon-star-1"></span>
-                                <span class="icon-star-1"></span>
-                                <span class="icon-star"></span>
-                            </div>
-                        </div>
-                    </button> -->
                 </div>
             </div>
         </div>

@@ -1,17 +1,23 @@
-
-
 let apiMenu = {
     result: [
         {
             id: '12314qedwq423',
             recipe_name: 'Our Best French-Style Buttercream',
-            category_name: 'Soups',
+            category_name: 'Zupa',
             cooking_time: '50',
             rating: 4,
             img: 'img-01.jpg',
             menu: [
                 {
                     component_name: 'Eggs',
+                    component_count: '170g'
+                },
+                {
+                    component_name: 'Pasta',
+                    component_count: '170g'
+                },
+                {
+                    component_name: 'Oil',
                     component_count: '170g'
                 },
                 {
@@ -50,6 +56,14 @@ let apiMenu = {
                     component_count: '0.5 cups'
                 },
                 {
+                    component_name: 'Sous',
+                    component_count: '0.5 cups'
+                },
+                {
+                    component_name: 'Tomato',
+                    component_count: '0.5 cups'
+                },
+                {
                     component_name: 'Butter',
                     component_count: '18 oz'
                 },
@@ -67,7 +81,7 @@ let apiMenu = {
         {
             id: '1231wq123sas423',
             recipe_name: 'French-Style',
-            category_name: 'Soups',
+            category_name: 'Batatatatat',
             cooking_time: '120',
             rating: 2,
             img: 'img-02.jpg',
